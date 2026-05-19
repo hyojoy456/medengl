@@ -1,0 +1,15 @@
+# Python / Streamlit
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.env
+.streamlit/secrets.toml
+
+# Streamlit secrets (config.toml is committed for deploy)
+.streamlit/secrets.toml
+
+# Editors
+.idea/
+.vscode/
+

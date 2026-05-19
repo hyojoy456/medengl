@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "71ed0320-5366-4016-9186-f0e60212e867",
+    "type": "word_form",
+    "text": "Complete the sentence using the word that best fits the meaning from the text:",
+    "base": "jjfjfj",
+    "answer": "Butterfly tape",
+    "instruction": "Minor or even deep wounds to the skin and underlying tissues can be closed by using ________ or by suturing.",
+    "test_order": 2
+  },
+  {
+    "id": "3bef3300-8ca0-4382-a7b1-de378bb04c35",
+    "type": "word_form",
+    "text": "Complete the sentence using the word that best fits the meaning from the text:\n\n",
+    "base": "fjjfjf",
+    "answer": "Muscle",
+    "instruction": "Do not close a wound if the area is dirty (contaminated), is very deep (into fatty fascia or even deeper, into ________), or is over 12 hours old.",
+    "test_order": 3
+  },
+  {
+    "id": "f0954a53-2a87-4327-9346-3bc0b0571051",
+    "type": "word_form",
+    "text": "Complete the sentence using the word that best fits the meaning from the text:\n\n",
+    "base": "fjjfjf",
+    "answer": "Scalp",
+    "instruction": "Skin is thinnest over the eyelids and face and thickest on the palms of the hand, soles of the feet, the back and ________.",
+    "test_order": 4
+  },
+  {
+    "id": "1fdcce64-9951-48ad-82c3-2287693dc66e",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n",
+    "base": "fjjf",
+    "answer": "Suturing",
+    "instruction": "Bringing the edges of the skin together by (u t s u r n i g) __________ will be shown in subsequent texts.",
+    "test_order": 5
+  },
+  {
+    "id": "1b13983b-410f-4df5-a15e-aa0e4929ccd3",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n",
+    "base": "fluff",
+    "answer": "Fatty fascia",
+    "instruction": "Do not close a wound if the area of the wound is dirty (contaminated), is very deep (into (c a s a f y t t a) __________ __________ or even deeper, into muscle), or is over 12 hours old.",
+    "test_order": 6
+  },
+  {
+    "id": "0c952f85-5932-4d45-8974-b532abda61f7",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n",
+    "base": "fjjfjf",
+    "answer": "Tourniquet",
+    "instruction": "Bleeding is to be controlled, by pressure or by (r t u o n i q e t) __________ if necessary.",
+    "test_order": 7
+  },
+  {
+    "id": "1410b89b-039f-4896-8577-535bc67625c0",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n",
+    "base": "jfjjff",
+    "answer": "Eyelids",
+    "instruction": "Skin thickness varies. It is thinnest over the (d l s e y e i) __________ and face and thickest on the palms of the hand and soles of the feet, the back and scalp.",
+    "test_order": 8
+  },
+  {
+    "id": "bef0d4f6-d310-405c-b382-98c110af8669",
+    "type": "mcq",
+    "text": "Choose the correct word. \n\n________ is a long piece of cloth that you tie tightly around an injured arm or leg to stop the blood coming out. ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Underlying tissues "
+      },
+      {
+        "key": "b",
+        "text": "Tourniquet "
+      },
+      {
+        "key": "c",
+        "text": "Suturing"
+      },
+      {
+        "key": "d",
+        "text": "Mostened bandage"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "correct_key": "b",
+    "test_order": 9
+  },
+  {
+    "id": "398aac45-a5bd-4b02-984a-3d673153d4a5",
+    "type": "mcq",
+    "text": "Choose the correct word. \n\n_______ is to sew together a cut in a person's body. ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Suturing"
+      },
+      {
+        "key": "b",
+        "text": "Sterile bandage "
+      },
+      {
+        "key": "c",
+        "text": "Butterfly tape"
+      },
+      {
+        "key": "d",
+        "text": "Moistened bandage"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 10
+  },
+  {
+    "id": "6bd82584-8004-4aab-a6fd-14f705f747c1",
+    "type": "mcq",
+    "text": "Choose the correct word. \n\n______ is a sterile or clean, wet dressing placed over a wound that cannot be closed. ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sterile bandage"
+      },
+      {
+        "key": "b",
+        "text": "Edges of the skin"
+      },
+      {
+        "key": "c",
+        "text": "Suturing"
+      },
+      {
+        "key": "d",
+        "text": "Moistened bandage"
+      }
+    ],
+    "correct_keys": [
+      "d"
+    ],
+    "correct_key": "d",
+    "test_order": 11
+  },
+  {
+    "id": "4d311546-54af-407f-9d55-125fe2d16637",
+    "type": "mcq",
+    "text": "Choose the correct word. \n\n_______ is a medical dressing completely free from microorganisms (bacteria, fungi, viruses) used to cover wounds, surgical incisions, or burns to prevent infection and promote healing. ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Suturing"
+      },
+      {
+        "key": "b",
+        "text": "Sterile bandage"
+      },
+      {
+        "key": "c",
+        "text": "tourniquet "
+      },
+      {
+        "key": "d",
+        "text": "Artery"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "correct_key": "b",
+    "test_order": 12
+  },
+  {
+    "id": "5290e807-ac70-4bad-9706-790560d32cac",
+    "type": "poster",
+    "text": "Attach organ's name and with the numbered circles.",
+    "image_url": "banks/media/poster_bank2.png",
+    "points": [
+      {
+        "label": 1,
+        "x": 69.04761904761905,
+        "y": 5.0,
+        "name": "Epidermis",
+        "description": ""
+      },
+      {
+        "label": 2,
+        "x": 73.80952380952381,
+        "y": 15.0,
+        "name": "Dermis",
+        "description": ""
+      },
+      {
+        "label": 3,
+        "x": 78.57142857142857,
+        "y": 25.0,
+        "name": "Follicle",
+        "description": ""
+      },
+      {
+        "label": 4,
+        "x": 73.80952380952381,
+        "y": 35.0,
+        "name": "Erector pili",
+        "description": ""
+      },
+      {
+        "label": 5,
+        "x": 83.33333333333334,
+        "y": 35.0,
+        "name": "(Fatty) fascia",
+        "description": ""
+      },
+      {
+        "label": 6,
+        "x": 64.28571428571429,
+        "y": 45.0,
+        "name": "Sweat gland",
+        "description": ""
+      },
+      {
+        "label": 7,
+        "x": 73.80952380952381,
+        "y": 55.00000000000001,
+        "name": "Fiber bundle",
+        "description": ""
+      },
+      {
+        "label": 8,
+        "x": 69.04761904761905,
+        "y": 55.00000000000001,
+        "name": "Artery",
+        "description": ""
+      },
+      {
+        "label": 9,
+        "x": 69.04761904761905,
+        "y": 65.0,
+        "name": "Vein",
+        "description": ""
+      },
+      {
+        "label": 10,
+        "x": 73.80952380952381,
+        "y": 75.0,
+        "name": "(Investing) fascia",
+        "description": ""
+      },
+      {
+        "label": 11,
+        "x": 64.28571428571429,
+        "y": 85.0,
+        "name": "Muscle",
+        "description": ""
+      }
+    ],
+    "test_order": 13
+  },
+  {
+    "id": "c76f2fa5-33f4-49e4-8a2e-18a5a88dc98e",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nNot smooth or even, with torn edges ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Jagged"
+      },
+      {
+        "key": "b",
+        "text": "Non-jagged"
+      },
+      {
+        "key": "c",
+        "text": "Clean"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 14
+  },
+  {
+    "id": "8f246e73-7ce5-4b82-8cbb-14e2eff84d16",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nContaining harmful substances ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Deep"
+      },
+      {
+        "key": "b",
+        "text": "Non-jagged"
+      },
+      {
+        "key": "c",
+        "text": "Contaminated"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c",
+    "test_order": 15
+  },
+  {
+    "id": "ca79fc28-e9be-4ce4-b160-cd078ba43b3e",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nHaving a large distance from the surface to the bottom",
+    "options": [
+      {
+        "key": "a",
+        "text": "Deep"
+      },
+      {
+        "key": "b",
+        "text": "Non-jagged"
+      },
+      {
+        "key": "c",
+        "text": "Contaminated"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 16
+  },
+  {
+    "id": "cc9098d8-5d76-4510-ae6b-3588c6243a13",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nFree from dirt, pollution or infection ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Clean"
+      },
+      {
+        "key": "b",
+        "text": "Jagged"
+      },
+      {
+        "key": "c",
+        "text": "Deep"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 17
+  },
+  {
+    "id": "f7ea3a39-e39b-471e-9386-7c149e53e156",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nHaving a smooth, straight edge ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sterile"
+      },
+      {
+        "key": "b",
+        "text": "Jagged"
+      },
+      {
+        "key": "c",
+        "text": "Non-jagged"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c",
+    "test_order": 18
+  },
+  {
+    "id": "fb0b1f9c-d9ea-4733-808a-5c80b64a6272",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nCompletely free from bacteria ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Jagged"
+      },
+      {
+        "key": "b",
+        "text": "Sterile"
+      },
+      {
+        "key": "c",
+        "text": "Non-jagged"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "correct_key": "b",
+    "test_order": 19
+  },
+  {
+    "id": "dc369b92-49cb-489b-abca-f5fc38661686",
+    "type": "image_inputs",
+    "text": "Name the instrument that First Aid includes. \n\n*Tourniquet, moistened bandage, sterile bandage, suturing* ",
+    "images": [
+      {
+        "url": "banks/media/img_d33470faa6fc4b17a15a153a418cf5c6_0.jpeg",
+        "answer": "Sterile bandage "
+      },
+      {
+        "url": "banks/media/img_f96f5b33f4664fe9a8a265978c0368f1_1.png",
+        "answer": "Moistened bandage "
+      },
+      {
+        "url": "banks/media/img_1c9787b064224dda99f94bd405f38e5d_2.png",
+        "answer": "Suturing"
+      },
+      {
+        "url": "banks/media/img_2e59e1865c33467fbd2fedd68421aac1_3.png",
+        "answer": "Tourniquet "
+      }
+    ],
+    "test_order": 20
+  },
+  {
+    "id": "e7820b92-30fb-4ced-8b72-e21a23ee1cb3",
+    "type": "image_inputs",
+    "text": "Name a part of the body. \n\n*Palms of the hand, soles of the feet, back, scalp, eyelids*",
+    "images": [
+      {
+        "url": "banks/media/img_887f479368e74647b1994bff284d60d0_0.png",
+        "answer": "Back"
+      },
+      {
+        "url": "banks/media/img_a2bfcb7dcc3a4f3bb06fe2bb67b17448_1.png",
+        "answer": "Soles of the feet"
+      },
+      {
+        "url": "banks/media/img_0aa6bc633166407cb5dcfcbcc85c8c89_2.png",
+        "answer": "Palms of the hand"
+      },
+      {
+        "url": "banks/media/img_3685c576aee640b8934105376101a4be_3.png",
+        "answer": "Scalp"
+      },
+      {
+        "url": "banks/media/img_0d8a4fec42c84f52b9a58ff36a5579db_4.png",
+        "answer": "Eyelids "
+      }
+    ],
+    "test_order": 21
+  },
+  {
+    "id": "bff21b93-3343-470a-9704-b6d2827b29a4",
+    "type": "mcq",
+    "text": "From the list below, choose ALL the conditions that indicate you should NOT close a wound according to the text.",
+    "options": [
+      {
+        "key": "a",
+        "text": "The wound is large, clean and non-jagged."
+      },
+      {
+        "key": "b",
+        "text": "The wound is dirty (contaminated)."
+      },
+      {
+        "key": "c",
+        "text": "The wound is very deep (into fatty fascia or muscle)."
+      },
+      {
+        "key": "d",
+        "text": "Bleeding has been controlled by pressure."
+      },
+      {
+        "key": "e",
+        "text": "The wound is over 12 hours old."
+      },
+      {
+        "key": "f",
+        "text": "The wound is on the back or scalp."
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 1
+  },
+  {
+    "id": "6e588c2c-4c15-4e43-b947-6821cc3ca343",
+    "type": "mcq",
+    "text": "Read the statements. Choose all that are true according to the text.",
+    "options": [
+      {
+        "key": "a",
+        "text": "The rescuer took several deep breaths of fresh air, then inhaled and held his breath."
+      },
+      {
+        "key": "b",
+        "text": "The corpsman immediately started CPR on both victims."
+      },
+      {
+        "key": "c",
+        "text": "The victim’s eyes were flushed with clean or sterile water."
+      },
+      {
+        "key": "d",
+        "text": "The unconscious victim was placed on his back with legs raised."
+      },
+      {
+        "key": "e",
+        "text": "Both victims were covered with blankets to lessen shock."
+      },
+      {
+        "key": "f",
+        "text": "The effects of inhaled fumes are always evident immediately."
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 22
+  },
+  {
+    "id": "47a48640-30d1-46f6-b4d1-e956a4b2a5ec",
+    "type": "word_form",
+    "text": "Upon entering the storeroom, the two individuals (p a o l c s e) __________ because of the overwhelming fumes.",
+    "base": "jhhj",
+    "answer": "Collapsed",
+    "instruction": "Write the correct word in the blank.  ",
+    "test_order": 23
+  },
+  {
+    "id": "3b295c77-646f-450a-b9c1-c847ede92fee",
+    "type": "word_form",
+    "text": "The corpsman performed (r a t i f i l c a r e s p o i t n) __________ to restore breathing for the non‑breathing victim.",
+    "base": "hjh",
+    "answer": "Artificial respiration",
+    "instruction": "Write the correct word in the blank. ",
+    "test_order": 24
+  },
+  {
+    "id": "47c594bd-76e8-44b9-b417-3bf2aedab754",
+    "type": "word_form",
+    "text": "The victim’s eyes were clear but were (e d h s u l f) __________ with clean water.",
+    "base": "jfjfjf",
+    "answer": "Flushed",
+    "instruction": "Write the correct word in the blank. ",
+    "test_order": 25
+  },
+  {
+    "id": "68283725-888e-42d7-8c23-b4a4a0b292bf",
+    "type": "word_form",
+    "text": "The unconscious victim was placed on his side with the knee of his top leg (t n e b) __________.",
+    "base": "jrjrjr",
+    "answer": "Bent",
+    "instruction": "Write the correct word in the blank. ",
+    "test_order": 26
+  },
+  {
+    "id": "dbfb1a46-ee51-4068-9379-730f5d290b40",
+    "type": "word_form",
+    "text": "The corpsman assessed the victims’ (l a v i t s s  i n g) __________ and found them satisfactory but weak.",
+    "base": "jfjjf",
+    "answer": "Vital signs",
+    "instruction": "Write the correct word in the blank. ",
+    "test_order": 27
+  },
+  {
+    "id": "525fb732-a943-4d74-8306-43dd70982389",
+    "type": "word_form",
+    "text": "Both victims were taken to (yasicbk) __________ for observation.",
+    "base": "jfjf",
+    "answer": "sickbay",
+    "instruction": "Write the correct word in the blank. ",
+    "test_order": 28
+  },
+  {
+    "id": "0d5aad8f-5e82-4e52-ba26-5746112244c7",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\n______ is to restore breathing by forcing air into the lungs",
+    "options": [
+      {
+        "key": "a",
+        "text": "Artificial respiration"
+      },
+      {
+        "key": "b",
+        "text": "Vital signs"
+      },
+      {
+        "key": "c",
+        "text": "Overwhelming fumes"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 29
+  },
+  {
+    "id": "94129627-1c83-4469-bce1-17cb466a4e2d",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\n______ are vapours that are strong enough to make a person collapse",
+    "options": [
+      {
+        "key": "a",
+        "text": "Artificial respiration "
+      },
+      {
+        "key": "b",
+        "text": "Overwhelming fumes"
+      },
+      {
+        "key": "c",
+        "text": "Vital signs"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "correct_key": "b",
+    "test_order": 30
+  },
+  {
+    "id": "b7f9c274-7603-414d-b52e-24f3795e90eb",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\n_____ is the time during which a victim is watched for late symptoms ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Vital signs"
+      },
+      {
+        "key": "b",
+        "text": "Artificial respiration "
+      },
+      {
+        "key": "c",
+        "text": "Period of observation "
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c",
+    "test_order": 31
+  },
+  {
+    "id": "0208c36f-7408-4b2e-b6f0-59b39b34c533",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\n______ are indicators such as pulse, breathing and blood pressure",
+    "options": [
+      {
+        "key": "a",
+        "text": "Vital signs "
+      },
+      {
+        "key": "b",
+        "text": "Overwhelming fumes"
+      },
+      {
+        "key": "c",
+        "text": "Period of observation "
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 32
+  },
+  {
+    "id": "bc03b3c4-fb62-4a91-9a8c-39a640e6af8f",
+    "type": "ordering",
+    "text": "Arrange the sentences in the correct order.",
+    "items": [
+      "The rescuer removed both victims into fresh air and examined them for breathing.",
+      "The rescuer took deep breaths of fresh air, inhaled and held his breath before entering.",
+      "The victims were covered with blankets to lessen shock and taken to sickbay for observation.",
+      "The corpsman performed artificial respiration, restored breathing, then flushed the victim’s eyes with clean water.",
+      "The unconscious victim vomited; he was placed on his side with the knee of his top leg bent.",
+      "The corpsman assessed vital signs (satisfactory but weak) and treated both victims for shock."
+    ],
+    "answer_letters": "BADFEC",
+    "test_order": 33
+  },
+  {
+    "id": "643f79e1-a5c9-4db5-8082-19366acd211c",
+    "type": "image_inputs",
+    "text": "Name the action of the First Aid. \n\n*Use these phrases: to examine for breathing, to check victim's eyes and skin, to flush with clean water, to treat for shock, to place on the side*",
+    "images": [
+      {
+        "url": "banks/media/img_18dd6a29791e4119b9f5dcb9145d7031_0.jpeg",
+        "answer": "To place on the side"
+      },
+      {
+        "url": "banks/media/img_ece52017fc0841bd843a30d1322123c7_1.png",
+        "answer": "To flush with clean water"
+      },
+      {
+        "url": "banks/media/img_1a6656a437bd42c18a7c2995150b6650_2.png",
+        "answer": "To treat for shock "
+      },
+      {
+        "url": "banks/media/img_3ad22265f01943dfb6008930d3b35732_3.png",
+        "answer": "To examine for breathing "
+      },
+      {
+        "url": "banks/media/img_8d6eda9584044cba8b1ea3c7b09239cb_4.jpg",
+        "answer": "To check victim's eyes and skin "
+      }
+    ],
+    "test_order": 34
+  },
+  {
+    "id": "75c50d94-ecc0-4142-90a2-6c3fc0f0766a",
+    "type": "mcq",
+    "text": "Read the statements. Choose all that are true according to the text.",
+    "options": [
+      {
+        "key": "a",
+        "text": "The cylinder accident caused a fractured femur and ruptured femoral vessels."
+      },
+      {
+        "key": "b",
+        "text": "The alert colleague immediately called for a paramedic and then applied a tourniquet."
+      },
+      {
+        "key": "c",
+        "text": "The paramedic wrote the time of tourniquet application on the victim’s hand."
+      },
+      {
+        "key": "d",
+        "text": "The wound was covered with sterile moist gauze."
+      },
+      {
+        "key": "e",
+        "text": "For a compound fracture, if bone sticks through the skin, you should push it back inside."
+      },
+      {
+        "key": "f",
+        "text": "Swelling of joints can be avoided by cooling with ice wrapped in a cloth"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 35
+  },
+  {
+    "id": "d7a65de4-7b5a-4803-9a47-94953988a897",
+    "type": "word_form",
+    "text": "Write the correct word in the blank. ",
+    "base": "jfjfjjf",
+    "answer": "Tourniquet",
+    "instruction": "An alert colleague called for someone to summon the paramedic and then dropped to the ground to close off the blood loss by use of a (o u r t t q u e n i) __________. ",
+    "test_order": 36
+  },
+  {
+    "id": "11c6dbbe-e220-48d4-a8de-a87ff1e2d054",
+    "type": "word_form",
+    "text": "Write the correct word in the blank. ",
+    "base": "dsif;giyd",
+    "answer": "Sterile moist gauze",
+    "instruction": "The worker was covered with a blanket to reduce the possibility of severe shock, and the wound was covered with (t s l r e e i m s t o i a g u z e) __________. ",
+    "test_order": 37
+  },
+  {
+    "id": "47e96478-5d4b-4a66-b404-3e0d62d3ce4b",
+    "type": "word_form",
+    "text": "Write the correct word in the blank. ",
+    "base": "fhhfhf",
+    "answer": "Vital signs",
+    "instruction": "The injured worker’s (s n g i a s l t i v) __________ (pulse, blood pressure, and respiratory rate) were taken as he was taken rapidly to the on-site medical station. ",
+    "test_order": 38
+  },
+  {
+    "id": "2ae69b2f-787e-437a-b442-43076866ece4",
+    "type": "word_form",
+    "text": "Write the correct word in the blank. ",
+    "base": "fjjfjf",
+    "answer": "Immobilize",
+    "instruction": "If this accident had happened on a remote rural road (far from a hospital), the paramedic would have followed the same procedures but would have had to (m m i o e z b l i i) __________ the leg with a splint. ",
+    "test_order": 39
+  },
+  {
+    "id": "99cb144a-7a84-4487-985b-99ff6586d86b",
+    "type": "word_form",
+    "text": "Write the correct word in the blank. ",
+    "base": "jfjfjf",
+    "answer": "Splint",
+    "instruction": "The (t n l p i s) __________ , in an emergency, might include a branch of a tree or any other inflexible object (preferably clean), a pillow, a magazine or a newspaper as the supporting structure. The two legs can be merely bound together. ",
+    "test_order": 40
+  },
+  {
+    "id": "dc7c605b-dab2-441e-b0be-2ebfc94e74ae",
+    "type": "word_form",
+    "text": "Write the correct word in the blank. ",
+    "base": "jfjfjf",
+    "answer": "Compound fracture",
+    "instruction": "If there is a (m o c d o u n p f r a e r u t c) __________ (open) fracture (bone sticking through the surface of the skin), never try to push the bone inside the torn muscle. ",
+    "test_order": 41
+  },
+  {
+    "id": "6f844b29-0436-4a51-a168-d590aa2836ff",
+    "type": "word_form",
+    "text": "Write the correct word in the blank. ",
+    "base": "fjjfjf",
+    "answer": "Numbness",
+    "instruction": "The victim tells the paramedic that there is (s s n b e m u n) __________ or tingling in the injured limb. This is also an indicator of possible nerve injury. ",
+    "test_order": 42
+  },
+  {
+    "id": "270b2ad6-f8c1-4afe-b91f-e69aad0321bf",
+    "type": "word_form",
+    "text": "Write the correct word in the blank. ",
+    "base": "jfjfjf",
+    "answer": "Extravasated blood",
+    "instruction": "The paramedic sees swelling or bruising at the injury site. This is an indicator of (e v x r t a a t e d s a d l o o b) __________. ",
+    "test_order": 43
+  },
+  {
+    "id": "64e3e3e3-c3cf-4e00-b098-d1bb392b4423",
+    "type": "mcq",
+    "text": "Choose the correct sign and symptom according to the description.\n\nIndicator of extravasated blood.  ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pain or soreness over a joint or bone"
+      },
+      {
+        "key": "b",
+        "text": "Numbness or tingling"
+      },
+      {
+        "key": "c",
+        "text": "Swelling or bruising"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c",
+    "test_order": 44
+  },
+  {
+    "id": "82b17c68-cd29-42fa-8b5c-edaff9bc4e4a",
+    "type": "mcq",
+    "text": "Choose the correct sign and symptom according to the description.\n\nPossible blood vessel injury (no pulse found). ",
+    "options": [
+      {
+        "key": "a",
+        "text": "No arterial pulse in the injured part"
+      },
+      {
+        "key": "b",
+        "text": "Swelling or bruising"
+      },
+      {
+        "key": "c",
+        "text": "Numbness or tingling "
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 45
+  },
+  {
+    "id": "e442ecda-0ba7-4d4a-9527-ce815549e6c8",
+    "type": "mcq",
+    "text": "Choose the correct sign and symptom according to the description.\n\nIndicator of possible nerve injury.  \n\n",
+    "options": [
+      {
+        "key": "a",
+        "text": "No arterial pulse in the injured part"
+      },
+      {
+        "key": "b",
+        "text": "Swelling or bruising"
+      },
+      {
+        "key": "c",
+        "text": "Numbness or tingling"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c",
+    "test_order": 46
+  },
+  {
+    "id": "3e3d11f7-b009-4d72-966d-18921f71fa03",
+    "type": "mcq",
+    "text": "Choose the correct sign and symptom according to the description.\n\nOne of the signs of a possible broken bone.  ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Swelling or bruising"
+      },
+      {
+        "key": "b",
+        "text": "Pain or soreness over a joint or bone"
+      },
+      {
+        "key": "c",
+        "text": "No arterial pulse in the injured part"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "correct_key": "b",
+    "test_order": 47
+  },
+  {
+    "id": "38dd2958-177d-4ac1-b86a-a99ca13b5980",
+    "type": "image_inputs",
+    "text": "Name the medical imaging techniques.  \n*Use these words: X-Ray, MR imaging, CT scanning*",
+    "images": [
+      {
+        "url": "banks/media/img_8d2699b821ea4551aa49b5ebef126d92_0.png",
+        "answer": "CT scanning"
+      },
+      {
+        "url": "banks/media/img_5fc1dc3b932f4098a9c39d49e04734cb_1.png",
+        "answer": "X-Ray"
+      },
+      {
+        "url": "banks/media/img_212a22c1360d4390a558ddd562d00618_2.png",
+        "answer": "MR imaging"
+      }
+    ],
+    "test_order": 48
+  },
+  {
+    "id": "9f699de8-d54e-4e6a-8786-234824e95af6",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nA device (e.g., a band or strip) used to stop bleeding by compressing a blood vessel. ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compound fracture"
+      },
+      {
+        "key": "b",
+        "text": "Tourniquet"
+      },
+      {
+        "key": "c",
+        "text": "Femur"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "correct_key": "b",
+    "test_order": 49
+  },
+  {
+    "id": "8759b42c-1b57-46d8-8e09-346403cbfcd8",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nThe large bone in the upper part of the leg.  ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Vital signs"
+      },
+      {
+        "key": "b",
+        "text": "To immobilize"
+      },
+      {
+        "key": "c",
+        "text": "Femur"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c",
+    "test_order": 50
+  },
+  {
+    "id": "a0c46e38-813a-4cf0-846c-57a2dcc06638",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nA break in the bone where the broken bone pierces the skin. ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compound fracture"
+      },
+      {
+        "key": "b",
+        "text": "Splint "
+      },
+      {
+        "key": "c",
+        "text": "Vital signs"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 51
+  },
+  {
+    "id": "5aac0310-298e-4ea3-801c-7cde4de3f675",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nTo keep a body part still and prevent movement. ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tourniquet"
+      },
+      {
+        "key": "b",
+        "text": "Femur"
+      },
+      {
+        "key": "c",
+        "text": "To immobilize "
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c",
+    "test_order": 52
+  },
+  {
+    "id": "d045d015-3ef5-49be-b31d-b979cf0fdcc6",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nMeasurements of pulse, blood pressure and respiratory rate. ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Splint "
+      },
+      {
+        "key": "b",
+        "text": "Vital signs"
+      },
+      {
+        "key": "c",
+        "text": "Compound fracture"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "correct_key": "b",
+    "test_order": 53
+  },
+  {
+    "id": "646186c7-795b-491e-9cec-5371203d8c12",
+    "type": "mcq",
+    "text": "Choose the correct word according to the definition. \n\nA rigid or flexible support used to immobilize a fractured bone. ",
+    "options": [
+      {
+        "key": "a",
+        "text": "Splint"
+      },
+      {
+        "key": "b",
+        "text": "Femur"
+      },
+      {
+        "key": "c",
+        "text": "Compound fracture"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "correct_key": "a",
+    "test_order": 54
+  },
+  {
+    "id": "05209c2f-05b4-4811-9f4c-b0bc567b911a",
+    "type": "ordering",
+    "text": "Arrange the sentences in the correct order.",
+    "items": [
+      "Immobilise the injured leg with a splint (or bind legs together) to avoid further damage.",
+      "Treat for shock and cover the victim with a blanket.",
+      "Check for life‑threatening conditions: breathing, pulse, and bleeding."
+    ],
+    "answer_letters": "CAB",
+    "test_order": 55
+  },
+  {
+    "id": "6f2d9033-25d2-4d9f-8e86-d985783fc8ce",
+    "type": "image_inputs",
+    "text": "Write what these pictures illustrate. \n*Use these words: femoral vessels, joint, bone, ligaments, fracture*",
+    "images": [
+      {
+        "url": "banks/media/img_fbf320de7dc043a28c027d193a470193_0.png",
+        "answer": "Fracture"
+      },
+      {
+        "url": "banks/media/img_55cdd503dda24aa48d5fcbe86de3bef2_1.jpeg",
+        "answer": "Bone"
+      },
+      {
+        "url": "banks/media/img_7d7eaeaa81d6466588c178422a24b48a_2.png",
+        "answer": "Ligaments"
+      },
+      {
+        "url": "banks/media/img_91a3446dc8494d80a21653b8bf427663_3.png",
+        "answer": "Joint"
+      },
+      {
+        "url": "banks/media/img_3a9f6eb2bb0b472e9be29bd92d724088_4.png",
+        "answer": "Femoral vessels"
+      }
+    ],
+    "test_order": 56
+  }
+]

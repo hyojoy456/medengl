@@ -1,0 +1,462 @@
+[
+  {
+    "id": "ffa041e2-a2b2-41a6-9f77-cbf7fec94c6e",
+    "type": "mcq",
+    "text": "What does the Hirsch index (h-index) measure in a scientist's career?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The number of published books"
+      },
+      {
+        "key": "b",
+        "text": "The quantity and citation impact of their research papers"
+      },
+      {
+        "key": "c",
+        "text": "Years of teaching experience"
+      },
+      {
+        "key": "d",
+        "text": "Number of international conferences attended"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "correct_key": "b"
+  },
+  {
+    "id": "d37ccbce-f697-4ed5-b1bb-185ee90a87e0",
+    "type": "mcq",
+    "text": "According to Karl Popper, a scientific hypothesis must be:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Universally accepted"
+      },
+      {
+        "key": "b",
+        "text": "Complex and lengthy"
+      },
+      {
+        "key": "c",
+        "text": "Falsifiable"
+      },
+      {
+        "key": "d",
+        "text": "Published in a well-known journal"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c"
+  },
+  {
+    "id": "25964d03-87dc-4e5c-9ea6-9fff9567e59d",
+    "type": "mcq",
+    "text": "Which of the following is an example of a non-scientific hypothesis?",
+    "options": [
+      {
+        "key": "a",
+        "text": "\"Vaccines stimulate immune memory.\""
+      },
+      {
+        "key": "b",
+        "text": "\"Planetary positions at birth influence personality.\""
+      },
+      {
+        "key": "c",
+        "text": "\"Antibiotics inhibit bacterial cell wall synthesis.\""
+      },
+      {
+        "key": "d",
+        "text": "\"Stem cells can differentiate into various tissue types.\""
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "correct_key": "b"
+  },
+  {
+    "id": "199677c3-5728-43b7-a594-8c91d382cb0d",
+    "type": "mcq",
+    "text": "Which modern biological field focuses on drug delivery at the cellular level?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Genomics"
+      },
+      {
+        "key": "b",
+        "text": "Proteomics"
+      },
+      {
+        "key": "c",
+        "text": "Nanobiology"
+      },
+      {
+        "key": "d",
+        "text": "Bionics"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c"
+  },
+  {
+    "id": "b29bb742-a5c9-4c8d-86a3-49b66554d7c1",
+    "type": "mcq",
+    "text": "Evidence-based medicine relies primarily on:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Traditional practices"
+      },
+      {
+        "key": "b",
+        "text": "Doctor's intuition"
+      },
+      {
+        "key": "c",
+        "text": "Patient preferences only"
+      },
+      {
+        "key": "d",
+        "text": "Data from clinical trials and research"
+      }
+    ],
+    "correct_keys": [
+      "d"
+    ],
+    "correct_key": "d"
+  },
+  {
+    "id": "d25d27fc-7106-4c20-9e45-86a917ccf89d",
+    "type": "word_form",
+    "text": "__________ (hschir ixedn) is a quantitative metric that measures both the productivity (number of papers) and the perceived impact (number of citations) of a scientist's published research.",
+    "base": "hschir ixedn",
+    "answer": "Hirsch index",
+    "instruction": "Make a word from letters"
+  },
+  {
+    "id": "c3a90c23-1eb7-4fc3-9c9e-d3a6c9339e40",
+    "type": "word_form",
+    "text": "__________ (iytegolochnbo) is the use of living systems or organisms to develop or make products, such as using genetically modified bacteria to produce medicines like insulin.",
+    "base": "iytegolochnbo",
+    "answer": "Biotechnology",
+    "instruction": "Make a word from letters"
+  },
+  {
+    "id": "51210c11-2892-4eb5-9ccf-1cb5fd4575b6",
+    "type": "word_form",
+    "text": "The __________  (thscmodeftiicine) is a structured, step-by-step procedure used in scientific inquiry, involving observation, hypothesis formation, experimentation, and conclusion.",
+    "base": "thscmodeftiicine",
+    "answer": "scientific method",
+    "instruction": "Make a word from letters"
+  },
+  {
+    "id": "51a85261-c591-493d-bb91-0a9a5097f324",
+    "type": "word_form",
+    "text": "The application of mathematical techniques to analyze collected data, which helps determine if results are statistically significant, is called __________ (stlaiasict atda irngspsoc).",
+    "base": "stlaiasict atda irngspsoc",
+    "answer": "statistical data processing",
+    "instruction": "Make a word from letters"
+  },
+  {
+    "id": "f65243e6-3771-415b-92a3-6017dd6402ee",
+    "type": "word_form",
+    "text": "__________ (aobnniogyl) is a branch of biology and technology concerned with the manipulation of matter on an atomic and molecular scale, often for targeted drug delivery.",
+    "base": "aobnniogyl",
+    "answer": "Nanobiology",
+    "instruction": "Make a word from letters"
+  },
+  {
+    "id": "4c12ca87-a572-4613-9b4a-ed449be7226e",
+    "type": "word_form",
+    "text": "__________ (sconibi) is an applied science that studies living systems to apply their principles to the design of engineering systems and modern technology.",
+    "base": "sconibi",
+    "answer": "Bionics",
+    "instruction": "Make a word from letters"
+  },
+  {
+    "id": "0bac7cf5-fc3c-47e6-b340-918beb1651f3",
+    "type": "ordering",
+    "text": "Order the following steps in processing medical research data:",
+    "items": [
+      "Formulate a research question",
+      "Collect patient data",
+      "Perform statistical analysis"
+    ],
+    "answer_letters": "ABC"
+  },
+  {
+    "id": "0c5b5b66-74c6-42af-b386-e6af01910cb2",
+    "type": "ordering",
+    "text": "Arrange the stages of the hypothetical-deductive scientific method:",
+    "items": [
+      "Conduct an experiment",
+      "Formulate a hypothesis",
+      "Observe a phenomenon"
+    ],
+    "answer_letters": "CBA"
+  },
+  {
+    "id": "37756e86-8589-4b5c-942b-2252c849bbdc",
+    "type": "ordering",
+    "text": "Sequence the development of a new medical treatment according to evidence-based medicine:",
+    "items": [
+      "Clinical trials",
+      "Laboratory research",
+      "Approval for public use"
+    ],
+    "answer_letters": "BAC"
+  },
+  {
+    "id": "fd267b1c-7fa9-43e0-903f-787a2c5ccada",
+    "type": "image_inputs",
+    "text": "Write the correct term",
+    "images": [
+      {
+        "url": "banks/media/img_190b68e416444a30be77de4f922be009_0.jpeg",
+        "answer": "Bionics"
+      },
+      {
+        "url": "banks/media/img_ea82ef676d314ac1bdfe169c8cf47960_1.jpeg",
+        "answer": "Proteomics"
+      },
+      {
+        "url": "banks/media/img_e840ca77c63d493984fda149db82ed5c_2.jpeg",
+        "answer": "Genomics"
+      }
+    ]
+  },
+  {
+    "id": "7bb60115-ae0a-4819-8e4d-134f3e9d493f",
+    "type": "mcq",
+    "text": "A research team is conducting a long-term study to monitor the progression of a chronic disease in a cohort of patients. They carefully record symptoms, laboratory results, and patient-reported outcomes without any intervention. Which empirical method is primarily being used?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Experiment"
+      },
+      {
+        "key": "b",
+        "text": "Measurement"
+      },
+      {
+        "key": "c",
+        "text": "Observation"
+      },
+      {
+        "key": "d",
+        "text": "Comparison"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c"
+  },
+  {
+    "id": "b68251c9-cbae-4f06-a3be-830aed790f32",
+    "type": "mcq",
+    "text": "In a pharmacology class, students learn about an ideal \"spherical cow in a vacuum\" model to understand basic drug distribution, before moving to complex human physiology. This teaching approach is an example of which theoretical method?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Analysis and Synthesis"
+      },
+      {
+        "key": "b",
+        "text": "Modeling"
+      },
+      {
+        "key": "c",
+        "text": "Idealization"
+      },
+      {
+        "key": "d",
+        "text": "Abstraction"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c"
+  },
+  {
+    "id": "6ed836da-9383-4de9-85bc-121a13cb438c",
+    "type": "mcq",
+    "text": "Before developing a new surgical technique, a team of doctors uses computer software to simulate the procedure's steps and potential complications on a virtual 3D model of human anatomy. This preliminary work best exemplifies:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Experiment"
+      },
+      {
+        "key": "b",
+        "text": "Modeling"
+      },
+      {
+        "key": "c",
+        "text": "Induction"
+      },
+      {
+        "key": "d",
+        "text": "Description"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "correct_key": "b"
+  },
+  {
+    "id": "b983b9c3-b0c8-46c1-b00c-f94662122e8d",
+    "type": "mcq",
+    "text": "A medical researcher analyzes data from 50 different case studies of a rare genetic disorder. She identifies common patterns in the symptoms and gene mutations, and then formulates a general hypothesis about the disorder's cause. Her reasoning process is a primary example of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Deduction"
+      },
+      {
+        "key": "b",
+        "text": "Idealization"
+      },
+      {
+        "key": "c",
+        "text": "Induction"
+      },
+      {
+        "key": "d",
+        "text": "Measurement"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "correct_key": "c"
+  },
+  {
+    "id": "ace91f14-b985-4984-a9a5-cf6c576b4978",
+    "type": "mcq",
+    "text": "In a clinical trial for a new vaccine, one group receives the vaccine, and another receives a placebo. The researchers then compare the infection rates between the two groups. Which fundamental empirical method is essential for interpreting the results of this experiment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Measurement"
+      },
+      {
+        "key": "b",
+        "text": "Comparison"
+      },
+      {
+        "key": "c",
+        "text": "Description"
+      },
+      {
+        "key": "d",
+        "text": "Observation"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "correct_key": "b"
+  },
+  {
+    "id": "a89562c3-5557-4dc9-80b2-df658d856f40",
+    "type": "image_inputs",
+    "text": "Write the correct term\nMethods of empirical study:",
+    "images": [
+      {
+        "url": "banks/media/img_cbada9789d7b478582964bb7eea8a77d_0.jpeg",
+        "answer": "Comparison"
+      },
+      {
+        "url": "banks/media/img_a33532f0649f4b969602fa6a64c920a3_1.jpeg",
+        "answer": "Observation"
+      },
+      {
+        "url": "banks/media/img_9012b16129d64d7b928affe425126465_2.jpeg",
+        "answer": "Experiment"
+      },
+      {
+        "url": "banks/media/img_fc2736ff23364df8a3449b3334a32c90_3.jpeg",
+        "answer": "Measurement"
+      }
+    ]
+  },
+  {
+    "id": "478afc82-0ec3-4504-95f0-e2e05a8f143f",
+    "type": "poster",
+    "text": "Attach organ's name and description with the numbered circles.",
+    "image_url": "banks/media/poster_bank1.png",
+    "points": [
+      {
+        "label": 1,
+        "x": 30.952380952380953,
+        "y": 45.0,
+        "name": "Lung",
+        "description": ""
+      },
+      {
+        "label": 2,
+        "x": 59.523809523809526,
+        "y": 45.0,
+        "name": "Heart",
+        "description": ""
+      },
+      {
+        "label": 3,
+        "x": 35.714285714285715,
+        "y": 55.00000000000001,
+        "name": "Liver",
+        "description": ""
+      },
+      {
+        "label": 4,
+        "x": 54.761904761904766,
+        "y": 75.0,
+        "name": "Intestines",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "5db40081-0ecf-4d27-860d-b87ffc0d6a95",
+    "type": "word_form",
+    "text": "рюодмр",
+    "base": "лжи",
+    "answer": "ошрщр",
+    "instruction": "тоиоим"
+  },
+  {
+    "id": "acee1d3a-826e-4615-aa55-94a40293ddc9",
+    "type": "image_inputs",
+    "text": "Write the correct terms to the pictures.",
+    "images": [
+      {
+        "url": "banks/media/img_93f1d498a7754959ba950bc2c4c9b50e_0.png",
+        "answer": "Back"
+      },
+      {
+        "url": "banks/media/img_11e4a7953c354787a3366c301a37ef3c_1.png",
+        "answer": "Palms of the hand"
+      },
+      {
+        "url": "banks/media/img_ea3d80cdb9c24d05af441747c9ff406b_2.png",
+        "answer": "Eyelids"
+      },
+      {
+        "url": "banks/media/img_4a77b49bceb744d689d343d2ba7b3179_3.png",
+        "answer": "Scalp"
+      }
+    ]
+  }
+]
