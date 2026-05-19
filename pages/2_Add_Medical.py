@@ -9,6 +9,7 @@ from utils.bank import (
     ordering_items_row_html,
     parse_positive_test_order,
     coerce_order_field_int,
+    mcq_is_multi_select,
     add_word_form_question,
     add_image_inputs_question,
     delete_question,
@@ -172,6 +173,7 @@ else:
                     opts,
                     correct_keys_field,
                     section=SECTION,
+                    allow_multiple=multi,
                 )
                 st.session_state[_MCQ_STEP_KEY] = 1
                 st.session_state.pop(_MCQ_DRAFT_KEY, None)
@@ -600,7 +602,10 @@ else:
             if q.get("type") == "mcq":
                 opts = ", ".join([f"{o['key']}) {o['text']}" for o in q.get("options", [])])
                 qt = markdown_preserve_newlines(q.get("text") or "")
-                st.markdown(f"- [MCQ] {qt} — {opts} (верный: {q.get('correct_key')})")
+                ck = q.get("correct_keys") or ([q.get("correct_key")] if q.get("correct_key") else [])
+                ck_label = ", ".join(str(k).upper() for k in ck)
+                multi_tag = " [несколько ответов]" if mcq_is_multi_select(q) else ""
+                st.markdown(f"- [MCQ]{multi_tag} {qt} — {opts} (верные: {ck_label})")
             elif q.get("type") == "word_form":
                 qt = markdown_preserve_newlines(q.get("text") or "")
                 st.markdown(f"- [WORD_FORM] {qt} (правильный ответ: {q.get('answer')})")

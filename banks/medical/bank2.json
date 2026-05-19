@@ -487,9 +487,11 @@
       }
     ],
     "correct_keys": [
-      "a"
+      "b",
+      "c",
+      "e"
     ],
-    "correct_key": "a",
+    "allow_multiple": true,
     "test_order": 1
   },
   {
@@ -523,9 +525,11 @@
       }
     ],
     "correct_keys": [
-      "a"
+      "a",
+      "c",
+      "e"
     ],
-    "correct_key": "a",
+    "allow_multiple": true,
     "test_order": 22
   },
   {
@@ -752,9 +756,13 @@
       }
     ],
     "correct_keys": [
-      "a"
+      "a",
+      "b",
+      "c",
+      "d",
+      "f"
     ],
-    "correct_key": "a",
+    "allow_multiple": true,
     "test_order": 35
   },
   {

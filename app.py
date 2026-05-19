@@ -20,6 +20,7 @@ from utils.bank import (
     get_random_questions_from_multiple,
     ordering_items_row_html,
     theory_markdown_without_block_delimiters,
+    mcq_is_multi_select,
 )
 from utils.md_images import render_inline_image, render_markdown_with_image_paths, markdown_preserve_newlines
 from typing import Optional, cast
@@ -543,7 +544,7 @@ elif st.session_state.mode == "test":
         q_type = q.get("type")
         if q_type == "mcq" and q.get("options"):
             option_labels = [f"{opt['key']}) {opt['text']}" for opt in q["options"]]
-            is_multi = len(q.get("correct_keys") or []) > 1
+            is_multi = mcq_is_multi_select(q)
             if is_multi:
                 st.caption("Select all correct options")
                 selected: list[int] = []

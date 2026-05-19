@@ -14,6 +14,25 @@ BANK_NAMES = [f"bank{i}" for i in range(1, 9)]
 # Сколько вопросов показывать в итоговом тесте по всем модулям (случайная выборка после дедупликации).
 FINAL_TEST_QUESTION_LIMIT = 20
 
+_MCQ_MULTI_TEXT_MARKERS = (
+    "choose all",
+    "select all",
+    "all that are true",
+    "all of the following",
+    "choose all that",
+)
+
+
+def mcq_is_multi_select(q: Dict[str, Any]) -> bool:
+    """Whether the student UI should allow selecting more than one MCQ option."""
+    if q.get("allow_multiple"):
+        return True
+    keys = q.get("correct_keys") or []
+    if len(keys) > 1:
+        return True
+    text = (q.get("text") or "").lower()
+    return any(marker in text for marker in _MCQ_MULTI_TEXT_MARKERS)
+
 
 def parse_positive_test_order(raw: object) -> Optional[int]:
     """``test_order`` from JSON or widgets: positive int, or ``None`` if missing / invalid / non-positive."""
@@ -97,18 +116,22 @@ def add_mcq_question(
     options: List[Dict[str, str]],
     correct_keys: List[str],
     section: Optional[str] = None,
+    *,
+    allow_multiple: bool = False,
 ) -> Dict[str, Any]:
     questions = load_bank(bank_name, section)
     norm_keys = [str(k).strip().lower() for k in correct_keys if str(k).strip()]
     norm_keys = list(dict.fromkeys(norm_keys))  # unique, keep order
+    multi = allow_multiple or len(norm_keys) > 1 or mcq_is_multi_select({"text": text})
     new_q: Dict[str, Any] = {
         "id": str(uuid.uuid4()),
         "type": "mcq",
         "text": text,
         "options": options,
         "correct_keys": norm_keys,
+        "allow_multiple": multi,
     }
-    if len(norm_keys) == 1:
+    if len(norm_keys) == 1 and not multi:
         new_q["correct_key"] = norm_keys[0]  # backward compatibility
     questions.append(new_q)
     save_bank(bank_name, questions, section)
