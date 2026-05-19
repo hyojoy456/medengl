@@ -36,7 +36,7 @@ git add -A
 git commit -m "Initial commit: medical tests app"
 
 # Подставьте СВОЙ логин и имя репозитория:
-git remote add origin https://github.com/ВАШ_ЛОГИН/medical-streamlit-tests.git
+git remote add origin https://github.com/hyojoy456/medengl.git
 git branch -M main
 git push -u origin main
 ```
@@ -70,6 +70,7 @@ git push -u origin main
 | Streamlit не видит репозиторий | На GitHub репозиторий должен быть **Public**; в Streamlit Cloud нажмите **Authorize** для GitHub |
 | Ошибка при `git push` | Используйте токен вместо пароля; проверьте URL `origin` |
 | Большие файлы / отказ push | Репозиторий с картинками может быть тяжёлым; подождите или используйте [Git LFS](https://git-lfs.com) |
+| `Error during processing dependencies` / `installer returned a non-zero exit code` | Обновите `requirements.txt` с GitHub (нужен Streamlit **1.44+** — старый 1.36 конфликтует с `rich 15` на Cloud). Затем в Streamlit Cloud: **Manage app** → **Reboot app** |
 | Папка с кириллицей в пути | Лучше скопировать проект в путь без пробелов, например `~/Projects/medical-tests` |
 
 ### Важно для деплоя
