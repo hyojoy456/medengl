@@ -211,7 +211,7 @@ with st.form("add_image_inputs_med", clear_on_submit=False):
     num = len(files) if files else 0
     ans_inputs = []
     for i in range(min(IMAGE_INPUTS_MAX, num)):
-        ans_inputs.append(st.text_input(f"Answer {i+1}", key=f"img_ans_u_{i}"))
+        ans_inputs.append(st.text_input(f"Ответ {i+1}", key=f"img_ans_u_{i}"))
     submitted_imgs = st.form_submit_button("Далее")
     if submitted_imgs:
         if not files or len(files) < IMAGE_INPUTS_MIN:
@@ -248,7 +248,7 @@ with st.form("add_image_inputs_med", clear_on_submit=False):
 
 st.divider()
 
-st.subheader("Добавьте задание на упорядочивание")
+st.subheader("Добавьте задание на восстановление последовательности")
 st.caption("Укажите фразы и один правильный ответ в виде набора букв. Ученик увидит фразы в случайном порядке и введёт правильную последовательность.")
 with st.form("add_ordering_med_v3", clear_on_submit=True):
     ord_instr = st.text_area("Текст вопроса", height=80, value="Arrange the sentences in the correct order.")

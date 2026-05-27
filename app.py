@@ -477,7 +477,7 @@ elif st.session_state.mode == "module_intro":
     with col1:
         st.button("💡 Open theory", type="secondary", use_container_width=True, on_click=lambda: st.session_state.__setitem__("mode", "theory"))
     with col2:
-        st.button("Start test", type="primary", use_container_width=True, on_click=lambda: start_test_for_bank(bank))
+        st.button("Start the Test", type="primary", use_container_width=True, on_click=lambda: start_test_for_bank(bank))
 
 elif st.session_state.mode == "theory":
     section = st.session_state.get("pending_section") or "medical"
@@ -505,7 +505,7 @@ elif st.session_state.mode == "theory":
     render_markdown_with_image_paths(load_theory_text(bank, section))
     st.divider()
     if not resume:
-        st.button("Start test", type="primary", use_container_width=True, on_click=lambda: start_test_for_bank(bank))
+        st.button("Start the Test", type="primary", use_container_width=True, on_click=lambda: start_test_for_bank(bank))
 
 elif st.session_state.mode == "test":
     _inject_student_css(_TEST_TASK_CSS)
