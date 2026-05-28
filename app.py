@@ -407,7 +407,16 @@ if st.session_state.mode == "home":
 
     st.subheader("Choose module")
 
-    bank_labels = [f"Module {i}" for i in range(1, 9)]
+    bank_labels = [
+        "1. Research",
+        "2. First Aid Kit",
+        "Module 3",
+        "Module 4",
+        "Module 5",
+        "Module 6",
+        "Module 7",
+        "Module 8",
+    ]
     for row in range(2):
         cols = st.columns(4, gap="large")
         for col_idx in range(4):
@@ -441,7 +450,16 @@ elif st.session_state.mode == "section_home":
     st.header(titles.get(section, "Section"))
     st.subheader("Choose module")
 
-    bank_labels = [f"Module {i}" for i in range(1, 9)]
+    bank_labels = [
+        "1. Research",
+        "2. First Aid Kit",
+        "Module 3",
+        "Module 4",
+        "Module 5",
+        "Module 6",
+        "Module 7",
+        "Module 8",
+    ]
     for row in range(2):
         cols = st.columns(4, gap="large")
         for col_idx in range(4):
