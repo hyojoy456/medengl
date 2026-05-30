@@ -16,6 +16,7 @@ from utils.bank import (
     BANK_NAMES,
     FINAL_TEST_QUESTION_LIMIT,
     dedupe_questions,
+    get_banks_root,
     get_random_questions_from_bank,
     get_random_questions_from_multiple,
     ordering_items_row_html,
@@ -123,9 +124,8 @@ def open_module_intro(bank_name: str, section: Optional[str] = None) -> None:
 
 
 def load_theory_text(bank_name: str, section: Optional[str]) -> str:
-    base_dir = Path(__file__).resolve().parent / "banks"
     sec = section or st.session_state.get("selected_section") or "medical"
-    theory_path = base_dir / sec / "theory" / f"{bank_name}.md"
+    theory_path = get_banks_root() / sec / "theory" / f"{bank_name}.md"
     try:
         if theory_path.exists():
             return theory_markdown_without_block_delimiters(theory_path.read_text(encoding="utf-8"))

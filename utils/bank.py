@@ -2,11 +2,34 @@ import json
 import html
 import uuid
 import re
+import shutil
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
 
-BANKS_DIR = Path(__file__).resolve().parent.parent / "banks"
-BANKS_DIR.mkdir(parents=True, exist_ok=True)
+_REPO_BANKS_DIR = Path(__file__).resolve().parent.parent / "banks"
+_BANKS_ROOT: Optional[Path] = None
+
+# Legacy name: repo path (may be read-only on Streamlit Cloud).
+BANKS_DIR = _REPO_BANKS_DIR
+
+
+def get_banks_root() -> Path:
+    """Writable banks directory (repo locally, /tmp overlay on read-only deploys)."""
+    global _BANKS_ROOT
+    if _BANKS_ROOT is not None:
+        return _BANKS_ROOT
+    try:
+        _REPO_BANKS_DIR.mkdir(parents=True, exist_ok=True)
+        probe = _REPO_BANKS_DIR / ".write_probe"
+        probe.write_text("1", encoding="utf-8")
+        probe.unlink(missing_ok=True)
+        _BANKS_ROOT = _REPO_BANKS_DIR
+    except OSError:
+        overlay = Path("/tmp/medengl_banks")
+        if not overlay.exists():
+            shutil.copytree(_REPO_BANKS_DIR, overlay, dirs_exist_ok=True)
+        _BANKS_ROOT = overlay
+    return _BANKS_ROOT
 THEORY_BLOCK_DELIMITER = "\n\n<!-- THEORY_BLOCK_DELIMITER -->\n\n"
 
 BANK_NAMES = [f"bank{i}" for i in range(1, 9)]
@@ -81,10 +104,10 @@ def _bank_path(bank_name: str, section: Optional[str] = None) -> Path:
     e.g., banks/engineers/bank1.json.
     """
     if section:
-        section_dir = BANKS_DIR / section
+        section_dir = get_banks_root() / section
         section_dir.mkdir(parents=True, exist_ok=True)
         return section_dir / f"{bank_name}.json"
-    return BANKS_DIR / f"{bank_name}.json"
+    return get_banks_root() / f"{bank_name}.json"
 
 
 def ensure_bank_exists(bank_name: str, section: Optional[str] = None) -> None:
@@ -107,7 +130,11 @@ def load_bank(bank_name: str, section: Optional[str] = None) -> List[Dict[str, A
 
 def save_bank(bank_name: str, questions: List[Dict[str, Any]], section: Optional[str] = None) -> None:
     path = _bank_path(bank_name, section)
-    path.write_text(json.dumps(questions, ensure_ascii=False, indent=2), encoding="utf-8")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        path.write_text(json.dumps(questions, ensure_ascii=False, indent=2), encoding="utf-8")
+    except OSError as exc:
+        raise OSError(f"Cannot write question bank {path}: {exc}") from exc
 
 
 def add_mcq_question(
@@ -249,7 +276,7 @@ def save_theory_markdown(bank_name: str, section: Optional[str], markdown_text: 
     Returns the path to the saved file.
     """
     sec = section or "medical"
-    theory_dir = BANKS_DIR / sec / "theory"
+    theory_dir = get_banks_root() / sec / "theory"
     theory_dir.mkdir(parents=True, exist_ok=True)
     path = theory_dir / f"{bank_name}.md"
     path.write_text(markdown_text or "", encoding="utf-8")
@@ -259,7 +286,7 @@ def save_theory_markdown(bank_name: str, section: Optional[str], markdown_text: 
 def load_theory_markdown(bank_name: str, section: Optional[str]) -> str:
     """Load theory markdown for a module. Returns empty string if missing/unreadable."""
     sec = section or "medical"
-    path = BANKS_DIR / sec / "theory" / f"{bank_name}.md"
+    path = get_banks_root() / sec / "theory" / f"{bank_name}.md"
     if not path.exists():
         return ""
     try:
@@ -335,7 +362,7 @@ def update_theory_block(bank_name: str, section: Optional[str], block_index: int
 def delete_theory_markdown(bank_name: str, section: Optional[str]) -> bool:
     """Delete theory markdown for a module. Returns True if deleted."""
     sec = section or "medical"
-    path = BANKS_DIR / sec / "theory" / f"{bank_name}.md"
+    path = get_banks_root() / sec / "theory" / f"{bank_name}.md"
     if not path.exists():
         return False
     try:
@@ -539,8 +566,11 @@ def update_question_fields(
 
 def delete_question(bank_name: str, question_id: str, section: Optional[str] = None) -> bool:
     """Delete a question by id from the specified bank. Returns True if deleted."""
+    target = str(question_id or "").strip()
+    if not target:
+        return False
     questions = load_bank(bank_name, section)
-    new_questions = [q for q in questions if q.get("id") != question_id]
+    new_questions = [q for q in questions if str(q.get("id") or "").strip() != target]
     if len(new_questions) == len(questions):
         return False
     save_bank(bank_name, new_questions, section)

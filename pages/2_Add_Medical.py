@@ -21,6 +21,7 @@ from utils.bank import (
     load_theory_blocks,
     delete_theory_block,
     update_theory_block,
+    get_banks_root,
     POSTER_POINT_SLOTS,
     POSTER_POINT_COUNT_MIN,
     IMAGE_INPUTS_MIN,
@@ -52,7 +53,45 @@ st.set_page_config(page_title="Add Tasks — Medical", page_icon="🧬", layout=
 
 SECTION = "medical"
 
+
+def _admin_rerun() -> None:
+    fn = getattr(st, "rerun", None) or getattr(st, "experimental_rerun", None)
+    if fn:
+        fn()
+
+
+def _show_admin_flash() -> None:
+    payload = st.session_state.pop("_admin_flash", None)
+    if not payload:
+        return
+    kind, msg = payload
+    if kind == "error":
+        st.error(msg)
+    elif kind == "success":
+        st.success(msg)
+
+
+def _delete_question_cb(bname: str, qid: str) -> None:
+    try:
+        ok = delete_question(bname, qid, section=SECTION)
+    except OSError as exc:
+        st.session_state["_admin_flash"] = (
+            "error",
+            "Не удалось сохранить файл с заданиями. "
+            "На Streamlit Cloud изменения в файлах временные — для постоянного удаления "
+            f"отредактируйте банк локально и отправьте на GitHub. ({exc})",
+        )
+        return
+    if not ok:
+        st.session_state["_admin_flash"] = ("error", "Задание не найдено (возможно, уже удалено).")
+        return
+    edit_key = f"question_edit_id_{bname}_{SECTION}"
+    if str(st.session_state.get(edit_key) or "") == str(qid):
+        st.session_state[edit_key] = None
+
+
 st.title("Конструктор заданий для преподавателя")
+_show_admin_flash()
 
 bank_label_to_name = {f"Module {i}": name for i, name in enumerate(BANK_NAMES, start=1)}
 label = st.selectbox("Выберите модуль", list(bank_label_to_name.keys()), index=0)
@@ -116,12 +155,12 @@ if st.session_state[_MCQ_STEP_KEY] == 1:
                     "multi": answer_mode == "Несколько правильных ответов",
                 }
                 st.session_state[_MCQ_STEP_KEY] = 2
-                st.experimental_rerun()
+                _admin_rerun()
 else:
     draft = st.session_state.get(_MCQ_DRAFT_KEY)
     if not draft or not draft.get("options"):
         st.session_state[_MCQ_STEP_KEY] = 1
-        st.experimental_rerun()
+        _admin_rerun()
     else:
         st.markdown("#### Выберите правильные ответы для задания")
         st.caption(f"Вопрос: {draft.get('text', '')[:120]}{'…' if len(draft.get('text', '')) > 120 else ''}")
@@ -150,7 +189,7 @@ else:
                 save_mcq = st.form_submit_button("Сохранить задание", type="primary")
         if back_step2:
             st.session_state[_MCQ_STEP_KEY] = 1
-            st.experimental_rerun()
+            _admin_rerun()
         if save_mcq:
             correct_keys_field: list[str] = []
             if multi:
@@ -178,7 +217,7 @@ else:
                 st.session_state[_MCQ_STEP_KEY] = 1
                 st.session_state.pop(_MCQ_DRAFT_KEY, None)
                 st.success("Вопрос (закрытый тип) добавлен")
-                st.experimental_rerun()
+                _admin_rerun()
 
 st.divider()
 
@@ -219,7 +258,7 @@ with st.form("add_image_inputs_med", clear_on_submit=False):
         elif len(files) > IMAGE_INPUTS_MAX:
             st.error(f"Не более {IMAGE_INPUTS_MAX} изображений")
         else:
-            media_dir = "banks/media"
+            media_dir = str(get_banks_root() / "media")
             os.makedirs(media_dir, exist_ok=True)
             # Validate that every image has an answer
             need = min(IMAGE_INPUTS_MAX, len(files))
@@ -506,7 +545,7 @@ if submitted_poster2:
     else:
         final_image_url = resolved_url
         if poster_img_file is not None and not final_image_url:
-            media_dir = "banks/media"
+            media_dir = str(get_banks_root() / "media")
             import os
             os.makedirs(media_dir, exist_ok=True)
             fname = f"poster_{bank_name}.png"
@@ -567,13 +606,13 @@ if eid and questions:
                     ok = update_question_fields(bank_name, str(eid), SECTION, text=t_val)
                 if ok:
                     st.session_state[question_edit_key] = None
-                    st.experimental_rerun()
+                    _admin_rerun()
                 else:
                     st.error("Не удалось сохранить.")
         with ec2:
             if st.button("Отмена", key=f"qedit_cancel_{bank_name}_{eid}"):
                 st.session_state[question_edit_key] = None
-                st.experimental_rerun()
+                _admin_rerun()
         st.divider()
 
 if not questions:
@@ -621,15 +660,14 @@ else:
         with cols[2]:
             if st.button("Редактировать", key=f"edit_q_{bank_name}_{q.get('id')}"):
                 st.session_state[question_edit_key] = q.get("id")
-                st.experimental_rerun()
+                _admin_rerun()
         with cols[3]:
-            if st.button("Удалить", key=f"del_{q.get('id')}"):
-                qid_del = str(q.get("id") or "")
-                ok = delete_question(bank_name, qid_del, section=SECTION)
-                if ok:
-                    if st.session_state.get(question_edit_key) == qid_del:
-                        st.session_state[question_edit_key] = None
-                    st.experimental_rerun()
+            st.button(
+                "Удалить",
+                key=f"del_{bank_name}_{SECTION}_{qid}",
+                on_click=_delete_question_cb,
+                args=(bank_name, qid),
+            )
     row_save, row_auto, _ = st.columns([2, 2.5, 2])
     with row_save:
         if st.button("Сохранить нумерацию", type="primary", key=f"save_test_orders_{bank_name}_{SECTION}"):
@@ -644,7 +682,7 @@ else:
             try:
                 set_questions_test_orders(bank_name, SECTION, orders)
                 st.success("Нумерация сохранена.")
-                st.experimental_rerun()
+                _admin_rerun()
             except ValueError as e:
                 st.error(str(e))
     with row_auto:
@@ -652,7 +690,7 @@ else:
             orders_auto = {str(q.get("id")): i + 1 for i, q in enumerate(questions)}
             set_questions_test_orders(bank_name, SECTION, orders_auto)
             st.success("Номера выставлены по текущему порядку в JSON.")
-            st.experimental_rerun()
+            _admin_rerun()
 
 st.divider()
 
@@ -677,7 +715,7 @@ for i in range(block_count):
     block_contents.append({"text": text or "", "images": images or []})
     if st.button("＋ Добавить еще один блок", key=f"add_theory_block_after_{bank_name}_{i}", use_container_width=True):
         st.session_state[editor_count_key] = min(block_count + 1, 20)
-        st.experimental_rerun()
+        _admin_rerun()
     st.divider()
 
 st.caption("Сначала заполните блоки, затем нажмите «Сохранить теорию».")
@@ -704,7 +742,7 @@ with col_save:
 with col_remove:
     if st.button("− Убрать последний", use_container_width=True, disabled=block_count <= 1):
         st.session_state[editor_count_key] = max(1, block_count - 1)
-        st.experimental_rerun()
+        _admin_rerun()
 
 if st.button("Удалить теорию", type="secondary", use_container_width=True):
     deleted = delete_theory_markdown(bank_name, SECTION)
@@ -749,13 +787,13 @@ if ei is not None and theory_blocks and isinstance(ei, int) and 0 <= ei < len(th
                 ok = update_theory_block(bank_name, SECTION, ei, md_out)
                 if ok:
                     st.session_state[theory_edit_idx_key] = None
-                    st.experimental_rerun()
+                    _admin_rerun()
                 else:
                     st.error("Не удалось сохранить блок.")
     with ec2:
         if st.button("Отмена", key=f"theory_cancel_edit_{bank_name}_{ei}"):
             st.session_state[theory_edit_idx_key] = None
-            st.experimental_rerun()
+            _admin_rerun()
     st.divider()
 
 if not theory_blocks:
@@ -769,7 +807,7 @@ else:
         with cols[1]:
             if st.button("Редактировать", key=f"edit_theory_block_{bank_name}_{i}"):
                 st.session_state[theory_edit_idx_key] = i
-                st.experimental_rerun()
+                _admin_rerun()
         with cols[2]:
             if st.button("Удалить", key=f"del_theory_block_{bank_name}_{i}"):
                 ok = delete_theory_block(bank_name, SECTION, i)
@@ -780,4 +818,4 @@ else:
                             st.session_state[theory_edit_idx_key] = None
                         elif ei_old > i:
                             st.session_state[theory_edit_idx_key] = ei_old - 1
-                    st.experimental_rerun()
+                    _admin_rerun()
