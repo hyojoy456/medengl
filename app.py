@@ -410,8 +410,8 @@ if st.session_state.mode == "home":
     bank_labels = [
         "1. Research",
         "2. First Aid Kit",
-        "Module 3",
-        "Module 4",
+        "3. Jobs",
+        "4. Toxins",
         "Module 5",
         "Module 6",
         "Module 7",
@@ -453,8 +453,8 @@ elif st.session_state.mode == "section_home":
     bank_labels = [
         "1. Research",
         "2. First Aid Kit",
-        "Module 3",
-        "Module 4",
+        "3. Jobs",
+        "4. Toxins",
         "Module 5",
         "Module 6",
         "Module 7",
