@@ -22,6 +22,7 @@ from utils.bank import (
     delete_theory_block,
     update_theory_block,
     get_banks_root,
+    MODULE_DISPLAY_NAMES,
     POSTER_POINT_SLOTS,
     POSTER_POINT_COUNT_MIN,
     IMAGE_INPUTS_MIN,
@@ -93,7 +94,7 @@ def _delete_question_cb(bname: str, qid: str) -> None:
 st.title("Конструктор заданий для преподавателя")
 _show_admin_flash()
 
-bank_label_to_name = {f"Module {i}": name for i, name in enumerate(BANK_NAMES, start=1)}
+bank_label_to_name = {MODULE_DISPLAY_NAMES[i]: BANK_NAMES[i] for i in range(len(BANK_NAMES))}
 label = st.selectbox("Выберите модуль", list(bank_label_to_name.keys()), index=0)
 assert label is not None
 bank_name = bank_label_to_name[label]

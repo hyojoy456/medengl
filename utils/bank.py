@@ -34,6 +34,45 @@ THEORY_BLOCK_DELIMITER = "\n\n<!-- THEORY_BLOCK_DELIMITER -->\n\n"
 
 BANK_NAMES = [f"bank{i}" for i in range(1, 9)]
 
+_MODULE_TITLES = (
+    "Research",
+    "First Aid Kit",
+    "Jobs",
+    "Toxins",
+)
+
+
+def _numbered_module_label(index: int, title: str) -> str:
+    """``1. Research`` — non-breaking space so the number is not clipped in narrow buttons."""
+    return f"{index + 1}.\u00a0{title}"
+
+
+MODULE_DISPLAY_NAMES = [
+    _numbered_module_label(0, _MODULE_TITLES[0]),
+    _numbered_module_label(1, _MODULE_TITLES[1]),
+    _numbered_module_label(2, _MODULE_TITLES[2]),
+    _numbered_module_label(3, _MODULE_TITLES[3]),
+    "Module 5",
+    "Module 6",
+    "Module 7",
+    "Module 8",
+]
+
+
+def module_display_name(bank_name: str, *, default: str = "") -> str:
+    """Human title for a bank (e.g. ``bank1`` → ``1. Research``)."""
+    if bank_name == "combined":
+        return "Final Test"
+    try:
+        return MODULE_DISPLAY_NAMES[BANK_NAMES.index(bank_name)]
+    except ValueError:
+        return default or bank_name
+
+
+def is_ephemeral_banks_storage() -> bool:
+    """True when data is stored outside the project folder (e.g. Streamlit Cloud /tmp)."""
+    return get_banks_root().resolve() != _REPO_BANKS_DIR.resolve()
+
 # Сколько вопросов показывать в итоговом тесте по всем модулям (случайная выборка после дедупликации).
 FINAL_TEST_QUESTION_LIMIT = 20
 

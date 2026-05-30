@@ -73,6 +73,21 @@ git push -u origin main
 | `Error during processing dependencies` / `installer returned a non-zero exit code` | Обновите `requirements.txt` с GitHub (нужен Streamlit **1.44+** — старый 1.36 конфликтует с `rich 15` на Cloud). Затем в Streamlit Cloud: **Manage app** → **Reboot app** |
 | Папка с кириллицей в пути | Лучше скопировать проект в путь без пробелов, например `~/Projects/medical-tests` |
 
+### Важно: localhost и Streamlit Cloud — это разные копии данных
+
+| Где вы работаете | Куда попадают теория и задания |
+|------------------|--------------------------------|
+| **localhost** (`streamlit run app.py`) | Папка `banks/` в проекте на компьютере. Чтобы увидеть на Cloud — нужен **`git push`**. |
+| **Streamlit Cloud** (сайт share.streamlit.io) | Часто только **временная** копия на сервере. На localhost **не появится**, пока не запушите `banks/` с Mac. |
+
+Если вы добавили теорию/задания на Cloud, а на localhost пусто — это ожидаемо. Добавьте снова **локально** (админка → тот же модуль: `1. Research`, `4. Toxins` и т.д.), затем:
+
+```bash
+git add banks/
+git commit -m "Add theory and tasks for modules 1 and 4"
+git push
+```
+
 ### Важно для деплоя
 
 - В репозитории должны быть папки `banks/`, `pages/`, `utils/` — без них приложение пустое.

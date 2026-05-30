@@ -14,6 +14,8 @@ except Exception:
 _HAS_SORTABLES = _HAS_SORTABLES_LIB and _HAS_PYARROW
 from utils.bank import (
     BANK_NAMES,
+    MODULE_DISPLAY_NAMES,
+    module_display_name,
     FINAL_TEST_QUESTION_LIMIT,
     dedupe_questions,
     get_banks_root,
@@ -132,9 +134,9 @@ def load_theory_text(bank_name: str, section: Optional[str]) -> str:
     except Exception:
         pass
     # Fallback placeholder
-    idx = BANK_NAMES.index(bank_name) + 1 if bank_name in BANK_NAMES else 0
+    title = module_display_name(bank_name, default=bank_name)
     return (
-        f"### Theory for Module {idx}\n\n"
+        f"### Theory for {title}\n\n"
         f"Theory content has not been added yet. Ask your instructor to add the file "
         f"{bank_name}.md to banks/{sec}/theory/."
     )
@@ -159,6 +161,20 @@ _STUDENT_BASE_CSS = """
     .main .stCaption { font-size: 1.05rem !important; }
     .square-btn > button { width: 100%; height: 110px; border-radius: 12px; font-size: 20px; font-weight: 600; }
     .bottom-btn > button { width: 100%; height: 64px; border-radius: 12px; font-size: 18px; font-weight: 600; }
+    /* Module picker: show full label (e.g. "1. Research"), not only the title word */
+    .main div[data-testid="column"] div[data-testid="stButton"] > button {
+        white-space: normal !important;
+        overflow: visible !important;
+        text-overflow: clip !important;
+        line-height: 1.3 !important;
+        min-height: 3.25rem;
+        padding: 0.45rem 0.5rem !important;
+    }
+    .main div[data-testid="column"] div[data-testid="stButton"] > button p {
+        white-space: normal !important;
+        overflow: visible !important;
+        text-overflow: clip !important;
+    }
     .poster-wrapper { position: relative; display: inline-block; width: 100%; max-width: 760px; }
     .poster-wrapper img { width: 100%; height: auto; border-radius: 8px; display: block; }
     .poster-dot {
@@ -407,27 +423,17 @@ if st.session_state.mode == "home":
 
     st.subheader("Choose module")
 
-    bank_labels = [
-        "1. Research",
-        "2. First Aid Kit",
-        "3. Jobs",
-        "4. Toxins",
-        "Module 5",
-        "Module 6",
-        "Module 7",
-        "Module 8",
-    ]
     for row in range(2):
         cols = st.columns(4, gap="large")
         for col_idx in range(4):
             i = row * 4 + col_idx
             with cols[col_idx]:
                 if st.button(
-                    bank_labels[i],
+                    MODULE_DISPLAY_NAMES[i],
                     key=f"home_med_bank_btn_{i}",
                     type="primary",
                     use_container_width=True,
-                    help=f"Open {bank_labels[i]}",
+                    help=f"Open {MODULE_DISPLAY_NAMES[i]}",
                 ):
                     open_module_intro(BANK_NAMES[i], section=st.session_state.get("selected_section"))
 
@@ -450,27 +456,17 @@ elif st.session_state.mode == "section_home":
     st.header(titles.get(section, "Section"))
     st.subheader("Choose module")
 
-    bank_labels = [
-        "1. Research",
-        "2. First Aid Kit",
-        "3. Jobs",
-        "4. Toxins",
-        "Module 5",
-        "Module 6",
-        "Module 7",
-        "Module 8",
-    ]
     for row in range(2):
         cols = st.columns(4, gap="large")
         for col_idx in range(4):
             i = row * 4 + col_idx
             with cols[col_idx]:
                 if st.button(
-                    bank_labels[i],
+                    MODULE_DISPLAY_NAMES[i],
                     key=f"sec_bank_btn_{section}_{i}",
                     type="primary",
                     use_container_width=True,
-                    help=f"Open {bank_labels[i]}",
+                    help=f"Open {MODULE_DISPLAY_NAMES[i]}",
                 ):
                     open_module_intro(BANK_NAMES[i], section=section)
 
@@ -518,7 +514,8 @@ elif st.session_state.mode == "theory":
             use_container_width=True,
             on_click=lambda: st.session_state.__setitem__("mode", "module_intro"),
         )
-    st.header("Theory")
+    st.header(module_display_name(bank))
+    st.caption("Theory")
     _inject_student_css(_THEORY_CSS)
     render_markdown_with_image_paths(load_theory_text(bank, section))
     st.divider()
