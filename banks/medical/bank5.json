@@ -1,1 +1,1615 @@
-[]
+[
+  {
+    "id": "bb384213-02f4-4fef-9892-98b21110404e",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nAccording to the text, waves of sudden or extreme heat are especially dangerous for people with certain ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Occupations"
+      },
+      {
+        "key": "b",
+        "text": "Risk factors"
+      },
+      {
+        "key": "c",
+        "text": "Body temperatures"
+      },
+      {
+        "key": "d",
+        "text": "Climates"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 1
+  },
+  {
+    "id": "5acbcb0a-3a97-481d-88c8-d0435089b9ce",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nPeople are most comfortable when their body temperature is around ________ degrees Fahrenheit.",
+    "options": [
+      {
+        "key": "a",
+        "text": "85"
+      },
+      {
+        "key": "b",
+        "text": "100"
+      },
+      {
+        "key": "c",
+        "text": "98"
+      },
+      {
+        "key": "d",
+        "text": "102"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 2
+  },
+  {
+    "id": "23a58b3c-7047-4282-8406-08788633d745",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nHospitalizations increase when outdoor temperatures climb above 85 degrees with high humidity and ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Low air pressure"
+      },
+      {
+        "key": "b",
+        "text": "Strong winds"
+      },
+      {
+        "key": "c",
+        "text": "Drastic temperature swings"
+      },
+      {
+        "key": "d",
+        "text": "Clear skies"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 3
+  },
+  {
+    "id": "8bfa89d8-4e78-4d03-a00c-6b162765c1da",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nAccording to Dr. Moretti, people in cooler climates may have a harder time ________ than those in the South.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Researching climate change"
+      },
+      {
+        "key": "b",
+        "text": "Dealing with extreme heat"
+      },
+      {
+        "key": "c",
+        "text": "Protecting the health care industry"
+      },
+      {
+        "key": "d",
+        "text": "Raising body temperature"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 4
+  },
+  {
+    "id": "d9f39de3-8341-405f-8e05-5272d6f32ed8",
+    "type": "mcq",
+    "text": "Which of the following are mentioned as factors that increase hospitalizations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Outdoor temperatures above 85 degrees"
+      },
+      {
+        "key": "b",
+        "text": "Low humidity"
+      },
+      {
+        "key": "c",
+        "text": "High humidity"
+      },
+      {
+        "key": "d",
+        "text": "Drastic temperature swings"
+      },
+      {
+        "key": "e",
+        "text": "Cooler climates"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "c",
+      "d"
+    ],
+    "allow_multiple": true,
+    "test_order": 5
+  },
+  {
+    "id": "2c22462e-5d8d-4a71-9f0c-cd7cac80556d",
+    "type": "mcq",
+    "text": "Choose the correct phrase according to the definition. \n\nA health problem caused by hot weather",
+    "options": [
+      {
+        "key": "a",
+        "text": "Heat-related illness"
+      },
+      {
+        "key": "b",
+        "text": "High humidity"
+      },
+      {
+        "key": "c",
+        "text": "Hospitalisation"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 6
+  },
+  {
+    "id": "cbe101f9-eca2-4fdb-830a-0941b6af3926",
+    "type": "mcq",
+    "text": "Choose the correct phrase according to the definition. \n\nThings that make you more likely to get sick",
+    "options": [
+      {
+        "key": "a",
+        "text": "To protect oneself from heat"
+      },
+      {
+        "key": "b",
+        "text": "Drastic temperature swings"
+      },
+      {
+        "key": "c",
+        "text": "Risk factors"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 7
+  },
+  {
+    "id": "8c3e9fd4-2c03-46de-978d-543a6921700e",
+    "type": "mcq",
+    "text": "Choose the correct phrase according to the definition. \n\nThe temperature of your body (normal is about 98°F)",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hospitalisation"
+      },
+      {
+        "key": "b",
+        "text": "Body temperature"
+      },
+      {
+        "key": "c",
+        "text": "To deal with extreme heat"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 8
+  },
+  {
+    "id": "e98c6c27-838f-4b99-baf0-449793a37dd2",
+    "type": "mcq",
+    "text": "Choose the correct phrase according to the definition. \n\nWhen the air is very wet and sticky",
+    "options": [
+      {
+        "key": "a",
+        "text": "High humidity"
+      },
+      {
+        "key": "b",
+        "text": "To deal with extreme heat"
+      },
+      {
+        "key": "c",
+        "text": "Risk factors"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 9
+  },
+  {
+    "id": "712a501d-a093-46ee-aa12-2d2c18bf1d55",
+    "type": "mcq",
+    "text": "Choose the correct phrase according to the definition. \n\nBig changes in temperature (hot one day, cold the next)",
+    "options": [
+      {
+        "key": "a",
+        "text": "To protect oneself from heat"
+      },
+      {
+        "key": "b",
+        "text": "Body temperature"
+      },
+      {
+        "key": "c",
+        "text": "Drastic temperature swings"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 10
+  },
+  {
+    "id": "238ca0ef-fd16-4e74-91f8-3516c61c38fa",
+    "type": "mcq",
+    "text": "Choose the correct phrase according to the definition. \n\nA doctor who works in a hospital emergency room",
+    "options": [
+      {
+        "key": "a",
+        "text": "Emergency medicine physician"
+      },
+      {
+        "key": "b",
+        "text": "Risk factors"
+      },
+      {
+        "key": "c",
+        "text": "High humidity"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 11
+  },
+  {
+    "id": "a396e8bb-1b68-4907-9ff2-d79f6091d790",
+    "type": "mcq",
+    "text": "Choose the correct phrase according to the definition. \n\nGoing to the hospital for treatment",
+    "options": [
+      {
+        "key": "a",
+        "text": "To protect oneself from heat"
+      },
+      {
+        "key": "b",
+        "text": "Risk factors"
+      },
+      {
+        "key": "c",
+        "text": "Hospitalisation"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 12
+  },
+  {
+    "id": "7b2ef248-444a-41e9-a810-5fbf65a5f86c",
+    "type": "mcq",
+    "text": "Choose the correct phrase according to the definition. \n\nTo cope with very hot weather",
+    "options": [
+      {
+        "key": "a",
+        "text": "Drastic temperature swings"
+      },
+      {
+        "key": "b",
+        "text": "To deal with extreme heat"
+      },
+      {
+        "key": "c",
+        "text": "High humidity"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 13
+  },
+  {
+    "id": "106c9164-0135-4d42-883c-5c0d29ecd166",
+    "type": "mcq",
+    "text": "Choose the correct phrase according to the definition. \n\nTo keep yourself safe when it's very hot",
+    "options": [
+      {
+        "key": "a",
+        "text": "To protect oneself from heat"
+      },
+      {
+        "key": "b",
+        "text": "To deal with extreme heat"
+      },
+      {
+        "key": "c",
+        "text": "Hospitalisation"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 14
+  },
+  {
+    "id": "4e2ded9a-2fbc-48cb-a9b6-eba7e957b413",
+    "type": "word_form",
+    "text": "Complete each sentence with a phrase. \n\nUse these phrases: heat-related illness, risk factors, emergency medicine physician, body temperature, high humidity, drastic temperature swings, cooler climates, to surge, health implications, to protect oneself\n\nElderly people and young children have more _______________ for heat stroke during a heat wave. ",
+    "answer": "Risk factors",
+    "instruction": "",
+    "test_order": 15
+  },
+  {
+    "id": "b4fc6143-f926-4ab5-b801-bbad5332680b",
+    "type": "word_form",
+    "text": "Complete each sentence with a phrase. \n\nUse these phrases: heat-related illness, risk factors, emergency medicine physician, body temperature, high humidity, drastic temperature swings, cooler climates, to surge, health implications, to protect oneself\n\nA(n) _______________ must be ready to treat patients with heat exhaustion at any moment. ",
+    "answer": "Emergency medicine physician",
+    "instruction": "",
+    "test_order": 16
+  },
+  {
+    "id": "cfbbfb4f-05d6-45fc-8e90-8074ca280e5d",
+    "type": "word_form",
+    "text": "Complete each sentence with a phrase. \n\nUse these phrases: heat-related illness, risk factors, emergency medicine physician, body temperature, high humidity, drastic temperature swings, cooler climates, to surge, health implications, to protect oneself\n\nMaintaining a normal _______________ is essential for the proper functioning of enzymes and organs. ",
+    "answer": "Body temperature",
+    "instruction": "",
+    "test_order": 17
+  },
+  {
+    "id": "5361656b-d542-4143-a438-edb255d4d82c",
+    "type": "word_form",
+    "text": "Complete each sentence with a phrase. \n\nUse these phrases: heat-related illness, risk factors, emergency medicine physician, body temperature, high humidity, drastic temperature swings, cooler climates, to surge, health implications, to protect oneself\n\nWhen _______________ is combined with extreme heat, sweat does not evaporate easily, making it harder to cool down. ",
+    "answer": "High humidity",
+    "instruction": "",
+    "test_order": 18
+  },
+  {
+    "id": "93840eeb-7e7a-499a-a5fa-6689a91538b8",
+    "type": "word_form",
+    "text": "Complete each sentence with a phrase. \n\nUse these phrases: heat-related illness, risk factors, emergency medicine physician, body temperature, high humidity, drastic temperature swings, cooler climates, to surge, health implications, to protect oneself\n\nSudden _______________ can confuse the body’s thermoregulation system, leading to illness. ",
+    "answer": "Drastic temperature swings",
+    "instruction": "",
+    "test_order": 19
+  },
+  {
+    "id": "43ffb98e-2e55-4fe0-a4ce-e18e6d7e98bb",
+    "type": "word_form",
+    "text": "Complete each sentence with a phrase. \n\nUse these phrases: heat-related illness, risk factors, emergency medicine physician, body temperature, high humidity, drastic temperature swings, cooler climates, to surge, health implications, to protect oneself\n\nPeople living in _______________ may not have air conditioning and are more vulnerable to heat waves.",
+    "answer": "Cooler climates",
+    "instruction": "",
+    "test_order": 20
+  },
+  {
+    "id": "04b70aec-3ecb-425e-abc3-d63b0a40d173",
+    "type": "word_form",
+    "text": "Complete each sentence with a phrase.\n\nUse these phrases: heat-related illness, risk factors, emergency medicine physician, body temperature, high humidity, drastic temperature swings, cooler climates, to surge, health implications, to protect oneself\n\nAs global temperatures continue _______________, the number of hospitalizations for dehydration is expected to rise. ",
+    "answer": "To surge",
+    "instruction": "",
+    "test_order": 21
+  },
+  {
+    "id": "410038b6-f131-4f35-b0a5-6a4b77095aa2",
+    "type": "word_form",
+    "text": "Complete each sentence with a phrase.\n\nUse these phrases: heat-related illness, risk factors, emergency medicine physician, body temperature, high humidity, drastic temperature swings, cooler climates, to surge, health implications, to protect oneself\n\nThe long-term _______________ of rising temperatures include increased rates of kidney disease and respiratory problems. ",
+    "answer": "Health implications",
+    "instruction": "",
+    "test_order": 22
+  },
+  {
+    "id": "649a1f66-06fe-4f9c-84d3-77f43b1f622c",
+    "type": "word_form",
+    "text": "Complete each sentence with a phrase.\n\nUse these phrases: heat-related illness, risk factors, emergency medicine physician, body temperature, high humidity, drastic temperature swings, cooler climates, to surge, health implications, to protect oneself\n\nWearing light clothing and drinking plenty of water are simple ways to _______________ during a heat wave. ",
+    "answer": "Protect oneself",
+    "instruction": "",
+    "test_order": 23
+  },
+  {
+    "id": "d7a62f37-454b-4f6f-88ed-f18fe22fa75e",
+    "type": "word_form",
+    "text": "Complete each sentence with a phrase.\n\nUse these phrases: heat-related illness, risk factors, emergency medicine physician, body temperature, high humidity, drastic temperature swings, cooler climates, to surge, health implications, to protect oneself\n\nA sudden onset of nausea and confusion after working outside on a hot day may be a sign of _______________. ",
+    "answer": "Heat-related illness",
+    "instruction": "",
+    "test_order": 24
+  },
+  {
+    "id": "f987950d-8559-47f5-86dd-0beefe9e9ce5",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nThe body responds to heat by dilating blood vessels in the arms and legs and sending blood to the ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Heart"
+      },
+      {
+        "key": "b",
+        "text": "Periphery"
+      },
+      {
+        "key": "c",
+        "text": "Brain"
+      },
+      {
+        "key": "d",
+        "text": "Kidneys"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 25
+  },
+  {
+    "id": "7c9ef7ae-55e0-42ed-b74e-048704166933",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nHeat leaves the body through ________ and transfers to the air and other objects.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Respiration"
+      },
+      {
+        "key": "b",
+        "text": "Urine"
+      },
+      {
+        "key": "c",
+        "text": "Sweat"
+      },
+      {
+        "key": "d",
+        "text": "Radiation"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 26
+  },
+  {
+    "id": "ef75c5a8-2111-4802-932c-3e00ff4f5a55",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nHeavy sweating causes loss of water and salt, which can lead to ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kidney failure"
+      },
+      {
+        "key": "b",
+        "text": "Dehydration"
+      },
+      {
+        "key": "c",
+        "text": "Brain damage"
+      },
+      {
+        "key": "d",
+        "text": "Heart attack"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 27
+  },
+  {
+    "id": "d41b6999-5ef7-4b2a-9b92-5099c8bf0492",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nWhen natural cooling mechanisms fail, heat exposure can result in all of the following EXCEPT ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kidney failure"
+      },
+      {
+        "key": "b",
+        "text": "Heart attacks"
+      },
+      {
+        "key": "c",
+        "text": "Improved blood flow"
+      },
+      {
+        "key": "d",
+        "text": "Brain damage"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": true,
+    "test_order": 28
+  },
+  {
+    "id": "69c96318-c2b7-42ae-8cd8-de395e4d920f",
+    "type": "mcq",
+    "text": "From each list, choose ALL the correct options according to the text.\n\nWhich of the following happen when the body responds to heat?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Blood vessels in the arms and legs constrict"
+      },
+      {
+        "key": "b",
+        "text": "Blood vessels in the arms and legs dilate"
+      },
+      {
+        "key": "c",
+        "text": "Blood is sent to the periphery"
+      },
+      {
+        "key": "d",
+        "text": "Less blood flows to vital organs like the heart and kidneys"
+      },
+      {
+        "key": "e",
+        "text": "The body stops producing sweat"
+      }
+    ],
+    "correct_keys": [
+      "b",
+      "c",
+      "d"
+    ],
+    "allow_multiple": true,
+    "test_order": 29
+  },
+  {
+    "id": "01a1e265-4b46-4de6-97d9-987a7dc32c2b",
+    "type": "mcq",
+    "text": "From each list, choose ALL the correct options according to the text.\n\nWhich of the following can cause natural cooling mechanisms to fail?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chronic disease"
+      },
+      {
+        "key": "b",
+        "text": "Drinking cold water"
+      },
+      {
+        "key": "c",
+        "text": "Medication"
+      },
+      {
+        "key": "d",
+        "text": "Extreme outdoor temperature"
+      },
+      {
+        "key": "e",
+        "text": "Wearing light clothing"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "c",
+      "d"
+    ],
+    "allow_multiple": true,
+    "test_order": 30
+  },
+  {
+    "id": "027bd925-d1e0-42e3-8035-8d8568ce4ae1",
+    "type": "mcq",
+    "text": "From each list, choose ALL the correct options according to the text.\n\nWhat are the possible consequences of heat exposure when cooling mechanisms fail?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kidney failure"
+      },
+      {
+        "key": "b",
+        "text": "Heart attacks"
+      },
+      {
+        "key": "c",
+        "text": "Improved vision"
+      },
+      {
+        "key": "d",
+        "text": "Brain damage"
+      },
+      {
+        "key": "e",
+        "text": "Death"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "allow_multiple": true,
+    "test_order": 31
+  },
+  {
+    "id": "59d24b30-6b60-46b8-8771-d0142c3beebb",
+    "type": "word_form",
+    "text": "Write the correct word. \n\nWrite 2 or more words separated by commas If it is necessary.  \n\nThe body responds to heat by (d i i a l n t g) ____________________ blood vessels in the arms and legs and sending blood to the (h y p e r i p h e r) ____________________. ",
+    "answer": "Dilating, periphery",
+    "instruction": "",
+    "test_order": 32
+  },
+  {
+    "id": "10b23481-891b-4646-aa70-3335341c0b20",
+    "type": "word_form",
+    "text": "Write the correct word. \n\nHeat is then able to leave the body through (t a w e s) ____________________ and transfer to the air and other objects, which creates a (o g c i l o n f e c t e) ____________________. ",
+    "answer": "Sweat, cooling effect",
+    "instruction": "",
+    "test_order": 33
+  },
+  {
+    "id": "0c9c4cde-fbc9-4197-8152-7b84f8dee8db",
+    "type": "word_form",
+    "text": "Write the correct word. \n\nThis can be dangerous, especially for people taking (i m e d a t c n o s i) ____________________ that control their fluid and salt levels.",
+    "answer": "Medications",
+    "instruction": "",
+    "test_order": 34
+  },
+  {
+    "id": "ea998832-4f65-4b54-9b50-05592a109c22",
+    "type": "word_form",
+    "text": "Write a word or phrase according to its definition. \n\nUse these words and phrases: to dilate blood vessels, periphery, cooling effect, dehydration, heart attack, heat exposure, kidney failure, chronic disease, natural cooling mechanisms, brain damage\n\nWhen blood vessels get wider to release heat ",
+    "answer": "To dilate blood vessels",
+    "instruction": "",
+    "test_order": 35
+  },
+  {
+    "id": "c69869c8-79bb-455e-a495-9097cd40cf76",
+    "type": "word_form",
+    "text": "Write a word or phrase according to its definition. \n\nUse these words and phrases: to dilate blood vessels, periphery, cooling effect, dehydration, heart attack, heat exposure, kidney failure, chronic disease, natural cooling mechanisms, brain damage\n\nThe arms, legs, hands, and feet (away from the center) ",
+    "answer": "Periphery",
+    "instruction": "",
+    "test_order": 36
+  },
+  {
+    "id": "821f2722-0c25-4855-a56a-781c06aa7677",
+    "type": "word_form",
+    "text": "Write a word or phrase according to its definition. \n\nUse these words and phrases: to dilate blood vessels, periphery, cooling effect, dehydration, heart attack, heat exposure, kidney failure, chronic disease, natural cooling mechanisms, brain damage\n\nThe process of making the body less hot",
+    "answer": "Cooling effect",
+    "instruction": "",
+    "test_order": 37
+  },
+  {
+    "id": "1c5960b2-2584-4b85-8d7a-88a624b227bd",
+    "type": "word_form",
+    "text": "Write a word or phrase according to its definition. \n\nUse these words and phrases: to dilate blood vessels, periphery, cooling effect, dehydration, heart attack, heat exposure, kidney failure, chronic disease, natural cooling mechanisms, brain damage\n\nNot enough water in the body ",
+    "answer": "Dehydration",
+    "instruction": "",
+    "test_order": 38
+  },
+  {
+    "id": "f8f25119-ecac-4ac2-98a3-73f8a277a4ff",
+    "type": "word_form",
+    "text": "Write a word or phrase according to its definition. \n\nUse these words and phrases: to dilate blood vessels, periphery, cooling effect, dehydration, heart attack, heat exposure, kidney failure, chronic disease, natural cooling mechanisms, brain damage\n\nThe body's way of cooling down (sweating, blood flow) ",
+    "answer": "Natural cooling mechanisms",
+    "instruction": "",
+    "test_order": 39
+  },
+  {
+    "id": "39908f2f-103f-4ccf-bb7a-8f3f531428d9",
+    "type": "word_form",
+    "text": "Write a word or phrase according to its definition. \n\nUse these words and phrases: to dilate blood vessels, periphery, cooling effect, dehydration, heart attack, heat exposure, kidney failure, chronic disease, natural cooling mechanisms, brain damage\n\nA long-term illness (e.g., diabetes, heart disease) ",
+    "answer": "Chronic disease",
+    "instruction": "",
+    "test_order": 40
+  },
+  {
+    "id": "7184feb0-1b5f-46b0-b5b1-0f4f10da2a13",
+    "type": "word_form",
+    "text": "Write a word or phrase according to its definition. \n\nUse these words and phrases: to dilate blood vessels, periphery, cooling effect, dehydration, heart attack, heat exposure, kidney failure, chronic disease, natural cooling mechanisms, brain damage\n\nBeing in very hot conditions ",
+    "answer": "Heat exposure",
+    "instruction": "",
+    "test_order": 41
+  },
+  {
+    "id": "a4931097-f71e-40e9-8b83-13c3b4a7ccfb",
+    "type": "word_form",
+    "text": "Write a word or phrase according to its definition. \n\nUse these words and phrases: to dilate blood vessels, periphery, cooling effect, dehydration, heart attack, heat exposure, kidney failure, chronic disease, natural cooling mechanisms, brain damage\n\nWhen the kidneys stop working properly ",
+    "answer": "Kidney failure",
+    "instruction": "",
+    "test_order": 42
+  },
+  {
+    "id": "3d739004-763c-4843-beeb-8e1cebb5deb5",
+    "type": "word_form",
+    "text": "Write a word or phrase according to its definition. \n\nUse these words and phrases: to dilate blood vessels, periphery, cooling effect, dehydration, heart attack, heat exposure, kidney failure, chronic disease, natural cooling mechanisms, brain damage\n\nWhen the heart suddenly stops working correctly ",
+    "answer": "Heart attack",
+    "instruction": "",
+    "test_order": 43
+  },
+  {
+    "id": "36fa2ba3-64a9-4759-86ee-7b7eb0db0e0a",
+    "type": "word_form",
+    "text": "Write a word or phrase according to its definition. \n\nUse these words and phrases: to dilate blood vessels, periphery, cooling effect, dehydration, heart attack, heat exposure, kidney failure, chronic disease, natural cooling mechanisms, brain damage\n\nPermanent injury to the brain from lack of oxygen or overheating ",
+    "answer": "Brain damage",
+    "instruction": "",
+    "test_order": 44
+  },
+  {
+    "id": "cf158868-828a-443d-bc3e-cbd3e7191f46",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase. \n\nUse these words and phrases: periphery, cooling effect, heavy sweating, dehydration, kidney failure, brain damage, dilate, chronic disease, vital organs, heat exposure\n\nDuring a fever, blood vessels in the skin _______________ to help lower body temperature. ",
+    "answer": "Dilate",
+    "instruction": "",
+    "test_order": 45
+  },
+  {
+    "id": "30ad105c-55d5-4363-bf16-bcc901b287cb",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase. \n\nUse these words and phrases: periphery, cooling effect, heavy sweating, dehydration, kidney failure, brain damage, dilate, chronic disease, vital organs, heat exposure\n\nWhen blood rushes to the _______________, the hands and feet may feel warm and red.",
+    "answer": "Periphery",
+    "instruction": "",
+    "test_order": 46
+  },
+  {
+    "id": "193e687e-4b40-479b-aac3-52902fb4e6c6",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase. \n\nUse these words and phrases: periphery, cooling effect, heavy sweating, dehydration, kidney failure, brain damage, dilate, chronic disease, vital organs, heat exposure\n\nAir conditioning creates a _______________ that prevents overheating indoors. ",
+    "answer": "Cooling effect",
+    "instruction": "",
+    "test_order": 47
+  },
+  {
+    "id": "1cd4abf8-565e-4ec1-9439-eb0cb15b954d",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase. \n\nUse these words and phrases: periphery, cooling effect, heavy sweating, dehydration, kidney failure, brain damage, dilate, chronic disease, vital organs, heat exposure\n\nIn severe heatstroke, blood is redirected away from _______________ like the liver and intestines, causing organ damage. ",
+    "answer": "Vital organs",
+    "instruction": "",
+    "test_order": 48
+  },
+  {
+    "id": "ac13625a-64b3-4638-ad1b-9c2b35c54ab7",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase. \n\nUse these words and phrases: periphery, cooling effect, heavy sweating, dehydration, kidney failure, brain damage, dilate, chronic disease, vital organs, heat exposure\n\n_______________ during physical work in the sun can lead to a rapid loss of electrolytes. ",
+    "answer": "Heavy sweating",
+    "instruction": "",
+    "test_order": 49
+  },
+  {
+    "id": "7b9f8598-62f9-4386-8bce-41c39a05e21f",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase. \n\nUse these words and phrases: periphery, cooling effect, heavy sweating, dehydration, kidney failure, brain damage, dilate, chronic disease, vital organs, heat exposure\n\nInfants and elderly people are more prone to _______________ because their thirst response is weaker. ",
+    "answer": "Dehydration",
+    "instruction": "",
+    "test_order": 50
+  },
+  {
+    "id": "3c5eb3ec-7a6f-477e-a32e-1249425b1fad",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase. \n\nUse these words and phrases: periphery, cooling effect, heavy sweating, dehydration, kidney failure, brain damage, dilate, chronic disease, vital organs, heat exposure\n\nPeople with _______________ such as hypertension or diabetes are at higher risk during heat waves. ",
+    "answer": "Chronic disease",
+    "instruction": "",
+    "test_order": 51
+  },
+  {
+    "id": "061101df-b834-4e81-8d27-e9ebd7e15ad7",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase. \n\nUse these words and phrases: periphery, cooling effect, heavy sweating, dehydration, kidney failure, brain damage, dilate, chronic disease, vital organs, heat exposure\n\nLong-term _______________ in workers who spend hours outside can cause chronic kidney disease. ",
+    "answer": "Heat exposure",
+    "instruction": "",
+    "test_order": 52
+  },
+  {
+    "id": "045715c8-fc75-4a79-a850-f3b766eed916",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase. \n\nUse these words and phrases: periphery, cooling effect, heavy sweating, dehydration, kidney failure, brain damage, dilate, chronic disease, vital organs, heat exposure\n\nIf the body cannot cool down, _______________ may develop, requiring dialysis. ",
+    "answer": "Kidney failure",
+    "instruction": "",
+    "test_order": 53
+  },
+  {
+    "id": "73751c23-4e4d-43e0-808f-cc658f2fb5a5",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase. \n\nUse these words and phrases: periphery, cooling effect, heavy sweating, dehydration, kidney failure, brain damage, dilate, chronic disease, vital organs, heat exposure\n\nExtreme hyperthermia can result in _______________, leading to permanent neurological deficits. ",
+    "answer": "Brain damage",
+    "instruction": "",
+    "test_order": 54
+  },
+  {
+    "id": "98ba243d-098c-4817-bc5d-ca43e76eac06",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nAccording to the text, anyone who cannot easily get to a cool place is at risk, including homeless people, workers who labor outdoors, disabled people, and ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Children only"
+      },
+      {
+        "key": "b",
+        "text": "Elderly people"
+      },
+      {
+        "key": "c",
+        "text": "Pregnant women only"
+      },
+      {
+        "key": "d",
+        "text": "People with mental health conditions"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 55
+  },
+  {
+    "id": "cd0d17fb-eb4f-446f-ae88-8b9ac32321b3",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nElderly people are often prescribed medication that predisposes them to ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Heat stroke"
+      },
+      {
+        "key": "b",
+        "text": "Dehydration"
+      },
+      {
+        "key": "c",
+        "text": "Low birth weight"
+      },
+      {
+        "key": "d",
+        "text": "Pre-term birth"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 56
+  },
+  {
+    "id": "27f73a33-d7dd-483a-8c4f-c84e2f3ca13a",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nChildren become dehydrated much faster than adults because their ________ are still developing.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hormonal pathways"
+      },
+      {
+        "key": "b",
+        "text": "Blood vessels"
+      },
+      {
+        "key": "c",
+        "text": "Kidneys"
+      },
+      {
+        "key": "d",
+        "text": "Cooling mechanisms"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 57
+  },
+  {
+    "id": "41a3bac8-2bd2-451a-9f50-ed2c140ec310",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nResearch shows an association between exposure to severe heat during pregnancy and ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Heart attacks and kidney failure"
+      },
+      {
+        "key": "b",
+        "text": "Low birth weights and pre-term births"
+      },
+      {
+        "key": "c",
+        "text": "Mental health conditions and disability"
+      },
+      {
+        "key": "d",
+        "text": "Heat waves and homelessness"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 58
+  },
+  {
+    "id": "6681d67f-dd90-41ac-a2d0-3630c0761762",
+    "type": "mcq",
+    "text": "From each list, choose ALL the correct options according to the text.\n\nWhich groups of people are mentioned as being at risk for heat-related illnesses?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Homeless people"
+      },
+      {
+        "key": "b",
+        "text": "Office workers"
+      },
+      {
+        "key": "c",
+        "text": "Workers who labor outdoors"
+      },
+      {
+        "key": "d",
+        "text": "Disabled people"
+      },
+      {
+        "key": "e",
+        "text": "Elderly people"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "c",
+      "d",
+      "e"
+    ],
+    "allow_multiple": true,
+    "test_order": 59
+  },
+  {
+    "id": "078460f3-8bfe-4d3d-8ebb-fdd204a4846b",
+    "type": "mcq",
+    "text": "From each list, choose ALL the correct options according to the text.\n\nWhich medical conditions increase a person's risk according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Underlying kidney disease"
+      },
+      {
+        "key": "b",
+        "text": "Heart disease"
+      },
+      {
+        "key": "c",
+        "text": "Mental health conditions"
+      },
+      {
+        "key": "d",
+        "text": "Skin conditions"
+      },
+      {
+        "key": "e",
+        "text": "Respiratory infections"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c"
+    ],
+    "allow_multiple": true,
+    "test_order": 60
+  },
+  {
+    "id": "dbc42100-1daa-4809-9ad9-028a47a1b21c",
+    "type": "mcq",
+    "text": "From each list, choose ALL the correct options according to the text.\n\nWhat pregnancy-related outcomes are linked to exposure to severe heat?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Low birth weights"
+      },
+      {
+        "key": "b",
+        "text": "Higher IQ in babies"
+      },
+      {
+        "key": "c",
+        "text": "Pre-term births"
+      },
+      {
+        "key": "d",
+        "text": "Reduced morning sickness"
+      },
+      {
+        "key": "e",
+        "text": "Increased risk of heat exhaustion for the mother"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "c",
+      "e"
+    ],
+    "allow_multiple": true,
+    "test_order": 61
+  },
+  {
+    "id": "141920cc-2b71-4d79-aa79-fdec2a5d08ec",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nAccording to the text, the most important things to do during an intense heat wave are staying hydrated and ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Eating light meals"
+      },
+      {
+        "key": "b",
+        "text": "Staying cool"
+      },
+      {
+        "key": "c",
+        "text": "Taking cold showers"
+      },
+      {
+        "key": "d",
+        "text": "Avoiding the sun completely"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 62
+  },
+  {
+    "id": "6ad89be5-609b-43ec-8f56-bc238b55d7a3",
+    "type": "mcq",
+    "text": "From the list, choose the correct option according to the text.\n\nWhich type of beverage is described as especially dehydrating?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Water"
+      },
+      {
+        "key": "b",
+        "text": "Caffeinated tea"
+      },
+      {
+        "key": "c",
+        "text": "Alcohol"
+      },
+      {
+        "key": "d",
+        "text": "Sports drinks"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 63
+  },
+  {
+    "id": "3cae5a51-5e6d-4cf4-ac39-9ca4b7d3a168",
+    "type": "mcq",
+    "text": "From the list, choose the correct option according to the text.\n\nWhat colour of urine is mentioned as a red flag for overheating?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Clear"
+      },
+      {
+        "key": "b",
+        "text": "Pale yellow"
+      },
+      {
+        "key": "c",
+        "text": "Dark yellow"
+      },
+      {
+        "key": "d",
+        "text": "Brown"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 64
+  },
+  {
+    "id": "3a0768d9-934d-49da-a7fd-5033220a295a",
+    "type": "mcq",
+    "text": "From the list, choose the correct option according to the text.\n\nWhich of the following is NOT listed as a symptom of heat exhaustion?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Headache"
+      },
+      {
+        "key": "b",
+        "text": "Rapid heartbeat"
+      },
+      {
+        "key": "c",
+        "text": "Cough"
+      },
+      {
+        "key": "d",
+        "text": "Nausea"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 65
+  },
+  {
+    "id": "f2216714-b1dc-493f-b61c-266e2070252e",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhat should you do to stay safe during a heat wave according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Drink caffeinated beverages to stay alert"
+      },
+      {
+        "key": "b",
+        "text": "Drink water alongside diuretics to counteract fluid loss"
+      },
+      {
+        "key": "c",
+        "text": "Abstain from high-intensity exercise when it's hot and humid"
+      },
+      {
+        "key": "d",
+        "text": "Ignore thirst because it's normal in hot weather"
+      },
+      {
+        "key": "e",
+        "text": "Stop what you're doing and take action when you notice symptoms"
+      }
+    ],
+    "correct_keys": [
+      "b",
+      "c",
+      "e"
+    ],
+    "allow_multiple": true,
+    "test_order": 66
+  },
+  {
+    "id": "6b0e9cf9-4605-4401-88fb-8dcff9a6f119",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich of the following are mentioned as symptoms of heat exhaustion?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Headache"
+      },
+      {
+        "key": "b",
+        "text": "Dizziness"
+      },
+      {
+        "key": "c",
+        "text": "Rapid heartbeat"
+      },
+      {
+        "key": "d",
+        "text": "Nausea"
+      },
+      {
+        "key": "e",
+        "text": "Fever"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "allow_multiple": true,
+    "test_order": 67
+  },
+  {
+    "id": "34224d48-7eef-4ff3-b9b8-1c6341961413",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich of the following are described as early signs that you are starting to overheat?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sweating profusely"
+      },
+      {
+        "key": "b",
+        "text": "Feeling thirsty"
+      },
+      {
+        "key": "c",
+        "text": "Dry mouth"
+      },
+      {
+        "key": "d",
+        "text": "Dark yellow urine"
+      },
+      {
+        "key": "e",
+        "text": "Loss of consciousness"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "allow_multiple": true,
+    "test_order": 68
+  },
+  {
+    "id": "07bfac3d-aaff-4e99-99df-1dc51cecfcd4",
+    "type": "ordering",
+    "text": "Arrange the sentences in the correct order.",
+    "items": [
+      "You may sweat profusely and feel thirsty.",
+      "You stop what you are doing and take action.",
+      "Red flags progress to symptoms of heat exhaustion (headache, dizziness, rapid heartbeat, nausea)."
+    ],
+    "answer_letters": "ACB",
+    "test_order": 69
+  },
+  {
+    "id": "f59261a8-673b-45e9-974c-8dd0f9ddc7ad",
+    "type": "mcq",
+    "text": "Choose the correct definition for the phrases. \n\nStaying hydrated",
+    "options": [
+      {
+        "key": "a",
+        "text": "To drink enough water so your body works well"
+      },
+      {
+        "key": "b",
+        "text": "To avoid doing hard physical activity"
+      },
+      {
+        "key": "c",
+        "text": "To feel like your mouth has no moisture"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 70
+  },
+  {
+    "id": "94457399-9ff5-47e6-91a9-423f932ed02d",
+    "type": "mcq",
+    "text": "Choose the correct definition for the phrases. \n\nTo beware of diuretics",
+    "options": [
+      {
+        "key": "a",
+        "text": "To feel like your mouth has no moisture"
+      },
+      {
+        "key": "b",
+        "text": "When your heart beats very fast"
+      },
+      {
+        "key": "c",
+        "text": "To be careful with drinks that make you urinate more"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 71
+  },
+  {
+    "id": "a270d421-c256-49f2-9a1b-adb122eb9eae",
+    "type": "mcq",
+    "text": "Choose the correct definition for the phrases. \n\nTo counteract fluid loss",
+    "options": [
+      {
+        "key": "a",
+        "text": "To become too hot (body temperature rises too much)"
+      },
+      {
+        "key": "b",
+        "text": "To avoid doing hard physical activity"
+      },
+      {
+        "key": "c",
+        "text": "To replace the water your body loses"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 72
+  },
+  {
+    "id": "9fb04c02-7f23-48ae-8f06-6573183b53dd",
+    "type": "mcq",
+    "text": "Choose the correct definition for the phrases. \n\nTo abstain from high-intensity exercise",
+    "options": [
+      {
+        "key": "a",
+        "text": "A condition with headache, dizziness, fast heartbeat"
+      },
+      {
+        "key": "b",
+        "text": "To avoid doing hard physical activity"
+      },
+      {
+        "key": "c",
+        "text": "To do something to fix a dangerous situation"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 73
+  },
+  {
+    "id": "cfda536f-ac60-4377-8423-8ca2248f314e",
+    "type": "mcq",
+    "text": "Choose the correct definition for the phrases. \n\nTo overheat",
+    "options": [
+      {
+        "key": "a",
+        "text": "To become too hot (body temperature rises too much)"
+      },
+      {
+        "key": "b",
+        "text": "To replace the water your body loses"
+      },
+      {
+        "key": "c",
+        "text": "To drink enough water so your body works well"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 74
+  },
+  {
+    "id": "7bc0aaef-58c5-46dc-b9e6-490caa495602",
+    "type": "mcq",
+    "text": "Choose the correct definition for the phrases. \n\nDry mouth",
+    "options": [
+      {
+        "key": "a",
+        "text": "To become too hot (body temperature rises too much)"
+      },
+      {
+        "key": "b",
+        "text": "When your heart beats very fast"
+      },
+      {
+        "key": "c",
+        "text": "To feel like your mouth has no moisture"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 75
+  },
+  {
+    "id": "ba040d6d-3441-4760-97e8-84566a89e188",
+    "type": "mcq",
+    "text": "Choose the correct definition for the phrases. \n\nHeat exhaustion",
+    "options": [
+      {
+        "key": "a",
+        "text": "To feel like your mouth has no moisture"
+      },
+      {
+        "key": "b",
+        "text": "To become too hot (body temperature rises too much)"
+      },
+      {
+        "key": "c",
+        "text": "A condition with headache, dizziness, fast heartbeat"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 76
+  },
+  {
+    "id": "f1eadb1f-409a-4317-b60f-04a64a57bb6f",
+    "type": "mcq",
+    "text": "Choose the correct definition for the phrases. \n\nTo take action",
+    "options": [
+      {
+        "key": "a",
+        "text": "To avoid doing hard physical activity"
+      },
+      {
+        "key": "b",
+        "text": "To feel like your mouth has no moisture"
+      },
+      {
+        "key": "c",
+        "text": "To do something to fix a dangerous situation"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 77
+  },
+  {
+    "id": "e974872c-b3cd-44f7-a9f0-7426a737e66e",
+    "type": "mcq",
+    "text": "Choose the correct definition for the phrases. \n\nRapid heartbeat",
+    "options": [
+      {
+        "key": "a",
+        "text": "To do something to fix a dangerous situation"
+      },
+      {
+        "key": "b",
+        "text": "When your heart beats very fast"
+      },
+      {
+        "key": "c",
+        "text": "To be careful with drinks that make you urinate more"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 78
+  },
+  {
+    "id": "2028417e-d387-4814-bae8-56dbc95506a4",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase.\n\nUse these words and phrases: to stay cool, dehydrating, staying hydrated, hot and humid, look out for, heat exhaustion, sweat profusely, urine flow, take action, dizziness\n\n_______________ is essential during a heat wave; you should drink water every 15–20 minutes. ",
+    "answer": "Staying hydrated",
+    "instruction": "",
+    "test_order": 79
+  },
+  {
+    "id": "0c6dff95-3ccc-417b-90d7-a0cc85934309",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase.\n\nUse these words and phrases: to stay cool, dehydrating, staying hydrated, hot and humid, look out for, heat exhaustion, sweat profusely, urine flow, take action, dizziness\n\nWearing light-coloured clothing and using a fan can help you _______________. ",
+    "answer": "To stay cool",
+    "instruction": "",
+    "test_order": 80
+  },
+  {
+    "id": "7f2a9f62-6d6f-4915-9de0-327d5796c708",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase.\n\nUse these words and phrases: to stay cool, dehydrating, staying hydrated, hot and humid, look out for, heat exhaustion, sweat profusely, urine flow, take action, dizziness\n\nEnergy drinks can be _______________ because of their high caffeine content. ",
+    "answer": "Dehydrating",
+    "instruction": "",
+    "test_order": 81
+  },
+  {
+    "id": "c058c307-9eca-4c41-8d20-91d0f8795b03",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase.\n\nUse these words and phrases: to stay cool, dehydrating, staying hydrated, hot and humid, look out for, heat exhaustion, sweat profusely, urine flow, take action, dizziness\n\nWhen it is _______________, your sweat does not evaporate easily, making it harder to cool down. ",
+    "answer": "Hot and humid",
+    "instruction": "",
+    "test_order": 82
+  },
+  {
+    "id": "1d9c6e80-3649-4c0b-875d-412b5f301c9a",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase.\n\nUse these words and phrases: to stay cool, dehydrating, staying hydrated, hot and humid, look out for, heat exhaustion, sweat profusely, urine flow, take action, dizziness\n\nYou should _______________ early signs of overheating, such as headache or confusion. ",
+    "answer": "Look out for",
+    "instruction": "",
+    "test_order": 83
+  },
+  {
+    "id": "1eb5897e-94bd-4f69-bd00-65d585364330",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase.\n\nUse these words and phrases: to stay cool, dehydrating, staying hydrated, hot and humid, look out for, heat exhaustion, sweat profusely, urine flow, take action, dizziness\n\nDuring physical work in the sun, a person may _______________ and lose a litre of fluid per hour. ",
+    "answer": "Sweat profusely",
+    "instruction": "",
+    "test_order": 84
+  },
+  {
+    "id": "395ebaa1-9f64-416a-84c4-05ef826e1051",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase.\n\nUse these words and phrases: to stay cool, dehydrating, staying hydrated, hot and humid, look out for, heat exhaustion, sweat profusely, urine flow, take action, dizziness\n\nIf your _______________ becomes dark yellow, that means you need more water. ",
+    "answer": "Urine flow",
+    "instruction": "",
+    "test_order": 85
+  },
+  {
+    "id": "9969ac1b-4e26-4207-b56e-0b20df211eae",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase.\n\nUse these words and phrases: to stay cool, dehydrating, staying hydrated, hot and humid, look out for, heat exhaustion, sweat profusely, urine flow, take action, dizziness\n\n_______________ includes symptoms like nausea, vomiting, and weakness. ",
+    "answer": "Heat exhaustion",
+    "instruction": "",
+    "test_order": 86
+  },
+  {
+    "id": "b88b00c4-a94e-4f2e-b0e8-cf4dfad78ff5",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase.\n\nUse these words and phrases: to stay cool, dehydrating, staying hydrated, hot and humid, look out for, heat exhaustion, sweat profusely, urine flow, take action, dizziness\n\nFeeling _______________ when standing up suddenly can be a sign of dehydration.",
+    "answer": "Dizziness",
+    "instruction": "",
+    "test_order": 87
+  },
+  {
+    "id": "525ea426-9a67-4d7c-9238-b3dc54936d03",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase.\n\nUse these words and phrases: to stay cool, dehydrating, staying hydrated, hot and humid, look out for, heat exhaustion, sweat profusely, urine flow, take action, dizziness\n\nIf you notice someone showing signs of heat stroke, _______________ immediately – call for help and move them to a cool place.",
+    "answer": "Take action",
+    "instruction": "",
+    "test_order": 88
+  }
+]

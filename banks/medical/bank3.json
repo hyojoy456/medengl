@@ -889,5 +889,24 @@
     "text": "Complete each sentence with the correct phrase. \n\nUse these phrases: specialize in, work with, be interested in, be good with, assist at, be good at\n\nAn emergency room doctor must _______________ making quick decisions under pressure.",
     "answer": "Be good at",
     "instruction": ""
+  },
+  {
+    "id": "c597142e-9a35-4521-a820-922c688c25ec",
+    "type": "image_inputs",
+    "text": "Name the doctor’s specialty in the pictures. \n\nUse the transformation rules for these words: cardiology, paediatrics, rheumatology",
+    "images": [
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_5bb1950eed1248dbacd2d37c4405c955_0.png",
+        "answer": "Rheumatologist"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_d173eda449b349f3a6f06ed7aa6ce1d4_1.png",
+        "answer": "Cardiologist"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_12e6b6a1b6f547e8892a745d67f3bfda_2.png",
+        "answer": "Paediatrician"
+      }
+    ]
   }
 ]
