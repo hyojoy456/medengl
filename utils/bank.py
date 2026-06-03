@@ -39,6 +39,10 @@ _MODULE_TITLES = (
     "First Aid Kit",
     "Jobs",
     "Toxins",
+    "Weather",
+    "Diet",
+    "Substance",
+    "Gadgets",
 )
 
 
@@ -47,16 +51,7 @@ def _numbered_module_label(index: int, title: str) -> str:
     return f"{index + 1}.\u00a0{title}"
 
 
-MODULE_DISPLAY_NAMES = [
-    _numbered_module_label(0, _MODULE_TITLES[0]),
-    _numbered_module_label(1, _MODULE_TITLES[1]),
-    _numbered_module_label(2, _MODULE_TITLES[2]),
-    _numbered_module_label(3, _MODULE_TITLES[3]),
-    "Module 5",
-    "Module 6",
-    "Module 7",
-    "Module 8",
-]
+MODULE_DISPLAY_NAMES = [_numbered_module_label(i, t) for i, t in enumerate(_MODULE_TITLES)]
 
 
 def module_display_name(bank_name: str, *, default: str = "") -> str:
