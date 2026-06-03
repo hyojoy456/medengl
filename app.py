@@ -21,6 +21,7 @@ from utils.bank import (
     get_banks_root,
     get_random_questions_from_bank,
     get_random_questions_from_multiple,
+    load_communicative_tasks,
     ordering_items_row_html,
     theory_markdown_without_block_delimiters,
     mcq_is_multi_select,
@@ -50,6 +51,8 @@ if "pending_section" not in st.session_state:
     st.session_state.pending_section = None
 if "theory_resume_test" not in st.session_state:
     st.session_state.theory_resume_test = False
+if "communicative_index" not in st.session_state:
+    st.session_state.communicative_index = 0
 
 
 def _open_theory_from_test() -> None:
@@ -117,12 +120,26 @@ def go_home() -> None:
     st.session_state.pending_bank = None
     st.session_state.pending_section = None
     st.session_state.theory_resume_test = False
+    st.session_state.communicative_index = 0
 
 
 def open_module_intro(bank_name: str, section: Optional[str] = None) -> None:
     st.session_state.mode = "module_intro"
     st.session_state.pending_bank = bank_name
     st.session_state.pending_section = section or st.session_state.get("selected_section")
+
+
+def open_communicative(bank_name: str, section: Optional[str] = None) -> None:
+    st.session_state.mode = "communicative"
+    st.session_state.pending_bank = bank_name
+    st.session_state.pending_section = section or st.session_state.get("pending_section") or "medical"
+    st.session_state.communicative_index = 0
+
+
+def _rerun_app() -> None:
+    fn = getattr(st, "rerun", None) or getattr(st, "experimental_rerun", None)
+    if fn:
+        fn()
 
 
 def load_theory_text(bank_name: str, section: Optional[str]) -> str:
@@ -483,15 +500,82 @@ elif st.session_state.mode == "section_home":
 elif st.session_state.mode == "module_intro":
     section = st.session_state.get("pending_section") or "medical"
     bank = st.session_state.get("pending_bank") or BANK_NAMES[0]
-    idx = BANK_NAMES.index(bank) + 1 if bank in BANK_NAMES else 0
     st.button("Back", on_click=lambda: st.session_state.__setitem__("mode", "home"))
-    st.header(f"Module {idx}")
-    st.caption("Review the theory before starting the test")
-    col1, col2 = st.columns([1, 1])
+    st.header(module_display_name(bank))
+    st.caption("Theory, oral practice, or the graded test")
+    col1, col2, col3 = st.columns(3)
     with col1:
-        st.button("💡 Open theory", type="secondary", use_container_width=True, on_click=lambda: st.session_state.__setitem__("mode", "theory"))
+        st.button(
+            "💡 Open theory",
+            type="secondary",
+            use_container_width=True,
+            on_click=lambda: st.session_state.__setitem__("mode", "theory"),
+        )
     with col2:
-        st.button("Start the Test", type="primary", use_container_width=True, on_click=lambda: start_test_for_bank(bank))
+        st.button(
+            "Communicative tasks",
+            type="secondary",
+            use_container_width=True,
+            on_click=lambda: open_communicative(bank, section),
+        )
+    with col3:
+        st.button(
+            "Start the Test",
+            type="primary",
+            use_container_width=True,
+            on_click=lambda: start_test_for_bank(bank),
+        )
+
+elif st.session_state.mode == "communicative":
+    section = st.session_state.get("pending_section") or "medical"
+    bank = st.session_state.get("pending_bank") or BANK_NAMES[0]
+    st.button(
+        "Back",
+        use_container_width=True,
+        on_click=lambda: st.session_state.__setitem__("mode", "module_intro"),
+    )
+    st.header(module_display_name(bank))
+    st.subheader("Communicative tasks")
+    st.caption("Practice orally in pairs or groups. These tasks are not graded.")
+    _inject_student_css(_THEORY_CSS)
+
+    tasks = load_communicative_tasks(bank, section)
+    if not tasks:
+        st.info("No communicative tasks in this module yet. Ask your instructor to add them in Admin.")
+    else:
+        total = len(tasks)
+        idx = int(st.session_state.get("communicative_index") or 0)
+        idx = max(0, min(idx, total - 1))
+        st.session_state.communicative_index = idx
+        st.caption(f"Task {idx + 1} of {total}")
+        render_markdown_text(tasks[idx].get("text"))
+
+        nav_prev, nav_next, nav_all = st.columns([1, 1, 2])
+        with nav_prev:
+            if st.button(
+                "← Previous",
+                use_container_width=True,
+                disabled=(idx <= 0),
+                key=f"comm_prev_{bank}_{idx}",
+            ):
+                st.session_state.communicative_index = max(0, idx - 1)
+                _rerun_app()
+        with nav_next:
+            if st.button(
+                "Next →",
+                use_container_width=True,
+                disabled=(idx >= total - 1),
+                key=f"comm_next_{bank}_{idx}",
+            ):
+                st.session_state.communicative_index = min(total - 1, idx + 1)
+                _rerun_app()
+        with nav_all:
+            with st.expander("All tasks in this module", expanded=False):
+                for i, task in enumerate(tasks, start=1):
+                    st.markdown(f"**Task {i}**")
+                    render_markdown_text(task.get("text"))
+                    if i < total:
+                        st.divider()
 
 elif st.session_state.mode == "theory":
     section = st.session_state.get("pending_section") or "medical"

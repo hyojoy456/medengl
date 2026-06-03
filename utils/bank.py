@@ -647,3 +647,67 @@ def add_ordering_question(
     questions.append(new_q)
     save_bank(bank_name, questions, section)
     return new_q
+
+
+def _communicative_path(bank_name: str, section: Optional[str] = None) -> Path:
+    sec = section or "medical"
+    comm_dir = get_banks_root() / sec / "communicative"
+    comm_dir.mkdir(parents=True, exist_ok=True)
+    return comm_dir / f"{bank_name}.json"
+
+
+def load_communicative_tasks(bank_name: str, section: Optional[str] = None) -> List[Dict[str, Any]]:
+    path = _communicative_path(bank_name, section)
+    if not path.exists():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8") or "[]")
+        if isinstance(data, list):
+            return data
+    except Exception:
+        pass
+    return []
+
+
+def save_communicative_tasks(
+    bank_name: str,
+    tasks: List[Dict[str, Any]],
+    section: Optional[str] = None,
+) -> None:
+    path = _communicative_path(bank_name, section)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        path.write_text(json.dumps(tasks, ensure_ascii=False, indent=2), encoding="utf-8")
+    except OSError as exc:
+        raise OSError(f"Cannot write communicative tasks {path}: {exc}") from exc
+
+
+def add_communicative_task(
+    bank_name: str,
+    text: str,
+    section: Optional[str] = None,
+) -> Dict[str, Any]:
+    tasks = load_communicative_tasks(bank_name, section)
+    new_task: Dict[str, Any] = {
+        "id": str(uuid.uuid4()),
+        "text": (text or "").strip(),
+    }
+    tasks.append(new_task)
+    save_communicative_tasks(bank_name, tasks, section)
+    return new_task
+
+
+def delete_communicative_task(
+    bank_name: str,
+    task_id: str,
+    section: Optional[str] = None,
+) -> bool:
+    target = str(task_id or "").strip()
+    if not target:
+        return False
+    tasks = load_communicative_tasks(bank_name, section)
+    new_tasks = [t for t in tasks if str(t.get("id") or "").strip() != target]
+    if len(new_tasks) == len(tasks):
+        return False
+    save_communicative_tasks(bank_name, new_tasks, section)
+    return True

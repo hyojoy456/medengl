@@ -13,6 +13,9 @@ from utils.bank import (
     add_word_form_question,
     add_image_inputs_question,
     delete_question,
+    load_communicative_tasks,
+    add_communicative_task,
+    delete_communicative_task,
     update_question_fields,
     add_ordering_question,
     add_poster_question,
@@ -70,6 +73,19 @@ def _show_admin_flash() -> None:
         st.error(msg)
     elif kind == "success":
         st.success(msg)
+
+
+def _delete_communicative_cb(bname: str, tid: str) -> None:
+    try:
+        ok = delete_communicative_task(bname, tid, section=SECTION)
+    except OSError as exc:
+        st.session_state["_admin_flash"] = (
+            "error",
+            f"Не удалось сохранить файл: {exc}",
+        )
+        return
+    if not ok:
+        st.session_state["_admin_flash"] = ("error", "Коммуникативное задание не найдено.")
 
 
 def _delete_question_cb(bname: str, qid: str) -> None:
@@ -565,6 +581,45 @@ if submitted_poster2:
             st.success("Постер-задание добавлено")
         except ValueError as e:
             st.error(str(e))
+
+st.divider()
+
+st.subheader("Добавьте коммуникативные задания")
+st.caption(
+    "Устная практика: задания **не проверяются** и **не входят** в тест. "
+    "Ученики открывают их кнопкой Communicative tasks в модуле."
+)
+with st.form("add_communicative_med", clear_on_submit=True):
+    comm_text = st.text_area("Текст задания", height=120)
+    add_comm = st.form_submit_button("Сохранить", type="primary")
+if add_comm:
+    if not (comm_text or "").strip():
+        st.error("Введите текст задания")
+    else:
+        try:
+            add_communicative_task(bank_name, comm_text.strip(), section=SECTION)
+            st.success("Коммуникативное задание добавлено")
+            _admin_rerun()
+        except OSError as exc:
+            st.error(f"Не удалось сохранить: {exc}")
+
+comm_tasks = load_communicative_tasks(bank_name, section=SECTION)
+if not comm_tasks:
+    st.info("Пока нет коммуникативных заданий в этом модуле")
+else:
+    for i, task in enumerate(comm_tasks, start=1):
+        tid = str(task.get("id") or "")
+        cols_c = st.columns([5, 1])
+        with cols_c[0]:
+            qt = markdown_preserve_newlines(task.get("text") or "")
+            st.markdown(f"**{i}.** {qt}")
+        with cols_c[1]:
+            st.button(
+                "Удалить",
+                key=f"del_comm_{bank_name}_{SECTION}_{tid}",
+                on_click=_delete_communicative_cb,
+                args=(bank_name, tid),
+            )
 
 st.divider()
 
