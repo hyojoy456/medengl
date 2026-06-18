@@ -1,1 +1,700 @@
-[]
+[
+  {
+    "id": "31938b41-5107-4fa0-95bd-bbedc90f1cbb",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich of the following are consequences or characteristics of undernutrition?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Low weight for height"
+      },
+      {
+        "key": "b",
+        "text": "Overweight"
+      },
+      {
+        "key": "c",
+        "text": "Impeded physical development"
+      },
+      {
+        "key": "d",
+        "text": "High cholesterol"
+      },
+      {
+        "key": "e",
+        "text": "Impeded cognitive development"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "c",
+      "e"
+    ],
+    "allow_multiple": true
+  },
+  {
+    "id": "64059942-bd00-458a-bbec-720c35c5afb5",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich health problems are mentioned as NCDs linked to an unhealthy diet?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Diabetes"
+      },
+      {
+        "key": "b",
+        "text": "Cardiovascular disease"
+      },
+      {
+        "key": "c",
+        "text": "Some cancers"
+      },
+      {
+        "key": "d",
+        "text": "Neurological disorders"
+      },
+      {
+        "key": "e",
+        "text": "Mental health disorders"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "allow_multiple": true
+  },
+  {
+    "id": "1de78675-ab47-4dcc-a53a-f5e7b1632a55",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhat are the characteristics of ultra-processed foods according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "High in fat"
+      },
+      {
+        "key": "b",
+        "text": "Low in fibre"
+      },
+      {
+        "key": "c",
+        "text": "High in vitamins"
+      },
+      {
+        "key": "d",
+        "text": "High in calories"
+      },
+      {
+        "key": "e",
+        "text": "Low in protein"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "e"
+    ],
+    "allow_multiple": true
+  },
+  {
+    "id": "f668deb0-5d31-4a05-9429-e261f1ce3fca",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\nWrite words separated by the commas If it is necessary. \n\n(n i l a m u t t o r i n) ____________________ can be broadly grouped into conditions resulting from undernutrition, overnutrition, and increasingly a (a u d l n b u r d e) ____________________ of the two. ",
+    "answer": "malnutrition, dual burden",
+    "instruction": ""
+  },
+  {
+    "id": "441979ce-b841-4311-8b2f-814f0e58d626",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\nWrite words separated by the commas If it is necessary. \n\nUndernutrition is usually caused by not eating enough (u e t n t r i n s) ____________________, causing low weight for height and sometimes (o m t p d i i e g) ____________________ physical and (i g o n t e v c i e p m e l d e) ____________________. ",
+    "answer": "nutrients, impeding, cognitive development",
+    "instruction": ""
+  },
+  {
+    "id": "3f731387-0314-48a8-a937-2f4e5f76e65f",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\nWrite words separated by the commas If it is necessary. \n\nOvernutrition can lead to (v o e r w e g i h t) ____________________ and (b o e i t y s) ____________________, conditions which increase the risk of developing (D N S C) ____________________. ",
+    "answer": "overweight, obesity, NCDs",
+    "instruction": ""
+  },
+  {
+    "id": "a3407c37-7498-4122-84e2-e0697eeae442",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\nWrite words separated by the commas If it is necessary. \n\nA growing number of people live with both types of malnutrition simultaneously, as a result of (a u p l t r - c d r o e s e p s o d o f) ____________________ that are high in (a t f) ____________________ and calories.",
+    "answer": "ultra-processed foods, fat",
+    "instruction": ""
+  },
+  {
+    "id": "5a67fb8b-6bd3-4296-a91e-9f452fb02571",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\nWrite words separated by the commas If it is necessary. \n\nAn (l h u a e t n y h d i e t) ____________________ contributes to (i g h h c e t l r o o s e h l) ____________________, (n p e r e t i y h s o n) ____________________, high blood sugar, and overweight and obesity. ",
+    "answer": "unhealthy diet, high cholesterol, hypertension",
+    "instruction": ""
+  },
+  {
+    "id": "1a786b8f-e76e-4d60-beed-a167086c4de9",
+    "type": "mcq",
+    "text": "Choose the definition for the word. \n\nMalnutrition",
+    "options": [
+      {
+        "key": "a",
+        "text": "Too much food / getting more nutrients than needed"
+      },
+      {
+        "key": "b",
+        "text": "Health problems caused by not having a balanced diet (both too little and too much)"
+      },
+      {
+        "key": "c",
+        "text": "A disease where blood pressure is too high"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b"
+  },
+  {
+    "id": "c84db70d-76b8-4340-8281-fd4508454a29",
+    "type": "mcq",
+    "text": "Choose the definition for the word. \n\nUndernutrition",
+    "options": [
+      {
+        "key": "a",
+        "text": "Too little food / not getting enough nutrients"
+      },
+      {
+        "key": "b",
+        "text": "Too much food / getting more nutrients than needed"
+      },
+      {
+        "key": "c",
+        "text": "Being very overweight in a way that harms health"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a"
+  },
+  {
+    "id": "8240a4a5-47d7-467b-9a68-c759a1b9d789",
+    "type": "mcq",
+    "text": "Choose the definition for the word. \n\nOvernutrition",
+    "options": [
+      {
+        "key": "a",
+        "text": "Having both undernutrition and overnutrition at the same time"
+      },
+      {
+        "key": "b",
+        "text": "Substances in food that your body needs (vitamins, protein, etc.)"
+      },
+      {
+        "key": "c",
+        "text": "Too much food / getting more nutrients than needed"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c"
+  },
+  {
+    "id": "033f7d9c-0419-4b25-a754-19b273419dbb",
+    "type": "mcq",
+    "text": "Choose the definition for the word. \n\nDual burden",
+    "options": [
+      {
+        "key": "a",
+        "text": "Being very overweight in a way that harms health"
+      },
+      {
+        "key": "b",
+        "text": "Having both undernutrition and overnutrition at the same time"
+      },
+      {
+        "key": "c",
+        "text": "Diseases like diabetes and heart problems that are not contagious"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b"
+  },
+  {
+    "id": "df59ef47-ca32-49b3-865a-63988c74d472",
+    "type": "mcq",
+    "text": "Choose the definition for the word. \n\nNutrients",
+    "options": [
+      {
+        "key": "a",
+        "text": "Substances in food that your body needs (vitamins, protein, etc.)"
+      },
+      {
+        "key": "b",
+        "text": "A disease where blood pressure is too high"
+      },
+      {
+        "key": "c",
+        "text": "Industrial food products with high fat/calories but low real nutrients"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a"
+  },
+  {
+    "id": "9824b3a2-a60e-458b-ade7-45f825424f55",
+    "type": "mcq",
+    "text": "Choose the definition for the word.\n\nObesity",
+    "options": [
+      {
+        "key": "a",
+        "text": "Eating in a way that causes high cholesterol, high blood sugar, etc."
+      },
+      {
+        "key": "b",
+        "text": "Being very overweight in a way that harms health"
+      },
+      {
+        "key": "c",
+        "text": "Diseases like diabetes and heart problems that are not contagious"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b"
+  },
+  {
+    "id": "c62b8e7e-d65b-4f2e-8a28-e76b7bfa0f57",
+    "type": "mcq",
+    "text": "Choose the definition for the word.\n\nNCDs",
+    "options": [
+      {
+        "key": "a",
+        "text": "Diseases like diabetes and heart problems that are not contagious"
+      },
+      {
+        "key": "b",
+        "text": "A disease where blood pressure is too high"
+      },
+      {
+        "key": "c",
+        "text": "Having both undernutrition and overnutrition at the same time"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a"
+  },
+  {
+    "id": "61dcbea2-e2d5-4407-8a9c-3cb4f013b556",
+    "type": "mcq",
+    "text": "Choose the definition for the word.\n\nHypertension",
+    "options": [
+      {
+        "key": "a",
+        "text": "Industrial food products with high fat/calories but low real nutrients"
+      },
+      {
+        "key": "b",
+        "text": "Eating in a way that causes high cholesterol, high blood sugar, etc."
+      },
+      {
+        "key": "c",
+        "text": "A disease where blood pressure is too high"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c"
+  },
+  {
+    "id": "068de2a7-452a-4e5c-8e7e-d55ddcec2c18",
+    "type": "mcq",
+    "text": "Choose the definition for the word.\n\nUltra-processed foods",
+    "options": [
+      {
+        "key": "a",
+        "text": "Industrial food products with high fat/calories but low real nutrients"
+      },
+      {
+        "key": "b",
+        "text": "Being very overweight in a way that harms health"
+      },
+      {
+        "key": "c",
+        "text": "Too little food / not getting enough nutrients"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a"
+  },
+  {
+    "id": "3f92bc8c-bcec-4c50-801e-07ed344ca166",
+    "type": "mcq",
+    "text": "Choose the definition for the word.\n\nUnhealthy diet",
+    "options": [
+      {
+        "key": "a",
+        "text": "Eating in a way that causes high cholesterol, high blood sugar, etc."
+      },
+      {
+        "key": "b",
+        "text": "A disease where blood pressure is too high"
+      },
+      {
+        "key": "c",
+        "text": "Diseases like diabetes and heart problems that are not contagious"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a"
+  },
+  {
+    "id": "4ba85771-b292-469d-91cb-6357c95abb1b",
+    "type": "image_inputs",
+    "text": "Name peoples’ state on the pictures. \n\nUse these words: undernutrition, obesity, ultra-processed foods ",
+    "images": [
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_323b0fe2e0cf4ac2a26baabc74f56772_0.png",
+        "answer": "Ultra-processed food"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_eacff2d0279141518a6b5fdd0f4257cd_1.png",
+        "answer": "Obesity"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_8ca7754126d94be185c8c888107cd47d_2.png",
+        "answer": "Undernutrition "
+      }
+    ]
+  },
+  {
+    "id": "6f944bac-c865-4da4-98d5-e06cb6867cf0",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nChildren who suffer from chronic _______________ may never reach their full height potential.\n",
+    "answer": "undernutrition",
+    "instruction": ""
+  },
+  {
+    "id": "b26696c9-2ae7-4eeb-8100-82900818cbe6",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\n*Use commas to separate words*\n\nEating more calories than the body burns leads to _______________ and eventually _______________. ",
+    "answer": "overweight, obesity",
+    "instruction": ""
+  },
+  {
+    "id": "956a0dd7-1e81-4d8d-93b5-d34ff3d29a3b",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nA diet rich in fruits, vegetables, and whole grains provides essential _______________ that the body cannot produce on its own. \n\n",
+    "answer": "nutrients",
+    "instruction": ""
+  },
+  {
+    "id": "c3ee0886-5a4c-4b9a-a4c5-4555fbdc54ae",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nLack of protein and micronutrients in early childhood can _______________ physical and cognitive _______________. ",
+    "answer": "impede development",
+    "instruction": ""
+  },
+  {
+    "id": "83b673ac-ddd7-4e6c-ac2e-5ca49440b8de",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nSmoking, physical inactivity, and _______________ are all risk factors for cardiovascular disease. ",
+    "answer": "unhealthy diet",
+    "instruction": ""
+  },
+  {
+    "id": "1341a9c8-348f-4ecf-b768-befa4db865b7",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\n_______________ are often cheap and convenient, but they contain little fibre or protein. ",
+    "answer": "ultra-processed foods",
+    "instruction": ""
+  },
+  {
+    "id": "5d9cef6a-7012-4ecb-8403-ec3130cc0088",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\n_______________ is often called the \"silent killer\" because it has no symptoms but damages blood vessels. ",
+    "answer": "hypertension",
+    "instruction": ""
+  },
+  {
+    "id": "bd277a3f-3009-40d9-86c0-f8af5750b861",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nConsistently high levels of glucose in the blood indicate _______________, a precursor to diabetes. ",
+    "answer": "high blood sugar",
+    "instruction": ""
+  },
+  {
+    "id": "c67e04f2-c8ec-47b7-82a6-3f37d082e07b",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nThe global rise of _______________ such as heart disease and diabetes is closely linked to changes in diet and lifestyle. ",
+    "answer": "NCDs",
+    "instruction": ""
+  },
+  {
+    "id": "c295ed4f-f3bc-43a9-b58d-dae362b6d3c3",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nDiabetes is an NCD that has reached ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Global priority"
+      },
+      {
+        "key": "b",
+        "text": "Pandemic proportions"
+      },
+      {
+        "key": "c",
+        "text": "Insulin resistance"
+      },
+      {
+        "key": "d",
+        "text": "Widespread disability"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b"
+  },
+  {
+    "id": "1d8538ad-de22-4ec2-8709-7f39cb7ade3c",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nMore than 90% of people with diabetes have type 2 diabetes, which is largely preventable and treatable with insulin, a healthy diet and ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Daily injections"
+      },
+      {
+        "key": "b",
+        "text": "Physical inactivity"
+      },
+      {
+        "key": "c",
+        "text": "Enough physical activity"
+      },
+      {
+        "key": "d",
+        "text": "Medication"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c"
+  },
+  {
+    "id": "364d2bdf-95d1-4ac0-bbcf-b494a21a06e2",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nIf you have type 1 diabetes, your ________ does not make insulin or makes very little insulin.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pancreas"
+      },
+      {
+        "key": "b",
+        "text": "Liver"
+      },
+      {
+        "key": "c",
+        "text": "Kidneys"
+      },
+      {
+        "key": "d",
+        "text": "Heart"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a"
+  },
+  {
+    "id": "0637b5d3-ac31-438f-b0c8-bd49d708d171",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nPeople living with type 1 diabetes need daily insulin injections to control their ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Body weight"
+      },
+      {
+        "key": "b",
+        "text": "Blood glucose levels"
+      },
+      {
+        "key": "c",
+        "text": "Cholesterol levels"
+      },
+      {
+        "key": "d",
+        "text": "Blood pressure"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b"
+  },
+  {
+    "id": "ea494a1b-719a-4072-9c79-2e9dd53571a1",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nGestational diabetes (GDM) is caused by high blood glucose during pregnancy that usually ________ after birth.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stays"
+      },
+      {
+        "key": "b",
+        "text": "Disappears"
+      },
+      {
+        "key": "c",
+        "text": "Increases"
+      },
+      {
+        "key": "d",
+        "text": "Causes complications"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b"
+  },
+  {
+    "id": "15ae80ae-1629-4e4b-aebf-68aeb3d120a3",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich of the following are mentioned as complications of diabetes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Damage to the heart"
+      },
+      {
+        "key": "b",
+        "text": "Damage to the eyes"
+      },
+      {
+        "key": "c",
+        "text": "Damage to the kidneys"
+      },
+      {
+        "key": "d",
+        "text": "Damage to the feet"
+      },
+      {
+        "key": "e",
+        "text": "Damage to the pancreas"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "allow_multiple": true
+  },
+  {
+    "id": "2007434f-73cc-4f06-837a-82f758bf1aa4",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhat can help manage gestational diabetes according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A healthy diet"
+      },
+      {
+        "key": "b",
+        "text": "Daily insulin injections"
+      },
+      {
+        "key": "c",
+        "text": "Physical activity"
+      },
+      {
+        "key": "d",
+        "text": "Medication"
+      },
+      {
+        "key": "e",
+        "text": "Surgery"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "c",
+      "d"
+    ],
+    "allow_multiple": true
+  },
+  {
+    "id": "6df80f27-6323-47cb-b8cc-2e81d722fe5c",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich statements about type 1 diabetes are true according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It commonly develops in children and young adults"
+      },
+      {
+        "key": "b",
+        "text": "It is caused by insulin resistance"
+      },
+      {
+        "key": "c",
+        "text": "It can be prevented with a healthy diet"
+      },
+      {
+        "key": "d",
+        "text": "There is no known cure"
+      },
+      {
+        "key": "e",
+        "text": "People with type 1 diabetes need daily insulin injections"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "d",
+      "e"
+    ],
+    "allow_multiple": true
+  }
+]
