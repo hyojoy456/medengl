@@ -30,7 +30,8 @@
       "c",
       "e"
     ],
-    "allow_multiple": true
+    "allow_multiple": true,
+    "test_order": 1
   },
   {
     "id": "64059942-bd00-458a-bbec-720c35c5afb5",
@@ -65,7 +66,8 @@
       "d",
       "e"
     ],
-    "allow_multiple": true
+    "allow_multiple": true,
+    "test_order": 2
   },
   {
     "id": "1de78675-ab47-4dcc-a53a-f5e7b1632a55",
@@ -98,42 +100,48 @@
       "b",
       "e"
     ],
-    "allow_multiple": true
+    "allow_multiple": true,
+    "test_order": 3
   },
   {
     "id": "f668deb0-5d31-4a05-9429-e261f1ce3fca",
     "type": "word_form",
     "text": "Write the correct word in the blank.\n\nWrite words separated by the commas If it is necessary. \n\n(n i l a m u t t o r i n) ____________________ can be broadly grouped into conditions resulting from undernutrition, overnutrition, and increasingly a (a u d l n b u r d e) ____________________ of the two. ",
     "answer": "malnutrition, dual burden",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 4
   },
   {
     "id": "441979ce-b841-4311-8b2f-814f0e58d626",
     "type": "word_form",
     "text": "Write the correct word in the blank.\n\nWrite words separated by the commas If it is necessary. \n\nUndernutrition is usually caused by not eating enough (u e t n t r i n s) ____________________, causing low weight for height and sometimes (o m t p d i i e g) ____________________ physical and (i g o n t e v c i e p m e l d e) ____________________. ",
     "answer": "nutrients, impeding, cognitive development",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 5
   },
   {
     "id": "3f731387-0314-48a8-a937-2f4e5f76e65f",
     "type": "word_form",
     "text": "Write the correct word in the blank.\n\nWrite words separated by the commas If it is necessary. \n\nOvernutrition can lead to (v o e r w e g i h t) ____________________ and (b o e i t y s) ____________________, conditions which increase the risk of developing (D N S C) ____________________. ",
     "answer": "overweight, obesity, NCDs",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 6
   },
   {
     "id": "a3407c37-7498-4122-84e2-e0697eeae442",
     "type": "word_form",
     "text": "Write the correct word in the blank.\n\nWrite words separated by the commas If it is necessary. \n\nA growing number of people live with both types of malnutrition simultaneously, as a result of (a u p l t r - c d r o e s e p s o d o f) ____________________ that are high in (a t f) ____________________ and calories.",
     "answer": "ultra-processed foods, fat",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 7
   },
   {
     "id": "5a67fb8b-6bd3-4296-a91e-9f452fb02571",
     "type": "word_form",
     "text": "Write the correct word in the blank.\n\nWrite words separated by the commas If it is necessary. \n\nAn (l h u a e t n y h d i e t) ____________________ contributes to (i g h h c e t l r o o s e h l) ____________________, (n p e r e t i y h s o n) ____________________, high blood sugar, and overweight and obesity. ",
     "answer": "unhealthy diet, high cholesterol, hypertension",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 8
   },
   {
     "id": "1a786b8f-e76e-4d60-beed-a167086c4de9",
@@ -157,7 +165,8 @@
       "b"
     ],
     "allow_multiple": false,
-    "correct_key": "b"
+    "correct_key": "b",
+    "test_order": 9
   },
   {
     "id": "c84db70d-76b8-4340-8281-fd4508454a29",
@@ -181,7 +190,8 @@
       "a"
     ],
     "allow_multiple": false,
-    "correct_key": "a"
+    "correct_key": "a",
+    "test_order": 10
   },
   {
     "id": "8240a4a5-47d7-467b-9a68-c759a1b9d789",
@@ -205,7 +215,8 @@
       "c"
     ],
     "allow_multiple": false,
-    "correct_key": "c"
+    "correct_key": "c",
+    "test_order": 11
   },
   {
     "id": "033f7d9c-0419-4b25-a754-19b273419dbb",
@@ -229,7 +240,8 @@
       "b"
     ],
     "allow_multiple": false,
-    "correct_key": "b"
+    "correct_key": "b",
+    "test_order": 12
   },
   {
     "id": "df59ef47-ca32-49b3-865a-63988c74d472",
@@ -253,7 +265,8 @@
       "a"
     ],
     "allow_multiple": false,
-    "correct_key": "a"
+    "correct_key": "a",
+    "test_order": 13
   },
   {
     "id": "9824b3a2-a60e-458b-ade7-45f825424f55",
@@ -277,7 +290,8 @@
       "b"
     ],
     "allow_multiple": false,
-    "correct_key": "b"
+    "correct_key": "b",
+    "test_order": 14
   },
   {
     "id": "c62b8e7e-d65b-4f2e-8a28-e76b7bfa0f57",
@@ -301,7 +315,8 @@
       "a"
     ],
     "allow_multiple": false,
-    "correct_key": "a"
+    "correct_key": "a",
+    "test_order": 15
   },
   {
     "id": "61dcbea2-e2d5-4407-8a9c-3cb4f013b556",
@@ -325,7 +340,8 @@
       "c"
     ],
     "allow_multiple": false,
-    "correct_key": "c"
+    "correct_key": "c",
+    "test_order": 16
   },
   {
     "id": "068de2a7-452a-4e5c-8e7e-d55ddcec2c18",
@@ -349,7 +365,8 @@
       "a"
     ],
     "allow_multiple": false,
-    "correct_key": "a"
+    "correct_key": "a",
+    "test_order": 17
   },
   {
     "id": "3f92bc8c-bcec-4c50-801e-07ed344ca166",
@@ -373,7 +390,8 @@
       "a"
     ],
     "allow_multiple": false,
-    "correct_key": "a"
+    "correct_key": "a",
+    "test_order": 18
   },
   {
     "id": "4ba85771-b292-469d-91cb-6357c95abb1b",
@@ -392,70 +410,80 @@
         "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_8ca7754126d94be185c8c888107cd47d_2.png",
         "answer": "Undernutrition "
       }
-    ]
+    ],
+    "test_order": 19
   },
   {
     "id": "6f944bac-c865-4da4-98d5-e06cb6867cf0",
     "type": "word_form",
     "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nChildren who suffer from chronic _______________ may never reach their full height potential.\n",
     "answer": "undernutrition",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 20
   },
   {
     "id": "b26696c9-2ae7-4eeb-8100-82900818cbe6",
     "type": "word_form",
     "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\n*Use commas to separate words*\n\nEating more calories than the body burns leads to _______________ and eventually _______________. ",
     "answer": "overweight, obesity",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 21
   },
   {
     "id": "956a0dd7-1e81-4d8d-93b5-d34ff3d29a3b",
     "type": "word_form",
     "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nA diet rich in fruits, vegetables, and whole grains provides essential _______________ that the body cannot produce on its own. \n\n",
     "answer": "nutrients",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 22
   },
   {
     "id": "c3ee0886-5a4c-4b9a-a4c5-4555fbdc54ae",
     "type": "word_form",
     "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nLack of protein and micronutrients in early childhood can _______________ physical and cognitive _______________. ",
     "answer": "impede development",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 23
   },
   {
     "id": "83b673ac-ddd7-4e6c-ac2e-5ca49440b8de",
     "type": "word_form",
     "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nSmoking, physical inactivity, and _______________ are all risk factors for cardiovascular disease. ",
     "answer": "unhealthy diet",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 24
   },
   {
     "id": "1341a9c8-348f-4ecf-b768-befa4db865b7",
     "type": "word_form",
     "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\n_______________ are often cheap and convenient, but they contain little fibre or protein. ",
     "answer": "ultra-processed foods",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 25
   },
   {
     "id": "5d9cef6a-7012-4ecb-8403-ec3130cc0088",
     "type": "word_form",
     "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\n_______________ is often called the \"silent killer\" because it has no symptoms but damages blood vessels. ",
     "answer": "hypertension",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 26
   },
   {
     "id": "bd277a3f-3009-40d9-86c0-f8af5750b861",
     "type": "word_form",
     "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nConsistently high levels of glucose in the blood indicate _______________, a precursor to diabetes. ",
     "answer": "high blood sugar",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 27
   },
   {
     "id": "c67e04f2-c8ec-47b7-82a6-3f37d082e07b",
     "type": "word_form",
     "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: malnutrition, undernutrition, overnutrition, nutrients, impede development, overweight, obesity, NCDs, ultra-processed foods, unhealthy diet, high cholesterol, hypertension, high blood sugar\n\nThe global rise of _______________ such as heart disease and diabetes is closely linked to changes in diet and lifestyle. ",
     "answer": "NCDs",
-    "instruction": ""
+    "instruction": "",
+    "test_order": 28
   },
   {
     "id": "c295ed4f-f3bc-43a9-b58d-dae362b6d3c3",
@@ -483,7 +511,8 @@
       "b"
     ],
     "allow_multiple": false,
-    "correct_key": "b"
+    "correct_key": "b",
+    "test_order": 29
   },
   {
     "id": "1d8538ad-de22-4ec2-8709-7f39cb7ade3c",
@@ -511,7 +540,8 @@
       "c"
     ],
     "allow_multiple": false,
-    "correct_key": "c"
+    "correct_key": "c",
+    "test_order": 30
   },
   {
     "id": "364d2bdf-95d1-4ac0-bbcf-b494a21a06e2",
@@ -539,7 +569,8 @@
       "a"
     ],
     "allow_multiple": false,
-    "correct_key": "a"
+    "correct_key": "a",
+    "test_order": 31
   },
   {
     "id": "0637b5d3-ac31-438f-b0c8-bd49d708d171",
@@ -567,7 +598,8 @@
       "b"
     ],
     "allow_multiple": false,
-    "correct_key": "b"
+    "correct_key": "b",
+    "test_order": 32
   },
   {
     "id": "ea494a1b-719a-4072-9c79-2e9dd53571a1",
@@ -595,7 +627,8 @@
       "b"
     ],
     "allow_multiple": false,
-    "correct_key": "b"
+    "correct_key": "b",
+    "test_order": 33
   },
   {
     "id": "15ae80ae-1629-4e4b-aebf-68aeb3d120a3",
@@ -629,7 +662,8 @@
       "c",
       "d"
     ],
-    "allow_multiple": true
+    "allow_multiple": true,
+    "test_order": 34
   },
   {
     "id": "2007434f-73cc-4f06-837a-82f758bf1aa4",
@@ -662,7 +696,8 @@
       "c",
       "d"
     ],
-    "allow_multiple": true
+    "allow_multiple": true,
+    "test_order": 35
   },
   {
     "id": "6df80f27-6323-47cb-b8cc-2e81d722fe5c",
@@ -695,6 +730,1513 @@
       "d",
       "e"
     ],
-    "allow_multiple": true
+    "allow_multiple": true,
+    "test_order": 36
+  },
+  {
+    "id": "c8f599eb-4119-44b9-b389-bfe8719586d9",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\nDiabetes is an NCD that has reached (d e c a n m i p t i o n n r o s p) ____________________. ",
+    "answer": "pandemic proportions",
+    "instruction": "",
+    "test_order": 37
+  },
+  {
+    "id": "1abaa72e-e8d9-43d7-bb61-a869690e0575",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\n*Use commas to separate words*\n\nIf you have type 1 diabetes, your (p a n c r e a s) ____________________ does not make (u s i l n i) ____________________ or makes very little. ",
+    "answer": "pancreas, insulin",
+    "instruction": "",
+    "test_order": 38
+  },
+  {
+    "id": "d874e891-1c4e-4d3b-9b6a-0ad5d7553910",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\nPeople with type 1 diabetes need daily insulin injections to control their (d o b o l g s u e g c l e v s e l) ____________________. ",
+    "answer": "blood glucose levels",
+    "instruction": "",
+    "test_order": 39
+  },
+  {
+    "id": "d24e4387-e066-4308-9dbc-f489073b2a24",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\nType 2 diabetes is the most common type. The primary indicator is (n u i l s i e s n c a t e r i s) ____________________. ",
+    "answer": "insulin resistance",
+    "instruction": "",
+    "test_order": 40
+  },
+  {
+    "id": "44084a08-1546-4b35-b5ee-6255468bc0a7",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\n(t s e l g a a o n i i c b d e a t s) ____________________ is caused by high blood glucose during pregnancy and usually disappears after birth. ",
+    "answer": "gestational diabetes",
+    "instruction": "",
+    "test_order": 41
+  },
+  {
+    "id": "e587ded6-683c-48a3-bcfb-bc2f089c83cc",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\nA healthy diet, physical activity, and (i t a n o c e d m i) ____________________ can help manage GDM. ",
+    "answer": "medication",
+    "instruction": "",
+    "test_order": 42
+  },
+  {
+    "id": "807491d6-0c1f-4225-8a8c-fbe3f2e44cf6",
+    "type": "word_form",
+    "text": "Write the correct word in the blank.\n\nThere is no known (u r c e) ____________________ for type 1 diabetes.",
+    "answer": "cure",
+    "instruction": "",
+    "test_order": 43
+  },
+  {
+    "id": "8c364abe-14de-4630-acec-935a5f29b9f0",
+    "type": "mcq",
+    "text": "Choose the correct definition for the words and phrases. \n\nInsulin",
+    "options": [
+      {
+        "key": "a",
+        "text": "a hormone that controls blood sugar"
+      },
+      {
+        "key": "b",
+        "text": "shots given every day to manage blood sugar"
+      },
+      {
+        "key": "c",
+        "text": "health problems that develop as a result of another disease"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 44
+  },
+  {
+    "id": "ccab7352-06c7-4aef-9472-e43c262bebc3",
+    "type": "mcq",
+    "text": "Choose the correct definition for the words and phrases. \n\nPancreas",
+    "options": [
+      {
+        "key": "a",
+        "text": "the organ that produces insulin"
+      },
+      {
+        "key": "b",
+        "text": "medicines used to treat an illness"
+      },
+      {
+        "key": "c",
+        "text": "shots given every day to manage blood sugar"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 45
+  },
+  {
+    "id": "3257e49d-b824-44cd-bb24-cd21113002d1",
+    "type": "mcq",
+    "text": "Choose the correct definition for the words and phrases. \n\nComplications",
+    "options": [
+      {
+        "key": "a",
+        "text": "shots given every day to manage blood sugar"
+      },
+      {
+        "key": "b",
+        "text": "when the body's cells don't respond to insulin properly"
+      },
+      {
+        "key": "c",
+        "text": "health problems that develop as a result of another disease"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 46
+  },
+  {
+    "id": "2070f07a-d96b-48ac-a15d-e914d67104d9",
+    "type": "mcq",
+    "text": "Choose the correct definition for the words and phrases. \n\nBlood glucose levels",
+    "options": [
+      {
+        "key": "a",
+        "text": "not moving your body enough; sitting too much"
+      },
+      {
+        "key": "b",
+        "text": "the amount of sugar in your blood at any time"
+      },
+      {
+        "key": "c",
+        "text": "medicines used to treat an illness"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 47
+  },
+  {
+    "id": "aa86a5ed-3dae-426e-89c8-7a2fe56d9ca7",
+    "type": "mcq",
+    "text": "Choose the correct definition for the words and phrases. \n\nInsulin resistance",
+    "options": [
+      {
+        "key": "a",
+        "text": "when the body's cells don't respond to insulin properly"
+      },
+      {
+        "key": "b",
+        "text": "health problems that develop as a result of another disease"
+      },
+      {
+        "key": "c",
+        "text": "medicines used to treat an illness"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 48
+  },
+  {
+    "id": "1fc6e906-644e-4c3e-87de-dad0650b64c4",
+    "type": "mcq",
+    "text": "Choose the correct definition for the words and phrases. \n\nDaily insulin injections",
+    "options": [
+      {
+        "key": "a",
+        "text": "shots given every day to manage blood sugar"
+      },
+      {
+        "key": "b",
+        "text": "the amount of sugar in your blood at any time"
+      },
+      {
+        "key": "c",
+        "text": "not moving your body enough; sitting too much"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 49
+  },
+  {
+    "id": "1450e053-c843-4c13-bb4d-41fd1474c432",
+    "type": "mcq",
+    "text": "Choose the correct definition for the words and phrases.\n\nMedication",
+    "options": [
+      {
+        "key": "a",
+        "text": "the organ that produces insulin"
+      },
+      {
+        "key": "b",
+        "text": "the amount of sugar in your blood at any time"
+      },
+      {
+        "key": "c",
+        "text": "medicines used to treat an illness"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 50
+  },
+  {
+    "id": "20b63eaf-28c5-4fe6-84d6-bd3e04ade9e4",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\nThe rise of obesity has led to a global increase in type 2 _______________. ",
+    "answer": "diabetes",
+    "instruction": "",
+    "test_order": 51
+  },
+  {
+    "id": "327e2a8f-77fe-44ee-8848-841d80973ceb",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\nMany chronic diseases are _______________ if people adopt a healthier lifestyle early.  ",
+    "answer": "preventable",
+    "instruction": "",
+    "test_order": 52
+  },
+  {
+    "id": "3d24265a-3890-4e01-b622-c9d0bd7ee2a8",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\nType 1 diabetes is _______________ with insulin, but it cannot be cured. ",
+    "answer": "treatable",
+    "instruction": "",
+    "test_order": 53
+  },
+  {
+    "id": "7fa9a416-4b45-4b30-aa65-c4d40fe16e98",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\nWithout _______________, a person with type 1 diabetes cannot survive because glucose cannot enter the cells.  ",
+    "answer": "insulin",
+    "instruction": "",
+    "test_order": 54
+  },
+  {
+    "id": "f6f1fae6-8c3f-48b7-a739-950de7d8add2",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\n_______________ due to diabetes can include blindness, kidney failure, and nerve damage. ",
+    "answer": "complications",
+    "instruction": "",
+    "test_order": 55
+  },
+  {
+    "id": "b9816ea2-7188-4b6b-ae1f-3e84eb647f64",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\nIn type 2 diabetes, the body’s cells develop _______________, so insulin becomes less effective.",
+    "answer": "insulin resistance",
+    "instruction": "",
+    "test_order": 56
+  },
+  {
+    "id": "f05ccb7b-b925-423e-b457-89d021cfffd1",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\n_______________ is a major risk factor for type 2 diabetes, especially in people with sedentary jobs. ",
+    "answer": "physical inactivity",
+    "instruction": "",
+    "test_order": 57
+  },
+  {
+    "id": "5abb23ef-8656-4aff-945f-40988748a0e4",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\n_______________ (GDM) often resolves after delivery, but it increases the mother's risk of developing type 2 diabetes later. ",
+    "answer": "gestational diabetes",
+    "instruction": "",
+    "test_order": 58
+  },
+  {
+    "id": "67051ff5-9164-48b5-86d6-0ff957e43db6",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\nPeople with diabetes should monitor their _______________ several times a day to adjust their treatment. ",
+    "answer": "blood glucose levels",
+    "instruction": "",
+    "test_order": 59
+  },
+  {
+    "id": "9564e001-566f-433d-a426-8edcc472e1f9",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\nThe pancreas produces insulin, but in type 1 diabetes the _______________ is destroyed by the immune system. ",
+    "answer": "pancreas",
+    "instruction": "",
+    "test_order": 60
+  },
+  {
+    "id": "056211d5-93ac-4a73-a8a0-600471c273e5",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\nWithout proper treatment, diabetes can reach _______________ and affect millions of lives globally. ",
+    "answer": "pandemic proportions",
+    "instruction": "",
+    "test_order": 61
+  },
+  {
+    "id": "299ef556-33f2-4b11-a737-763b0ffd9421",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\n_______________ are essential for people with type 1 diabetes – they need them every day. ",
+    "answer": "daily insulin injections",
+    "instruction": "",
+    "test_order": 62
+  },
+  {
+    "id": "de4afe2b-89ec-4fa9-9993-c4d5b5c7eb7b",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\nThough type 1 diabetes has no _______________, researchers are working on new therapies. ",
+    "answer": "cure",
+    "instruction": "",
+    "test_order": 63
+  },
+  {
+    "id": "8745b2a9-7e17-40d0-a8b8-28103c61c624",
+    "type": "word_form",
+    "text": "Complete each sentence with a word or phrase from the box. \n\nUse these words and phrases: insulin, pandemic proportions, diabetes, treatable, complications, pancreas, preventable, daily insulin injections, blood glucose levels, cure, insulin resistance, physical inactivity, gestational diabetes, medication\n\n_______________ is often used to manage high blood pressure, but for diabetes it includes metformin or insulin. ",
+    "answer": "medications",
+    "instruction": "",
+    "test_order": 64
+  },
+  {
+    "id": "1e205485-8916-42b2-81c3-166861a1c3ea",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nCardiovascular diseases affect the heart, ________ and arteries.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Veins"
+      },
+      {
+        "key": "b",
+        "text": "Lungs"
+      },
+      {
+        "key": "c",
+        "text": "Kidneys"
+      },
+      {
+        "key": "d",
+        "text": "Pancreas"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 65
+  },
+  {
+    "id": "de63a9f0-fe0b-4511-9fb2-9ea106f3d090",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\n________ and strokes cause 85% of CVD deaths.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Heart attacks"
+      },
+      {
+        "key": "b",
+        "text": "Pulmonary embolisms"
+      },
+      {
+        "key": "c",
+        "text": "Rheumatic fever"
+      },
+      {
+        "key": "d",
+        "text": "Deep vein thrombosis"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 66
+  },
+  {
+    "id": "849da45e-1854-4af6-a127-d5c2123cccb6",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nIn coronary artery disease, fatty buildup in the heart arteries prevents blood from reaching the ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Brain"
+      },
+      {
+        "key": "b",
+        "text": "Heart"
+      },
+      {
+        "key": "c",
+        "text": "Lungs"
+      },
+      {
+        "key": "d",
+        "text": "Legs"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 67
+  },
+  {
+    "id": "1728ca32-0ac3-45ea-ad4a-2d1c0bbfd3c3",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nCerebrovascular diseases prevent blood from reaching the ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Heart"
+      },
+      {
+        "key": "b",
+        "text": "Legs"
+      },
+      {
+        "key": "c",
+        "text": "Brain"
+      },
+      {
+        "key": "d",
+        "text": "Arms"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 68
+  },
+  {
+    "id": "97765ccf-7c8c-480c-9fff-e46842f2d95f",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nDeep vein thrombosis and pulmonary embolism involve ________ in the leg veins.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fatty buildup"
+      },
+      {
+        "key": "b",
+        "text": "Blood clots"
+      },
+      {
+        "key": "c",
+        "text": "Narrowed arteries"
+      },
+      {
+        "key": "d",
+        "text": "Damaged valves"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 69
+  },
+  {
+    "id": "ccb00ce5-cede-41ac-a882-8914fa4e904a",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich diseases are caused by fatty buildup according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Coronary artery disease"
+      },
+      {
+        "key": "b",
+        "text": "Peripheral arterial disease"
+      },
+      {
+        "key": "c",
+        "text": "Rheumatic heart disease"
+      },
+      {
+        "key": "d",
+        "text": "Congenital heart disease"
+      },
+      {
+        "key": "e",
+        "text": "Deep vein thrombosis"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b"
+    ],
+    "allow_multiple": true,
+    "test_order": 70
+  },
+  {
+    "id": "53075f4b-5674-4fa0-90f3-b1e525d339db",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich of the following are mentioned as diseases affecting blood vessels?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Coronary artery disease"
+      },
+      {
+        "key": "b",
+        "text": "Cerebrovascular diseases"
+      },
+      {
+        "key": "c",
+        "text": "Rheumatic heart disease"
+      },
+      {
+        "key": "d",
+        "text": "Congenital heart disease"
+      },
+      {
+        "key": "e",
+        "text": "Deep vein thrombosis"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "e"
+    ],
+    "allow_multiple": true,
+    "test_order": 71
+  },
+  {
+    "id": "57ab99ff-4ec9-4690-8e79-189d1d1eaf06",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhat are the characteristics of rheumatic heart disease according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is preventable"
+      },
+      {
+        "key": "b",
+        "text": "It is life-threatening"
+      },
+      {
+        "key": "c",
+        "text": "It causes permanent damage to heart valves"
+      },
+      {
+        "key": "d",
+        "text": "It is caused by fatty buildup"
+      },
+      {
+        "key": "e",
+        "text": "It is present at birth"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c"
+    ],
+    "allow_multiple": true,
+    "test_order": 72
+  },
+  {
+    "id": "9aa4a204-5287-439f-ac7a-e6d28833bad3",
+    "type": "word_form",
+    "text": "Write the correct words.\n\n*Use commas to separate words*\n\nCardiovascular diseases are a group of disorders that affect the heart, (e v n i s) ________ and (s t r e i a e r) ________. ",
+    "answer": "veins, arteries",
+    "instruction": "",
+    "test_order": 73
+  },
+  {
+    "id": "073ee8f7-028e-4504-b9c3-c0032399bd06",
+    "type": "word_form",
+    "text": "Write the correct words.\n\n(y a t t f b u p i l u) ________ in the heart arteries prevents blood from reaching the heart. ",
+    "answer": "fatty buildup",
+    "instruction": "",
+    "test_order": 74
+  },
+  {
+    "id": "c2404bbb-192d-4420-aff9-a9d656007489",
+    "type": "word_form",
+    "text": "Write the correct words. \n\nCerebrovascular diseases prevent blood from reaching the (i b a n r) ________. ",
+    "answer": "brain",
+    "instruction": "",
+    "test_order": 75
+  },
+  {
+    "id": "726038c4-d228-4317-82f1-a4d4694c32f9",
+    "type": "mcq",
+    "text": "Choose the correct word for the definition. \n\nDiseases of the heart and blood vessels",
+    "options": [
+      {
+        "key": "a",
+        "text": "Arteries"
+      },
+      {
+        "key": "b",
+        "text": "Veins"
+      },
+      {
+        "key": "c",
+        "text": "Cardiovascular diseases"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 76
+  },
+  {
+    "id": "07f596dc-bfc8-4c34-9cdb-999a0acf7b3f",
+    "type": "mcq",
+    "text": "Choose the correct word for the definition. \n\nBlood vessels that carry blood away from the heart",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stroke"
+      },
+      {
+        "key": "b",
+        "text": "Arteries"
+      },
+      {
+        "key": "c",
+        "text": "Blood flow"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 77
+  },
+  {
+    "id": "ed93d8c2-64e6-4165-8833-443dbd734bed",
+    "type": "mcq",
+    "text": "Choose the correct word for the definition. \n\nBlood vessels that carry blood back to the heart",
+    "options": [
+      {
+        "key": "a",
+        "text": "Blood clots"
+      },
+      {
+        "key": "b",
+        "text": "Stroke"
+      },
+      {
+        "key": "c",
+        "text": "Veins"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 78
+  },
+  {
+    "id": "30e4780a-ac26-4169-ac1f-2ec15908008c",
+    "type": "mcq",
+    "text": "Choose the correct word for the definition. \n\nFatty material that blocks blood flow",
+    "options": [
+      {
+        "key": "a",
+        "text": "Veins"
+      },
+      {
+        "key": "b",
+        "text": "Fatty buildup"
+      },
+      {
+        "key": "c",
+        "text": "Heart attack"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 79
+  },
+  {
+    "id": "d81a4c67-2955-41b5-91ac-4dcb5e4588a2",
+    "type": "mcq",
+    "text": "Choose the correct word for the definition. \n\nWhen blood flow to the brain is blocked",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pulmonary embolism"
+      },
+      {
+        "key": "b",
+        "text": "Arteries"
+      },
+      {
+        "key": "c",
+        "text": "Stroke"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 80
+  },
+  {
+    "id": "9a80ba1b-b514-437e-9767-3cfe6e114f71",
+    "type": "mcq",
+    "text": "Choose the correct word for the definition. \n\nWhen the heart stops getting blood due to blockage",
+    "options": [
+      {
+        "key": "a",
+        "text": "Heart attack"
+      },
+      {
+        "key": "b",
+        "text": "Deep vein thrombosis"
+      },
+      {
+        "key": "c",
+        "text": "Blood clots"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 81
+  },
+  {
+    "id": "e871d009-3867-4134-a783-b082d3337c59",
+    "type": "mcq",
+    "text": "Choose the correct word for the definition. \n\nThe movement of blood through the body",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stroke"
+      },
+      {
+        "key": "b",
+        "text": "Blood flow"
+      },
+      {
+        "key": "c",
+        "text": "Veins"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 82
+  },
+  {
+    "id": "a9165a69-f302-4db4-930c-496bd6fac9af",
+    "type": "mcq",
+    "text": "Choose the correct word for the definition. \n\nHard masses in blood vessels that can block them or travel",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fatty buildup"
+      },
+      {
+        "key": "b",
+        "text": "Blood clots"
+      },
+      {
+        "key": "c",
+        "text": "Arteries"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 83
+  },
+  {
+    "id": "fe960a7e-3f51-4c41-b0d8-9cf6cc58d429",
+    "type": "mcq",
+    "text": "Choose the correct word for the definition. \n\nA clot that travels to the lungs",
+    "options": [
+      {
+        "key": "a",
+        "text": "Blood flow"
+      },
+      {
+        "key": "b",
+        "text": "Stroke"
+      },
+      {
+        "key": "c",
+        "text": "Pulmonary embolism"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 84
+  },
+  {
+    "id": "92f253f5-2987-4d8c-83ef-f72c517bbcdd",
+    "type": "mcq",
+    "text": "Choose the correct word for the definition. \n\nA blood clot that forms in a deep leg vein",
+    "options": [
+      {
+        "key": "a",
+        "text": "Deep vein thrombosis"
+      },
+      {
+        "key": "b",
+        "text": "Blood clots"
+      },
+      {
+        "key": "c",
+        "text": "Blood flow"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 85
+  },
+  {
+    "id": "69218e3f-71f9-4330-90b4-21785433ce84",
+    "type": "image_inputs",
+    "text": "Name the pictures. \n\nUse these words: fatty buildup, blood clot, veins and arteries, blood flow\n",
+    "images": [
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_d629046657ff4b7f88242f5eaa276fa9_0.png",
+        "answer": "Arteries and veins"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_b78f33b16d654a6481410d713740a595_1.png",
+        "answer": "Blood flow"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_326b125a34f7431e986b879c0c37c256_2.png",
+        "answer": "Fatty buildup"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_b16721b447f44d1ca62fcde598a2d12f_3.png",
+        "answer": "Blood clot"
+      }
+    ],
+    "test_order": 86
+  },
+  {
+    "id": "6b4326f7-9f5c-4ed6-9687-39f34e30babf",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nCancer is caused by abnormal changes in normal cells, resulting in ________ growth that forms a lump.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Controlled"
+      },
+      {
+        "key": "b",
+        "text": "Uncontrolled"
+      },
+      {
+        "key": "c",
+        "text": "Slow"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 87
+  },
+  {
+    "id": "d5d74e59-7e11-4dde-8551-9bf1cf1c27cd",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nA tumour is also known as a ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lump"
+      },
+      {
+        "key": "b",
+        "text": "Cell"
+      },
+      {
+        "key": "c",
+        "text": "Tissue"
+      },
+      {
+        "key": "d",
+        "text": "System"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 88
+  },
+  {
+    "id": "7941716c-0812-440f-aadd-abb1546b5900",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nUntreated cancerous cells can spread to other parts of the body through the bloodstream and the ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nervous system"
+      },
+      {
+        "key": "b",
+        "text": "Lymphatic system"
+      },
+      {
+        "key": "c",
+        "text": "Digestive system"
+      },
+      {
+        "key": "d",
+        "text": "Respiratory system"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 89
+  },
+  {
+    "id": "d95d999d-4a1b-4bc6-851e-7a1dc146b7e5",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text. \n\nCancer that is detected at an advanced stage or not treated appropriately tends to cause ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mild symptoms"
+      },
+      {
+        "key": "b",
+        "text": "No symptoms"
+      },
+      {
+        "key": "c",
+        "text": "Severe symptoms and death"
+      },
+      {
+        "key": "d",
+        "text": "Rapid recovery"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 90
+  },
+  {
+    "id": "ecd2df89-5e0f-486d-a2df-76db5b9005a9",
+    "type": "mcq",
+    "text": "Which types of cancer may not form tumours?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lung cancer and breast cancer"
+      },
+      {
+        "key": "b",
+        "text": "Leukemia and lymphoma"
+      },
+      {
+        "key": "c",
+        "text": "Skin cancer and bone cancer"
+      },
+      {
+        "key": "d",
+        "text": "Brain cancer and liver cancer"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 91
+  },
+  {
+    "id": "1facbf1b-7fa4-4986-b010-0e47a0ff9b71",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhat can happen if cancer is left untreated?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cancerous cells invade nearby tissues"
+      },
+      {
+        "key": "b",
+        "text": "Cancerous cells spread to other parts of the body"
+      },
+      {
+        "key": "c",
+        "text": "Cancerous cells disappear on their own"
+      },
+      {
+        "key": "d",
+        "text": "Cancerous cells affect various body systems and functions"
+      },
+      {
+        "key": "e",
+        "text": "Cancerous cells only remain in one place"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "d"
+    ],
+    "allow_multiple": true,
+    "test_order": 92
+  },
+  {
+    "id": "55f994a2-d75f-4641-b402-a8935ec2713a",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich statements about early detection and treatment are true according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cancer detected early is not usually deadly"
+      },
+      {
+        "key": "b",
+        "text": "Cancer treated early is not usually deadly"
+      },
+      {
+        "key": "c",
+        "text": "Cancer detected at an advanced stage tends to cause severe symptoms"
+      },
+      {
+        "key": "d",
+        "text": "Cancer detected at an advanced stage is always curable"
+      },
+      {
+        "key": "e",
+        "text": "Equitable access to cancer care is important"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "allow_multiple": true,
+    "test_order": 93
+  },
+  {
+    "id": "78ed2be6-495f-4e68-95e5-621f14c193e5",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nNeurological disorders affect the brain, the nerves, and the ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Spinal cord"
+      },
+      {
+        "key": "b",
+        "text": "Heart"
+      },
+      {
+        "key": "c",
+        "text": "Kidneys"
+      },
+      {
+        "key": "d",
+        "text": "Pancreas"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a",
+    "test_order": 94
+  },
+  {
+    "id": "b24c447b-c29a-4654-8adc-2c404096c51f",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nThe majority of neurological disorders are ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Infectious"
+      },
+      {
+        "key": "b",
+        "text": "Noncommunicable"
+      },
+      {
+        "key": "c",
+        "text": "Bacterial"
+      },
+      {
+        "key": "d",
+        "text": "Viral"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 95
+  },
+  {
+    "id": "6145639c-d959-4c75-a8a7-d13d9ad7859b",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nA stroke occurs when a blood vessel that carries oxygen and nutrients to the brain is either blocked by a clot or ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Narrows"
+      },
+      {
+        "key": "b",
+        "text": "Ruptures"
+      },
+      {
+        "key": "c",
+        "text": "Expands"
+      },
+      {
+        "key": "d",
+        "text": "Thickens"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 96
+  },
+  {
+    "id": "31dc2074-6068-4980-b17b-2a48185167f0",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nDementia is a degenerative brain syndrome that negatively affects memory, behaviour, emotional processing, and ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Physical strength"
+      },
+      {
+        "key": "b",
+        "text": "Vision"
+      },
+      {
+        "key": "c",
+        "text": "Cognition"
+      },
+      {
+        "key": "d",
+        "text": "Hearing"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c",
+    "test_order": 97
+  },
+  {
+    "id": "1e848681-2f08-4b61-a4cf-44ac58929f57",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nThe main symptom of migraine disorder is ________, usually with throbbing in one particular area.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Dizziness"
+      },
+      {
+        "key": "b",
+        "text": "Intense headache"
+      },
+      {
+        "key": "c",
+        "text": "Numbness"
+      },
+      {
+        "key": "d",
+        "text": "Weakness"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 98
+  },
+  {
+    "id": "ee32c275-4bd8-4200-acf3-b2182e8e43eb",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nEpilepsy is a brain disease in which clusters of nerve cells signal abnormally, causing a ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stroke"
+      },
+      {
+        "key": "b",
+        "text": "Seizure"
+      },
+      {
+        "key": "c",
+        "text": "Migraine"
+      },
+      {
+        "key": "d",
+        "text": "Infection"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 99
+  },
+  {
+    "id": "26f45504-1e01-4b69-a905-c178df20d5e7",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nNeurodevelopmental conditions tend to present in ________ but can appear in adolescence or adulthood.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Infancy"
+      },
+      {
+        "key": "b",
+        "text": "Childhood"
+      },
+      {
+        "key": "c",
+        "text": "Old age"
+      },
+      {
+        "key": "d",
+        "text": "Middle age"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b",
+    "test_order": 100
+  },
+  {
+    "id": "95959e79-b1dd-4001-afe6-57f12fbc79a7",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich of the following are mentioned as brain infections in the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Meningitis"
+      },
+      {
+        "key": "b",
+        "text": "Encephalitis"
+      },
+      {
+        "key": "c",
+        "text": "Dementia"
+      },
+      {
+        "key": "d",
+        "text": "Migraine"
+      },
+      {
+        "key": "e",
+        "text": "Epilepsy"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b"
+    ],
+    "allow_multiple": true,
+    "test_order": 101
+  },
+  {
+    "id": "779d9d11-8d2f-4f5b-9a37-a6086f1f986b",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhat happens during a stroke according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A blood vessel is blocked by a clot"
+      },
+      {
+        "key": "b",
+        "text": "A blood vessel ruptures"
+      },
+      {
+        "key": "c",
+        "text": "The brain shrinks"
+      },
+      {
+        "key": "d",
+        "text": "A blood vessel carries more oxygen"
+      },
+      {
+        "key": "e",
+        "text": "A seizure occurs"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b"
+    ],
+    "allow_multiple": true,
+    "test_order": 102
+  },
+  {
+    "id": "983bcd9d-1b3c-4282-9120-b1b249364f6d",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich of the following are symptoms or characteristics of migraine?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Intense headache"
+      },
+      {
+        "key": "b",
+        "text": "Throbbing in one area"
+      },
+      {
+        "key": "c",
+        "text": "Nausea"
+      },
+      {
+        "key": "d",
+        "text": "Sensitivity to light"
+      },
+      {
+        "key": "e",
+        "text": "Sensitivity to sound"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "allow_multiple": true,
+    "test_order": 103
+  },
+  {
+    "id": "88994182-2f4d-443e-bb21-d8b1e3e39e3b",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhat is true about epilepsy according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is caused by abnormal nerve cell signals"
+      },
+      {
+        "key": "b",
+        "text": "More than 50 million people have it worldwide"
+      },
+      {
+        "key": "c",
+        "text": "It is widely understood and correctly diagnosed"
+      },
+      {
+        "key": "d",
+        "text": "It causes a seizure"
+      },
+      {
+        "key": "e",
+        "text": "It is severely stigmatised in many countries"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "allow_multiple": true,
+    "test_order": 104
+  },
+  {
+    "id": "10b83b4e-ffe5-4a41-95c4-d63b759bbb5b",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich conditions are included in neurodevelopmental conditions according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Attention deficit disorders"
+      },
+      {
+        "key": "b",
+        "text": "Hyperactivity"
+      },
+      {
+        "key": "c",
+        "text": "Autism spectrum disorders"
+      },
+      {
+        "key": "d",
+        "text": "Learning disorders"
+      },
+      {
+        "key": "e",
+        "text": "Alzheimer's disease"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "allow_multiple": true,
+    "test_order": 105
+  },
+  {
+    "id": "4c617c02-25e2-456a-82fa-385d4db0cd90",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich of the following statements about dementia are true according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is a degenerative brain syndrome"
+      },
+      {
+        "key": "b",
+        "text": "Alzheimer's disease is the most common form"
+      },
+      {
+        "key": "c",
+        "text": "It only affects memory"
+      },
+      {
+        "key": "d",
+        "text": "55 million people live with it worldwide"
+      },
+      {
+        "key": "e",
+        "text": "It is expected to decrease in the future"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "d"
+    ],
+    "allow_multiple": true,
+    "test_order": 106
   }
 ]

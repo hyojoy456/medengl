@@ -1,1 +1,250 @@
-[]
+[
+  {
+    "id": "3cb6f455-c170-451f-a2d6-cd4d2c7e99fb",
+    "type": "word_form",
+    "text": "Write the correct words in the blank.\n\n(b c a s u n e t s e s u d r i d o r e) ____________________ is the medical term used to describe a pattern of using a substance that causes significant problems. ",
+    "answer": "substance use disorder",
+    "instruction": "",
+    "test_order": 1
+  },
+  {
+    "id": "bac3eb75-7b2a-4643-a956-b5fb50aa6011",
+    "type": "word_form",
+    "text": "Write the correct words in the blank.\n\nSubstance use disorder may lead to (e n t u c a s b s - d e t l a r e g a l l r m o p e b s) ____________________. ",
+    "answer": "substance-related legal problems",
+    "instruction": "",
+    "test_order": 2
+  },
+  {
+    "id": "4288b4b2-74f0-452b-9531-5310eac0efad",
+    "type": "word_form",
+    "text": "Write the correct words in the blank.\n\nIt refers to the use of (i l a e l g l a b c s t n u e s s) ____________________, such as marijuana, heroin, cocaine, or methamphetamine. ",
+    "answer": "illegal substances",
+    "instruction": "",
+    "test_order": 3
+  },
+  {
+    "id": "a560eb36-2d9d-4086-9b0c-9fd42917bbc9",
+    "type": "word_form",
+    "text": "Write the correct words in the blank.\n\n*Use commas to separate words*\n\nOr the (m u s i s e) ____________________ of legal substances, such as (o h a l o c l) ____________________, nicotine, or (c s r p i e i r t o n m e d i n i e s c) ____________________. ",
+    "answer": "misuse, alcohol, prescription medicines",
+    "instruction": "",
+    "test_order": 4
+  },
+  {
+    "id": "e8dde50e-a2c3-4545-9d71-dcd3c098568a",
+    "type": "word_form",
+    "text": "Write the correct words in the blank.\n\n(o h a l c o l) ____________________ is the most common legal drug associated with substance use disorder. ",
+    "answer": "alcohol",
+    "instruction": "",
+    "test_order": 5
+  },
+  {
+    "id": "88306251-ce1d-47ac-8b9b-f92377b10419",
+    "type": "word_form",
+    "text": "Write the correct words in the blank.\n\n*Use commas to separate words*\n\nSubstances frequently include prescription medicines, such as (i n a p l l s i p) ____________________, (i t u a l m s n t s) ____________________, or (a e x y n i t p l l s i) ____________________.",
+    "answer": "pain pills, stimulants, anxiety pills",
+    "instruction": "",
+    "test_order": 6
+  },
+  {
+    "id": "e70121c2-1185-491d-8d2f-9fe4c382c241",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: significant problems, withdrawal symptoms, use of drugs or alcohol, need for increased amounts, tolerance, ongoing drug use\n\nRegular _______________ can lead to physical and psychological dependence over time. ",
+    "answer": "use of drugs or alcohol",
+    "instruction": "",
+    "test_order": 7
+  },
+  {
+    "id": "0bc4024a-6ed6-4b35-ad02-b9d7bdb203c2",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: significant problems, withdrawal symptoms, use of drugs or alcohol, need for increased amounts, tolerance, ongoing drug use\n\nA person with substance dependence continues using even when it causes _______________ in their health, relationships, or work.",
+    "answer": "significant problems",
+    "instruction": "",
+    "test_order": 8
+  },
+  {
+    "id": "1928d63f-d0b2-4fc1-814f-753e49a891fc",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: significant problems, withdrawal symptoms, use of drugs or alcohol, need for increased amounts, tolerance, ongoing drug use\n\n_______________ is a key sign of dependence – the body becomes used to the substance and requires larger doses to feel the same effect.",
+    "answer": "tolerance",
+    "instruction": "",
+    "test_order": 9
+  },
+  {
+    "id": "88f53587-7428-43df-8b8d-8a3ee08f2ca4",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: significant problems, withdrawal symptoms, use of drugs or alcohol, need for increased amounts, tolerance, ongoing drug use\n\nAs dependence develops, the user experiences a _______________ to achieve the same high or relief. ",
+    "answer": "need for increased amounts",
+    "instruction": "",
+    "test_order": 10
+  },
+  {
+    "id": "bd3644f2-699e-414f-ab00-77b1f2f915b1",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: significant problems, withdrawal symptoms, use of drugs or alcohol, need for increased amounts, tolerance, ongoing drug use\n\nWhen a dependent person suddenly stops using, they may experience unpleasant _______________ such as sweating, shaking, and nausea. ",
+    "answer": "withdrawal symptoms",
+    "instruction": "",
+    "test_order": 11
+  },
+  {
+    "id": "3aa1a4ac-594c-40a6-be16-90081c1bd098",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: significant problems, withdrawal symptoms, use of drugs or alcohol, need for increased amounts, tolerance, ongoing drug use\n\nEven after treatment, _______________ often leads to relapse if the person returns to their old environment or social circle. ",
+    "answer": "ongoing drug use",
+    "instruction": "",
+    "test_order": 12
+  },
+  {
+    "id": "cc5ee238-2249-4b3e-a83d-b40275fb4d95",
+    "type": "word_form",
+    "text": "Read the situation below. Based on the text, identify which factor most likely contributed to the person's substance use disorder in each case. Each situation may have more than one factor.\n\nUse these words: cultural factors, societal factors, genetic vulnerability, environmental stressors, individual personality characteristics, psychiatric problems\n\nSituation 1:\nAnna comes from a family where both parents and two older siblings struggle with alcohol dependence. She started drinking at 16 and by age 22 found she could not stop, even though she wanted to.\n\nWhich factor most likely played a role?",
+    "answer": "genetic vulnerability",
+    "instruction": "",
+    "test_order": 13
+  },
+  {
+    "id": "e5b1eb3b-f9ec-4218-ba54-ae399325f7aa",
+    "type": "word_form",
+    "text": "Read each situation below. Based on the text, identify which factor most likely contributed to the person's substance use disorder in each case. Each situation may have more than one factor.\n\nUse these words: cultural factors, societal factors, genetic vulnerability, environmental stressors, individual personality characteristics, psychiatric problems\n\nSituation 2:\nMark is a university student. His friends constantly invite him to parties where cocaine is used. Although he never wanted to try it, he eventually gave in to fit in with the group.\n\nWhich factor most likely played a role?",
+    "answer": "societal factors",
+    "instruction": "",
+    "test_order": 14
+  },
+  {
+    "id": "e920c933-709d-4fc5-8786-6bfff60d8ffd",
+    "type": "word_form",
+    "text": "Read each situation below. Based on the text, identify which factor most likely contributed to the person's substance use disorder in each case. Each situation may have more than one factor.\n\nUse these words: cultural factors, societal factors, genetic vulnerability, environmental stressors, individual personality characteristics, psychiatric problems\n\nSituation 3:\nElena works as a nurse in a busy emergency department. She experiences high levels of stress, works night shifts, and has trouble sleeping. She started taking prescription sedatives to relax, and over time became dependent on them.\n\nWhich factor most likely played a role?",
+    "answer": "environmental stressors",
+    "instruction": "",
+    "test_order": 15
+  },
+  {
+    "id": "9a815f1d-d691-4a46-9533-f08c2c963aa2",
+    "type": "word_form",
+    "text": "Read each situation below. Based on the text, identify which factor most likely contributed to the person's substance use disorder in each case. Each situation may have more than one factor.\n\nUse these words: cultural factors, societal factors, genetic vulnerability, environmental stressors, individual personality characteristics, psychiatric problems\n\nSituation 4:\nIn a certain country, drinking wine with meals is a daily tradition and is widely accepted. Citizens grow up seeing alcohol as a normal part of family and social life, not as a dangerous substance.\n\nWhich factor determines this view of alcohol?",
+    "answer": "cultural factors",
+    "instruction": "",
+    "test_order": 16
+  },
+  {
+    "id": "a18c7d49-9ead-4ad8-a8da-5d7049a2b386",
+    "type": "word_form",
+    "text": "Read each situation below. Based on the text, identify which factor most likely contributed to the person's substance use disorder in each case. Each situation may have more than one factor.\n\nUse these words: cultural factors, societal factors, genetic vulnerability, environmental stressors, individual personality characteristics, psychiatric problems\n\nSituation 5:\nIn some communities, drug use is heavily stigmatized and people who use drugs are judged harshly. However, in other communities, the same drug use may be tolerated or even normalized.\n\nWhich factor explains the difference in how drug use is viewed?",
+    "answer": "societal factors",
+    "instruction": "",
+    "test_order": 17
+  },
+  {
+    "id": "4dac6ce1-9008-4bea-b916-80a35d59d375",
+    "type": "word_form",
+    "text": "Read each situation below. Based on the text, identify which factor most likely contributed to the person's substance use disorder in each case. Each situation may have more than one factor.\n\nUse these words: cultural factors, societal factors, genetic vulnerability, environmental stressors, individual personality characteristics, psychiatric problems\n\nSituation 6:\nMaria has always been impulsive, risk‑taking, and prone to seeking excitement. She started experimenting with stimulants in her late teens and quickly developed a pattern of dependence.\n\nWhich factor most likely contributed to her behaviour?",
+    "answer": "individual personality characteristics",
+    "instruction": "",
+    "test_order": 18
+  },
+  {
+    "id": "560f9f3d-c2af-43c0-a2d8-51bd68a41344",
+    "type": "word_form",
+    "text": "Read each situation below. Based on the text, identify which factor most likely contributed to the person's substance use disorder in each case. Each situation may have more than one factor.\n\nUse these words: cultural factors, societal factors, genetic vulnerability, environmental stressors, individual personality characteristics, psychiatric problems\n\nSituation 7:\nJames has been diagnosed with depression and anxiety. He began using alcohol to self‑medicate his symptoms, which eventually led to alcohol dependence.\n\nWhich factor most likely contributed to his dependence?",
+    "answer": "psychiatric problems",
+    "instruction": "",
+    "test_order": 19
+  },
+  {
+    "id": "c5158ba3-8493-43eb-88e6-167ed73adc9e",
+    "type": "word_form",
+    "text": "Read each situation below. Based on the text, identify which factor most likely contributed to the person's substance use disorder in each case. Each situation may have more than one factor.\n\nUse these words: cultural factors, societal factors, genetic vulnerability, environmental stressors, individual personality characteristics, psychiatric problems\n\nSituation 8:\nTwo siblings grow up in the same household with the same parents. One develops a substance use disorder, while the other does not, despite similar environmental influences.\n\nWhich factor may explain why one sibling is more vulnerable than the other?",
+    "answer": "genetic vulnerability",
+    "instruction": "",
+    "test_order": 20
+  },
+  {
+    "id": "04c8c939-bff4-4a8c-bfe7-4c48e547b2d7",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: specific treatment, overall health, health history, extent of the symptoms, extent of the dependence, inpatient basis, outpatient basis, detoxification, formalized group meetings, individual psychotherapy, family psychotherapy\n\nThe doctor will consider the patient's _______________ before prescribing any medication for withdrawal. ",
+    "answer": "overall health",
+    "instruction": "",
+    "test_order": 21
+  },
+  {
+    "id": "c0f5df30-70e8-49a7-a7c4-8667f5938a3a",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: specific treatment, overall health, health history, extent of the symptoms, extent of the dependence, inpatient basis, outpatient basis, detoxification, formalized group meetings, individual psychotherapy, family psychotherapy\n\nBefore starting therapy, the physician reviews the patient's _______________, including previous hospitalizations and family medical conditions. ",
+    "answer": "health history",
+    "instruction": "",
+    "test_order": 22
+  },
+  {
+    "id": "27986e18-7641-4872-9a3b-857df6f772a9",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: specific treatment, overall health, health history, extent of the symptoms, extent of the dependence, inpatient basis, outpatient basis, detoxification, formalized group meetings, individual psychotherapy, family psychotherapy\n\nThe _______________ determines how intensive the recovery program needs to be. ",
+    "answer": "extent of the dependence",
+    "instruction": "",
+    "test_order": 23
+  },
+  {
+    "id": "2822adec-8741-4ae5-9fe5-c5aee5c79fe4",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: specific treatment, overall health, health history, extent of the symptoms, extent of the dependence, inpatient basis, outpatient basis, detoxification, formalized group meetings, individual psychotherapy, family psychotherapy\n\n*Use commas to separate words*\n\nPatients with severe addiction often require rehabilitation on an _______________, while those with mild cases may be treated on an _______________. ",
+    "answer": "inpatient basis, outpatient basis",
+    "instruction": "",
+    "test_order": 24
+  },
+  {
+    "id": "ed792394-8344-42cf-8f44-e003b483f9f6",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: specific treatment, overall health, health history, extent of the symptoms, extent of the dependence, inpatient basis, outpatient basis, detoxification, formalized group meetings, individual psychotherapy, family psychotherapy\n\nThe first step in many treatment programs is _______________, during which the body is cleared of harmful substances. ",
+    "answer": "detoxification",
+    "instruction": "",
+    "test_order": 25
+  },
+  {
+    "id": "d69e4596-7863-42cf-9a20-e734583a0bcc",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: specific treatment, overall health, health history, extent of the symptoms, extent of the dependence, inpatient basis, outpatient basis, detoxification, formalized group meetings, individual psychotherapy, family psychotherapy\n\n_______________ are often held weekly and provide peer support for people in recovery. ",
+    "answer": "formalized group meetings",
+    "instruction": "",
+    "test_order": 26
+  },
+  {
+    "id": "200440e7-09e0-4c22-a6ac-91d1c7ccb5d3",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: specific treatment, overall health, health history, extent of the symptoms, extent of the dependence, inpatient basis, outpatient basis, detoxification, formalized group meetings, individual psychotherapy, family psychotherapy\n\n_______________ helps patients understand the root causes of their addiction and develop healthier coping strategies. ",
+    "answer": "individual psychotherapy",
+    "instruction": "",
+    "test_order": 27
+  },
+  {
+    "id": "87a411bd-4693-40af-bfd2-89a1ddfbd949",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: specific treatment, overall health, health history, extent of the symptoms, extent of the dependence, inpatient basis, outpatient basis, detoxification, formalized group meetings, individual psychotherapy, family psychotherapy\n\nWhen substance use affects the whole family, _______________ is recommended to rebuild trust and improve communication. ",
+    "answer": "family psychotherapy",
+    "instruction": "",
+    "test_order": 28
+  },
+  {
+    "id": "f26a6912-c65e-4521-add9-e9139e436667",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: specific treatment, overall health, health history, extent of the symptoms, extent of the dependence, inpatient basis, outpatient basis, detoxification, formalized group meetings, individual psychotherapy, family psychotherapy\n\nThe _______________ will be determined by the doctor based on the patient's age, health status, and the type of substance used. ",
+    "answer": "specific treatment",
+    "instruction": "",
+    "test_order": 29
+  },
+  {
+    "id": "4ccb029e-b0b2-4213-9591-65b46b0edd01",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: specific treatment, overall health, health history, extent of the symptoms, extent of the dependence, inpatient basis, outpatient basis, detoxification, formalized group meetings, individual psychotherapy, family psychotherapy\n\nThe _______________ is assessed through interviews and questionnaires to understand how severe the addiction has become. ",
+    "answer": "extent of the symptoms",
+    "instruction": "",
+    "test_order": 30
+  },
+  {
+    "id": "6b40d705-e00b-400a-81a5-0fa6468da595",
+    "type": "word_form",
+    "text": "Complete each sentence with the correct word or phrase. \n\nUse these words: specific treatment, overall health, health history, extent of the symptoms, extent of the dependence, inpatient basis, outpatient basis, detoxification, formalized group meetings, individual psychotherapy, family psychotherapy\n\nA patient who can maintain their daily routine while receiving treatment is a good candidate for an _______________. ",
+    "answer": "outpatient basis",
+    "instruction": "",
+    "test_order": 31
+  }
+]

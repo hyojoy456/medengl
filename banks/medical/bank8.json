@@ -1,1 +1,515 @@
-[]
+[
+  {
+    "id": "5e50ac78-7e6f-4bbc-abc9-9f95a9e6929f",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text. \n\nBlood pressure monitors provide long-term tracking for managing health conditions like ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Diabetes"
+      },
+      {
+        "key": "b",
+        "text": "Hypertension"
+      },
+      {
+        "key": "c",
+        "text": "Arrhythmias"
+      },
+      {
+        "key": "d",
+        "text": "Chronic pain"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b"
+  },
+  {
+    "id": "c147b43e-b153-4b2b-b715-7dd60bfbe45b",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nWearable glucose monitors keep track of blood sugar levels in ________ fluid.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Interstitial"
+      },
+      {
+        "key": "b",
+        "text": "Intracellular"
+      },
+      {
+        "key": "c",
+        "text": "Lymphatic"
+      },
+      {
+        "key": "d",
+        "text": "Cerebrospinal"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a"
+  },
+  {
+    "id": "7f8a6fa6-822c-4dc6-96c8-9854db5506dc",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text.\n\nSome Continuous Glucose Monitors can connect with ________ to automatically administer insulin.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pacemakers"
+      },
+      {
+        "key": "b",
+        "text": "Insulin pumps"
+      },
+      {
+        "key": "c",
+        "text": "Holter monitors"
+      },
+      {
+        "key": "d",
+        "text": "Fitness trackers"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b"
+  },
+  {
+    "id": "5e04f156-5f4f-4158-a308-e10a7fa7a1c5",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text. \n\nTranscutaneous electrical nerve stimulation is used to provide ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Glucose monitoring"
+      },
+      {
+        "key": "b",
+        "text": "Pain relief"
+      },
+      {
+        "key": "c",
+        "text": "Heart rhythm analysis"
+      },
+      {
+        "key": "d",
+        "text": "Sleep tracking"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b"
+  },
+  {
+    "id": "7023b9ca-5932-42dd-9cc3-36b2aefc3e66",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text. \n\nHolter monitors help record the heart's ________.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Electrical activity"
+      },
+      {
+        "key": "b",
+        "text": "Oxygen levels"
+      },
+      {
+        "key": "c",
+        "text": "Glucose levels"
+      },
+      {
+        "key": "d",
+        "text": "Body temperature"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a"
+  },
+  {
+    "id": "40f80d58-3fbb-42dd-bc78-51b167f96940",
+    "type": "mcq",
+    "text": "Complete each sentence using the word that best fits the meaning from the text. \n\n________ deliver electrical impulses that help maintain a normal heart rate and rhythm.",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fitness trackers"
+      },
+      {
+        "key": "b",
+        "text": "Smart rings"
+      },
+      {
+        "key": "c",
+        "text": "Pacemakers"
+      },
+      {
+        "key": "d",
+        "text": "Blood pressure monitors"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c"
+  },
+  {
+    "id": "3b5092c9-96c5-486e-a463-d555f39ba589",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich of the following conditions can be monitored by Holter monitors?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Atrial fibrillation"
+      },
+      {
+        "key": "b",
+        "text": "Atrial flutter"
+      },
+      {
+        "key": "c",
+        "text": "Arrhythmias"
+      },
+      {
+        "key": "d",
+        "text": "Diabetes"
+      },
+      {
+        "key": "e",
+        "text": "Hypertension"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c"
+    ],
+    "allow_multiple": true
+  },
+  {
+    "id": "ea7a1056-ede4-402a-a40c-ef8c9f6717ed",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich health metrics can smart watches and rings track according to the text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Body temperature"
+      },
+      {
+        "key": "b",
+        "text": "Oxygen levels"
+      },
+      {
+        "key": "c",
+        "text": "Hydration levels"
+      },
+      {
+        "key": "d",
+        "text": "Glucose levels in interstitial fluid"
+      },
+      {
+        "key": "e",
+        "text": "Sleep analysis"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "allow_multiple": true
+  },
+  {
+    "id": "49c7a92a-ff3e-4760-9b32-846ec469c19f",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich functions are mentioned as capabilities of fitness trackers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Steps taken"
+      },
+      {
+        "key": "b",
+        "text": "Distance traveled"
+      },
+      {
+        "key": "c",
+        "text": "Calories burned"
+      },
+      {
+        "key": "d",
+        "text": "Sleep patterns"
+      },
+      {
+        "key": "e",
+        "text": "ECG capabilities"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "allow_multiple": true
+  },
+  {
+    "id": "1e90fdc5-5a7d-4bb0-b56c-57d43dd836be",
+    "type": "mcq",
+    "text": "From the list, choose ALL the correct options according to the text.\n\nWhich devices or features are mentioned as helping patients with diabetes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Glucose monitors"
+      },
+      {
+        "key": "b",
+        "text": "Continuous Glucose Monitors (CGMs)"
+      },
+      {
+        "key": "c",
+        "text": "Smartphone apps for viewing trends"
+      },
+      {
+        "key": "d",
+        "text": "Insulin pumps"
+      },
+      {
+        "key": "e",
+        "text": "Pacemakers"
+      }
+    ],
+    "correct_keys": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "allow_multiple": true
+  },
+  {
+    "id": "b5d0ea8a-02bd-4afe-9e79-e14cb07f19a8",
+    "type": "mcq",
+    "text": "Choose the correct for the definition. \n\nHypertension",
+    "options": [
+      {
+        "key": "a",
+        "text": "doctors who treat heart conditions"
+      },
+      {
+        "key": "b",
+        "text": "high blood pressure"
+      },
+      {
+        "key": "c",
+        "text": "a device that automatically delivers insulin"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b"
+  },
+  {
+    "id": "c0fb0195-15bc-4b99-99e1-8fdd2f89291f",
+    "type": "mcq",
+    "text": "Choose the correct for the definition. \n\nInterstitial fluid",
+    "options": [
+      {
+        "key": "a",
+        "text": "the fluid between cells in the body"
+      },
+      {
+        "key": "b",
+        "text": "treatments or devices that relieve pain without drugs"
+      },
+      {
+        "key": "c",
+        "text": "irregular heartbeats"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a"
+  },
+  {
+    "id": "dcc540ab-9322-45c1-81db-8939c05f9688",
+    "type": "mcq",
+    "text": "Choose the correct for the definition. \n\nInsulin pump",
+    "options": [
+      {
+        "key": "a",
+        "text": "a sudden rise in blood sugar"
+      },
+      {
+        "key": "b",
+        "text": "high blood pressure"
+      },
+      {
+        "key": "c",
+        "text": "a device that automatically delivers insulin"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c"
+  },
+  {
+    "id": "4c912d11-c038-4f5a-b9ae-721db1889042",
+    "type": "mcq",
+    "text": "Choose the correct for the definition.\n\nGlucose spike",
+    "options": [
+      {
+        "key": "a",
+        "text": "a sudden rise in blood sugar"
+      },
+      {
+        "key": "b",
+        "text": "sensors that measure health data from the body"
+      },
+      {
+        "key": "c",
+        "text": "a sudden rise in blood sugar"
+      }
+    ],
+    "correct_keys": [
+      "c"
+    ],
+    "allow_multiple": false,
+    "correct_key": "c"
+  },
+  {
+    "id": "7d6e5f60-e4ca-44b1-b77e-39cd66223be9",
+    "type": "mcq",
+    "text": "Choose the correct for the definition.\n\nCardiologists",
+    "options": [
+      {
+        "key": "a",
+        "text": "the fluid between cells in the body"
+      },
+      {
+        "key": "b",
+        "text": "doctors who treat heart conditions"
+      },
+      {
+        "key": "c",
+        "text": "a device that sends electrical impulses to control heart rhythm"
+      }
+    ],
+    "correct_keys": [
+      "b"
+    ],
+    "allow_multiple": false,
+    "correct_key": "b"
+  },
+  {
+    "id": "b4b73668-9152-498b-a791-395babe8c28f",
+    "type": "mcq",
+    "text": "Choose the correct for the definition.\n\nArrhythmias",
+    "options": [
+      {
+        "key": "a",
+        "text": "irregular heartbeats"
+      },
+      {
+        "key": "b",
+        "text": "a device that automatically delivers insulin"
+      },
+      {
+        "key": "c",
+        "text": "small electrical signals that stimulate muscles or nerves"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a"
+  },
+  {
+    "id": "a9439453-597b-462d-b6e1-132b74346b8e",
+    "type": "mcq",
+    "text": "Choose the correct for the definition. \n\nPain management devices",
+    "options": [
+      {
+        "key": "a",
+        "text": "treatments or devices that relieve pain without drugs"
+      },
+      {
+        "key": "b",
+        "text": "a sudden rise in blood sugar"
+      },
+      {
+        "key": "c",
+        "text": "sensors that measure health data from the body"
+      }
+    ],
+    "correct_keys": [
+      "a"
+    ],
+    "allow_multiple": false,
+    "correct_key": "a"
+  },
+  {
+    "id": "02a5d9e6-256a-4757-89f7-12f077c42611",
+    "type": "image_inputs",
+    "text": "Name the pictures. \n\nUse these words: glucose monitors, blood pressure monitors, holter monitors, pain management devices. ",
+    "images": [
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_f74f46cdde504aca8b4a178882a3bb3e_0.png",
+        "answer": "Holter monitors"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_b5e3626cbbc3455291f3051cdee8d1b6_1.png",
+        "answer": "Blood pressure monitors"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_077d7d584da044e2bd2b526e70e6d31a_2.png",
+        "answer": "Pain management devices"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_912f1f9bd81f4a2482d16095dd79ca6e_3.png",
+        "answer": "Glucose monitors"
+      }
+    ]
+  },
+  {
+    "id": "c0a84891-2345-4931-8f64-7b3f7202694d",
+    "type": "image_inputs",
+    "text": "Name the pictures. \n\nUse these words: pacemakers, fitness trackers, smart watches ",
+    "images": [
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_21762f122bfd4327a017af79861dcdaf_0.png",
+        "answer": "Smart watches"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_d9e25987cdcf44fd99455405734e16ed_1.png",
+        "answer": "Fitness trackers"
+      },
+      {
+        "url": "/Users/novakkristina/Desktop/Новая папка/banks/media/img_6f484b972efb4223aec55e5f7c200ce3_2.png",
+        "answer": "Pacemaker"
+      }
+    ]
+  }
+]
